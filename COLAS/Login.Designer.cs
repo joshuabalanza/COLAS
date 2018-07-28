@@ -30,22 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.pnLogin1 = new System.Windows.Forms.Panel();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.lblPassword = new System.Windows.Forms.Label();
             this.txtbxPassword = new System.Windows.Forms.TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
             this.txtbxUsername = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnLogin2 = new System.Windows.Forms.Panel();
+            this.pbInactiveColas = new System.Windows.Forms.PictureBox();
             this.lblLogin2 = new System.Windows.Forms.Label();
             this.pbActiveColas = new System.Windows.Forms.PictureBox();
-            this.btnLogin = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.pbInactiveColas = new System.Windows.Forms.PictureBox();
             this.pnLogin1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnLogin2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbActiveColas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInactiveColas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbActiveColas)).BeginInit();
             this.SuspendLayout();
             // 
             // pnLogin1
@@ -65,6 +65,40 @@
             this.pnLogin1.Name = "pnLogin1";
             this.pnLogin1.Size = new System.Drawing.Size(1366, 768);
             this.pnLogin1.TabIndex = 0;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
+            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
+            this.btnCancel.FlatAppearance.BorderSize = 2;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
+            this.btnCancel.Location = new System.Drawing.Point(695, 509);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(125, 40);
+            this.btnCancel.TabIndex = 10;
+            this.btnCancel.Text = "CANCEL";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click_1);
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
+            this.btnLogin.FlatAppearance.BorderSize = 2;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
+            this.btnLogin.Location = new System.Drawing.Point(551, 509);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(125, 40);
+            this.btnLogin.TabIndex = 9;
+            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
             // 
             // lblPassword
             // 
@@ -133,14 +167,25 @@
             this.pnLogin2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
             this.pnLogin2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnLogin2.BackgroundImage")));
             this.pnLogin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnLogin2.Controls.Add(this.pbInactiveColas);
             this.pnLogin2.Controls.Add(this.lblLogin2);
+            this.pnLogin2.Controls.Add(this.pbInactiveColas);
             this.pnLogin2.Controls.Add(this.pbActiveColas);
             this.pnLogin2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnLogin2.Location = new System.Drawing.Point(0, 0);
             this.pnLogin2.Name = "pnLogin2";
             this.pnLogin2.Size = new System.Drawing.Size(1366, 768);
             this.pnLogin2.TabIndex = 7;
+            // 
+            // pbInactiveColas
+            // 
+            this.pbInactiveColas.BackColor = System.Drawing.Color.Transparent;
+            this.pbInactiveColas.Image = ((System.Drawing.Image)(resources.GetObject("pbInactiveColas.Image")));
+            this.pbInactiveColas.Location = new System.Drawing.Point(508, 209);
+            this.pbInactiveColas.Name = "pbInactiveColas";
+            this.pbInactiveColas.Size = new System.Drawing.Size(350, 350);
+            this.pbInactiveColas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbInactiveColas.TabIndex = 7;
+            this.pbInactiveColas.TabStop = false;
             // 
             // lblLogin2
             // 
@@ -168,51 +213,6 @@
             this.pbActiveColas.TabIndex = 0;
             this.pbActiveColas.TabStop = false;
             // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.btnLogin.FlatAppearance.BorderSize = 2;
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.btnLogin.Location = new System.Drawing.Point(551, 509);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(125, 40);
-            this.btnLogin.TabIndex = 9;
-            this.btnLogin.Text = "LOGIN";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
-            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.btnCancel.FlatAppearance.BorderSize = 2;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.btnCancel.Location = new System.Drawing.Point(695, 509);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(125, 40);
-            this.btnCancel.TabIndex = 10;
-            this.btnCancel.Text = "CANCEL";
-            this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click_1);
-            // 
-            // pbInactiveColas
-            // 
-            this.pbInactiveColas.BackColor = System.Drawing.Color.Transparent;
-            this.pbInactiveColas.Image = ((System.Drawing.Image)(resources.GetObject("pbInactiveColas.Image")));
-            this.pbInactiveColas.Location = new System.Drawing.Point(93, 209);
-            this.pbInactiveColas.Name = "pbInactiveColas";
-            this.pbInactiveColas.Size = new System.Drawing.Size(350, 350);
-            this.pbInactiveColas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbInactiveColas.TabIndex = 7;
-            this.pbInactiveColas.TabStop = false;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -230,8 +230,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnLogin2.ResumeLayout(false);
             this.pnLogin2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbActiveColas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInactiveColas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbActiveColas)).EndInit();
             this.ResumeLayout(false);
 
         }

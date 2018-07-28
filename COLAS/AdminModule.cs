@@ -9,6 +9,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Speech;
+
+
+
 namespace COLAS
 {
     public partial class AdminModule : Form

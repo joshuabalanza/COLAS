@@ -123,7 +123,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInventory)).BeginInit();
@@ -546,7 +545,6 @@
             this.pnDashboard.BackColor = System.Drawing.Color.Transparent;
             this.pnDashboard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnDashboard.BackgroundImage")));
             this.pnDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnDashboard.Controls.Add(this.panel12);
             this.pnDashboard.Controls.Add(this.panel6);
             this.pnDashboard.Controls.Add(this.panel7);
             this.pnDashboard.Controls.Add(this.panel5);
@@ -1252,13 +1250,6 @@
             this.label6.TabIndex = 18;
             this.label6.Text = "New Requests";
             // 
-            // panel12
-            // 
-            this.panel12.Location = new System.Drawing.Point(102, 152);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(200, 100);
-            this.panel12.TabIndex = 30;
-            // 
             // AdminModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1433,6 +1424,5 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView listView3;
-        private System.Windows.Forms.Panel panel12;
     }
 }

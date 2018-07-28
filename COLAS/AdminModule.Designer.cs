@@ -54,10 +54,10 @@
             this.pbCOLAS = new System.Windows.Forms.PictureBox();
             this.pnNavbar = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTitleColas = new System.Windows.Forms.Label();
             this.pbProfilePic = new System.Windows.Forms.PictureBox();
             this.pbNotif = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblUsers = new System.Windows.Forms.Label();
             this.TitleLine = new System.Windows.Forms.Panel();
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.pnContent = new System.Windows.Forms.Panel();
@@ -458,10 +458,10 @@
             // 
             this.pnNavbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(8)))), ((int)(((byte)(16)))));
             this.pnNavbar.Controls.Add(this.panel3);
-            this.pnNavbar.Controls.Add(this.label2);
+            this.pnNavbar.Controls.Add(this.lblTitleColas);
             this.pnNavbar.Controls.Add(this.pbProfilePic);
             this.pnNavbar.Controls.Add(this.pbNotif);
-            this.pnNavbar.Controls.Add(this.label1);
+            this.pnNavbar.Controls.Add(this.lblUsers);
             this.pnNavbar.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnNavbar.Location = new System.Drawing.Point(123, 0);
             this.pnNavbar.Name = "pnNavbar";
@@ -477,17 +477,17 @@
             this.panel3.Size = new System.Drawing.Size(1243, 5);
             this.panel3.TabIndex = 29;
             // 
-            // label2
+            // lblTitleColas
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.label2.Location = new System.Drawing.Point(10, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(446, 36);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "Computer Laboratory Assistant";
+            this.lblTitleColas.AutoSize = true;
+            this.lblTitleColas.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitleColas.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitleColas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblTitleColas.Location = new System.Drawing.Point(10, 18);
+            this.lblTitleColas.Name = "lblTitleColas";
+            this.lblTitleColas.Size = new System.Drawing.Size(446, 36);
+            this.lblTitleColas.TabIndex = 20;
+            this.lblTitleColas.Text = "Computer Laboratory Assistant";
             // 
             // pbProfilePic
             // 
@@ -511,16 +511,16 @@
             this.pbNotif.TabIndex = 1;
             this.pbNotif.TabStop = false;
             // 
-            // label1
+            // lblUsers
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.label1.Location = new System.Drawing.Point(963, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Raul Gutierrez";
+            this.lblUsers.AutoSize = true;
+            this.lblUsers.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblUsers.Location = new System.Drawing.Point(963, 25);
+            this.lblUsers.Name = "lblUsers";
+            this.lblUsers.Size = new System.Drawing.Size(138, 23);
+            this.lblUsers.TabIndex = 0;
+            this.lblUsers.Text = "Raul Gutierrez";
             // 
             // TitleLine
             // 
@@ -564,15 +564,15 @@
             this.pnDashboard.BackColor = System.Drawing.Color.Transparent;
             this.pnDashboard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnDashboard.BackgroundImage")));
             this.pnDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnDashboard.Controls.Add(this.pictureBox12);
+            this.pnDashboard.Controls.Add(this.lblTitlePage);
+            this.pnDashboard.Controls.Add(this.TitleLine);
             this.pnDashboard.Controls.Add(this.panel13);
             this.pnDashboard.Controls.Add(this.panel12);
             this.pnDashboard.Controls.Add(this.panel6);
             this.pnDashboard.Controls.Add(this.panel7);
             this.pnDashboard.Controls.Add(this.panel5);
             this.pnDashboard.Controls.Add(this.panel4);
-            this.pnDashboard.Controls.Add(this.pictureBox12);
-            this.pnDashboard.Controls.Add(this.TitleLine);
-            this.pnDashboard.Controls.Add(this.lblTitlePage);
             this.pnDashboard.Location = new System.Drawing.Point(10, 10);
             this.pnDashboard.Name = "pnDashboard";
             this.pnDashboard.Size = new System.Drawing.Size(1221, 672);
@@ -1515,7 +1515,7 @@
         private System.Windows.Forms.Panel pnContent;
         private System.Windows.Forms.PictureBox pbCOLAS;
         private System.Windows.Forms.PictureBox pbNotif;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblUsers;
         private System.Windows.Forms.PictureBox pbDashboard;
         private System.Windows.Forms.PictureBox pbRequests;
         private System.Windows.Forms.PictureBox pbStudents;
@@ -1560,7 +1560,7 @@
         private System.Windows.Forms.Label lblConStud;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTitleColas;
         private System.Windows.Forms.Panel panel1;
        
         private System.Windows.Forms.Label label5;

@@ -54,18 +54,6 @@ namespace COLAS
             Login1();
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            pnLogin2.BringToFront();
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            AdminModule adminmodule = new AdminModule();
-            this.Hide();
-            adminmodule.Show();
-        }
-
         private void txtbxUsername_TextChanged(object sender, EventArgs e)
         {
             Username();
@@ -74,6 +62,18 @@ namespace COLAS
         private void txtbxPassword_TextChanged(object sender, EventArgs e)
         {
             Password();
+        }
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            AdminModule adminmodule = new AdminModule();
+            this.Hide();
+            adminmodule.Show();
+        }
+
+        private void btnCancel_Click_1(object sender, EventArgs e)
+        {
+            pnLogin2.BringToFront();
         }
     }
 }

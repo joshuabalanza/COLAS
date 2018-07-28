@@ -123,6 +123,21 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInventory)).BeginInit();
@@ -161,6 +176,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // pnSidebar
@@ -545,6 +564,8 @@
             this.pnDashboard.BackColor = System.Drawing.Color.Transparent;
             this.pnDashboard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnDashboard.BackgroundImage")));
             this.pnDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnDashboard.Controls.Add(this.panel13);
+            this.pnDashboard.Controls.Add(this.panel12);
             this.pnDashboard.Controls.Add(this.panel6);
             this.pnDashboard.Controls.Add(this.panel7);
             this.pnDashboard.Controls.Add(this.panel5);
@@ -1250,6 +1271,167 @@
             this.label6.TabIndex = 18;
             this.label6.Text = "New Requests";
             // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel12.Controls.Add(this.label28);
+            this.panel12.Controls.Add(this.label27);
+            this.panel12.Controls.Add(this.label26);
+            this.panel12.Controls.Add(this.label25);
+            this.panel12.Controls.Add(this.pictureBox4);
+            this.panel12.Location = new System.Drawing.Point(23, 100);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(486, 269);
+            this.panel12.TabIndex = 30;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(129, 29);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 22;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(185, 43);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(155, 24);
+            this.label25.TabIndex = 23;
+            this.label25.Text = "New Requests";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(81, 108);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(235, 22);
+            this.label26.TabIndex = 24;
+            this.label26.Text = "Ms. Cherry Rose Concha";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(81, 141);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(227, 22);
+            this.label27.TabIndex = 25;
+            this.label27.Text = "Mrs. Genalyn Villafuerte";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(81, 174);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(204, 22);
+            this.label28.TabIndex = 26;
+            this.label28.Text = "Mr. Alysson Merdegia";
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel13.Controls.Add(this.label35);
+            this.panel13.Controls.Add(this.label34);
+            this.panel13.Controls.Add(this.label33);
+            this.panel13.Controls.Add(this.pictureBox6);
+            this.panel13.Controls.Add(this.label29);
+            this.panel13.Controls.Add(this.label30);
+            this.panel13.Controls.Add(this.label31);
+            this.panel13.Controls.Add(this.label32);
+            this.panel13.Location = new System.Drawing.Point(23, 377);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(486, 269);
+            this.panel13.TabIndex = 31;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(81, 202);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(204, 22);
+            this.label29.TabIndex = 26;
+            this.label29.Text = "Mr. Alysson Merdegia";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(81, 152);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(227, 22);
+            this.label30.TabIndex = 25;
+            this.label30.Text = "Mrs. Genalyn Villafuerte";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(81, 101);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(235, 22);
+            this.label31.TabIndex = 24;
+            this.label31.Text = "Ms. Cherry Rose Concha";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(176, 43);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(215, 24);
+            this.label32.TabIndex = 23;
+            this.label32.Text = "Schedules for Today";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(120, 28);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox6.TabIndex = 22;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(81, 123);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(109, 22);
+            this.label33.TabIndex = 27;
+            this.label33.Text = "7am-10am";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(81, 174);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(109, 22);
+            this.label34.TabIndex = 28;
+            this.label34.Text = "10am-1pm";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(81, 224);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(98, 22);
+            this.label35.TabIndex = 29;
+            this.label35.Text = "1pm-6pm";
+            // 
             // AdminModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1315,6 +1497,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1424,5 +1612,20 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView listView3;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

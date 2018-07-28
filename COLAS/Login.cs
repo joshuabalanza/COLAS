@@ -19,7 +19,7 @@ namespace COLAS
 
         private void Username()
         {
-            if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
+            if (string.IsNullOrEmpty(txtbxUsername.Text))
             {
                 lblUsername.Visible = true;
             }
@@ -32,7 +32,7 @@ namespace COLAS
 
         private void Password()
         {
-            if (string.IsNullOrEmpty(txtbxPassword.Text) || string.IsNullOrWhiteSpace(txtbxPassword.Text))
+            if (string.IsNullOrEmpty(txtbxPassword.Text))
             {
                 lblPassword.Visible = true;
             }
@@ -48,15 +48,6 @@ namespace COLAS
             pnLogin1.BringToFront();
         }
 
-        private void txtbxUsername_OnValueChanged(object sender, EventArgs e)
-        {
-            Username();
-        }
-
-        private void txtbxPassword_OnValueChanged(object sender, EventArgs e)
-        {
-            Password();
-        }
 
         private void lblLogin2_Click(object sender, EventArgs e)
         {
@@ -73,6 +64,16 @@ namespace COLAS
             AdminModule adminmodule = new AdminModule();
             this.Hide();
             adminmodule.Show();
+        }
+
+        private void txtbxUsername_TextChanged(object sender, EventArgs e)
+        {
+            Username();
+        }
+
+        private void txtbxPassword_TextChanged(object sender, EventArgs e)
+        {
+            Password();
         }
     }
 }

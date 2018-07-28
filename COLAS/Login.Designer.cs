@@ -35,8 +35,6 @@
             this.lblUsername = new System.Windows.Forms.Label();
             this.txtbxUsername = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnCancel = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.btnLogin = new MaterialSkin.Controls.MaterialRaisedButton();
             this.pnLogin2 = new System.Windows.Forms.Panel();
             this.lblLogin2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -56,8 +54,6 @@
             this.pnLogin1.Controls.Add(this.lblUsername);
             this.pnLogin1.Controls.Add(this.txtbxUsername);
             this.pnLogin1.Controls.Add(this.pictureBox1);
-            this.pnLogin1.Controls.Add(this.btnCancel);
-            this.pnLogin1.Controls.Add(this.btnLogin);
             this.pnLogin1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnLogin1.Location = new System.Drawing.Point(0, 0);
             this.pnLogin1.Name = "pnLogin1";
@@ -70,7 +66,7 @@
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
             this.lblPassword.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.lblPassword.Location = new System.Drawing.Point(510, 435);
+            this.lblPassword.Location = new System.Drawing.Point(528, 443);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(95, 22);
             this.lblPassword.TabIndex = 6;
@@ -81,11 +77,14 @@
             // 
             this.txtbxPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
             this.txtbxPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxPassword.Location = new System.Drawing.Point(498, 429);
+            this.txtbxPassword.Font = new System.Drawing.Font("Century Gothic", 14.25F);
+            this.txtbxPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
+            this.txtbxPassword.Location = new System.Drawing.Point(518, 439);
             this.txtbxPassword.Name = "txtbxPassword";
-            this.txtbxPassword.Size = new System.Drawing.Size(370, 35);
+            this.txtbxPassword.PasswordChar = '*';
+            this.txtbxPassword.Size = new System.Drawing.Size(330, 31);
             this.txtbxPassword.TabIndex = 8;
+            this.txtbxPassword.TextChanged += new System.EventHandler(this.txtbxPassword_TextChanged);
             // 
             // lblUsername
             // 
@@ -93,7 +92,7 @@
             this.lblUsername.BackColor = System.Drawing.Color.Transparent;
             this.lblUsername.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.lblUsername.Location = new System.Drawing.Point(510, 376);
+            this.lblUsername.Location = new System.Drawing.Point(528, 384);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(101, 22);
             this.lblUsername.TabIndex = 5;
@@ -104,11 +103,13 @@
             // 
             this.txtbxUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
             this.txtbxUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxUsername.Location = new System.Drawing.Point(498, 370);
+            this.txtbxUsername.Font = new System.Drawing.Font("Century Gothic", 14.25F);
+            this.txtbxUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
+            this.txtbxUsername.Location = new System.Drawing.Point(518, 380);
             this.txtbxUsername.Name = "txtbxUsername";
-            this.txtbxUsername.Size = new System.Drawing.Size(370, 35);
+            this.txtbxUsername.Size = new System.Drawing.Size(330, 31);
             this.txtbxUsername.TabIndex = 7;
+            this.txtbxUsername.TextChanged += new System.EventHandler(this.txtbxUsername_TextChanged);
             // 
             // pictureBox1
             // 
@@ -120,38 +121,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.BackColor = System.Drawing.Color.Transparent;
-            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancel.Depth = 0;
-            this.btnCancel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(703, 512);
-            this.btnCancel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Primary = true;
-            this.btnCancel.Size = new System.Drawing.Size(125, 48);
-            this.btnCancel.TabIndex = 3;
-            this.btnCancel.Text = "CANCEL";
-            this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.Depth = 0;
-            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(542, 512);
-            this.btnLogin.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Primary = true;
-            this.btnLogin.Size = new System.Drawing.Size(125, 48);
-            this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "LOGIN";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // pnLogin2
             // 
@@ -223,8 +192,6 @@
         private System.Windows.Forms.Label lblLogin2;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblUsername;
-        private MaterialSkin.Controls.MaterialRaisedButton btnCancel;
-        private MaterialSkin.Controls.MaterialRaisedButton btnLogin;
         private System.Windows.Forms.TextBox txtbxUsername;
         private System.Windows.Forms.TextBox txtbxPassword;
     }

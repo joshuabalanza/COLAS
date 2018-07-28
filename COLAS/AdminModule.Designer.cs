@@ -61,39 +61,6 @@
             this.TitleLine = new System.Windows.Forms.Panel();
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.pnContent = new System.Windows.Forms.Panel();
-            this.pnStudents = new System.Windows.Forms.Panel();
-            this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.bunifuDropdown3 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.bunifuDropdown2 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.bunifuDropdown1 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.lblConStud = new System.Windows.Forms.Label();
-            this.pnInventory = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.lblConInvent = new System.Windows.Forms.Label();
-            this.pbConInvent = new System.Windows.Forms.PictureBox();
-            this.pnSchedules = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.lblConSched = new System.Windows.Forms.Label();
-            this.pbConSched = new System.Windows.Forms.PictureBox();
-            this.pnProf = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.lblConProf = new System.Windows.Forms.Label();
-            this.pbConProf = new System.Windows.Forms.PictureBox();
-            this.pnStaffs = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.lblConStaffs = new System.Windows.Forms.Label();
-            this.pbConStaffs = new System.Windows.Forms.PictureBox();
-            this.pnRequests = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.lblConReq = new System.Windows.Forms.Label();
-            this.pbConRequest = new System.Windows.Forms.PictureBox();
             this.pnDashboard = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
@@ -134,6 +101,40 @@
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pnStudents = new System.Windows.Forms.Panel();
+            this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.bunifuDropdown3 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.bunifuDropdown2 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.bunifuDropdown1 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.lblConStud = new System.Windows.Forms.Label();
+            this.pnInventory = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.lblConInvent = new System.Windows.Forms.Label();
+            this.pbConInvent = new System.Windows.Forms.PictureBox();
+            this.pnSchedules = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.lblConSched = new System.Windows.Forms.Label();
+            this.pbConSched = new System.Windows.Forms.PictureBox();
+            this.pnProf = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.lblConProf = new System.Windows.Forms.Label();
+            this.pbConProf = new System.Windows.Forms.PictureBox();
+            this.pnStaffs = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.lblConStaffs = new System.Windows.Forms.Label();
+            this.pbConStaffs = new System.Windows.Forms.PictureBox();
+            this.pnRequests = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.lblConReq = new System.Windows.Forms.Label();
+            this.pbConRequest = new System.Windows.Forms.PictureBox();
+            this.listView3 = new System.Windows.Forms.ListView();
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInventory)).BeginInit();
@@ -147,18 +148,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).BeginInit();
             this.pnContent.SuspendLayout();
-            this.pnStudents.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.pnInventory.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).BeginInit();
-            this.pnSchedules.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).BeginInit();
-            this.pnProf.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).BeginInit();
-            this.pnStaffs.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).BeginInit();
-            this.pnRequests.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).BeginInit();
             this.pnDashboard.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -174,6 +163,18 @@
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.pnStudents.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.pnInventory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).BeginInit();
+            this.pnSchedules.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).BeginInit();
+            this.pnProf.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).BeginInit();
+            this.pnStaffs.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).BeginInit();
+            this.pnRequests.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).BeginInit();
             this.SuspendLayout();
             // 
             // pnSidebar
@@ -540,407 +541,18 @@
             // 
             this.pnContent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnContent.BackgroundImage")));
             this.pnContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnContent.Controls.Add(this.pnDashboard);
-            this.pnContent.Controls.Add(this.pnStudents);
             this.pnContent.Controls.Add(this.pnInventory);
             this.pnContent.Controls.Add(this.pnSchedules);
             this.pnContent.Controls.Add(this.pnProf);
             this.pnContent.Controls.Add(this.pnStaffs);
             this.pnContent.Controls.Add(this.pnRequests);
+            this.pnContent.Controls.Add(this.pnDashboard);
+            this.pnContent.Controls.Add(this.pnStudents);
             this.pnContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnContent.Location = new System.Drawing.Point(123, 73);
             this.pnContent.Name = "pnContent";
             this.pnContent.Size = new System.Drawing.Size(1243, 695);
             this.pnContent.TabIndex = 2;
-            // 
-            // pnStudents
-            // 
-            this.pnStudents.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStudents.BackgroundImage")));
-            this.pnStudents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnStudents.Controls.Add(this.bunifuTextbox1);
-            this.pnStudents.Controls.Add(this.label5);
-            this.pnStudents.Controls.Add(this.label4);
-            this.pnStudents.Controls.Add(this.label3);
-            this.pnStudents.Controls.Add(this.pictureBox8);
-            this.pnStudents.Controls.Add(this.bunifuDropdown3);
-            this.pnStudents.Controls.Add(this.bunifuDropdown2);
-            this.pnStudents.Controls.Add(this.bunifuDropdown1);
-            this.pnStudents.Controls.Add(this.panel1);
-            this.pnStudents.Controls.Add(this.listView2);
-            this.pnStudents.Controls.Add(this.lblConStud);
-            this.pnStudents.Location = new System.Drawing.Point(10, 10);
-            this.pnStudents.Name = "pnStudents";
-            this.pnStudents.Size = new System.Drawing.Size(1221, 672);
-            this.pnStudents.TabIndex = 17;
-            // 
-            // bunifuTextbox1
-            // 
-            this.bunifuTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(2)))), ((int)(((byte)(4)))));
-            this.bunifuTextbox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.BackgroundImage")));
-            this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
-            this.bunifuTextbox1.Location = new System.Drawing.Point(128, 104);
-            this.bunifuTextbox1.Name = "bunifuTextbox1";
-            this.bunifuTextbox1.Size = new System.Drawing.Size(217, 35);
-            this.bunifuTextbox1.TabIndex = 28;
-            this.bunifuTextbox1.text = "Student Number";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(969, 110);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 22);
-            this.label5.TabIndex = 27;
-            this.label5.Text = "Section";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(723, 110);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 22);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Year";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(453, 110);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 22);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "Course";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(419, 13);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(71, 50);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 22;
-            this.pictureBox8.TabStop = false;
-            // 
-            // bunifuDropdown3
-            // 
-            this.bunifuDropdown3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDropdown3.BorderRadius = 3;
-            this.bunifuDropdown3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDropdown3.ForeColor = System.Drawing.Color.White;
-            this.bunifuDropdown3.Items = new string[0];
-            this.bunifuDropdown3.Location = new System.Drawing.Point(899, 104);
-            this.bunifuDropdown3.Name = "bunifuDropdown3";
-            this.bunifuDropdown3.NomalColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown3.onHoverColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown3.selectedIndex = -1;
-            this.bunifuDropdown3.Size = new System.Drawing.Size(217, 35);
-            this.bunifuDropdown3.TabIndex = 23;
-            // 
-            // bunifuDropdown2
-            // 
-            this.bunifuDropdown2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDropdown2.BorderRadius = 3;
-            this.bunifuDropdown2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDropdown2.ForeColor = System.Drawing.Color.White;
-            this.bunifuDropdown2.Items = new string[0];
-            this.bunifuDropdown2.Location = new System.Drawing.Point(641, 104);
-            this.bunifuDropdown2.Name = "bunifuDropdown2";
-            this.bunifuDropdown2.NomalColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown2.onHoverColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown2.selectedIndex = -1;
-            this.bunifuDropdown2.Size = new System.Drawing.Size(217, 35);
-            this.bunifuDropdown2.TabIndex = 22;
-            // 
-            // bunifuDropdown1
-            // 
-            this.bunifuDropdown1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDropdown1.BorderRadius = 3;
-            this.bunifuDropdown1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDropdown1.ForeColor = System.Drawing.Color.White;
-            this.bunifuDropdown1.Items = new string[] {
-        "COURSE"};
-            this.bunifuDropdown1.Location = new System.Drawing.Point(382, 104);
-            this.bunifuDropdown1.Name = "bunifuDropdown1";
-            this.bunifuDropdown1.NomalColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown1.onHoverColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown1.selectedIndex = -1;
-            this.bunifuDropdown1.Size = new System.Drawing.Size(217, 35);
-            this.bunifuDropdown1.TabIndex = 21;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel1.Location = new System.Drawing.Point(0, 75);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1221, 5);
-            this.panel1.TabIndex = 19;
-            // 
-            // listView2
-            // 
-            this.listView2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.listView2.Location = new System.Drawing.Point(54, 152);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(1132, 391);
-            this.listView2.TabIndex = 14;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            // 
-            // lblConStud
-            // 
-            this.lblConStud.AutoSize = true;
-            this.lblConStud.BackColor = System.Drawing.Color.Transparent;
-            this.lblConStud.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConStud.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConStud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConStud.Location = new System.Drawing.Point(504, 19);
-            this.lblConStud.Name = "lblConStud";
-            this.lblConStud.Size = new System.Drawing.Size(233, 38);
-            this.lblConStud.TabIndex = 13;
-            this.lblConStud.Text = "CSD STUDENTS";
-            // 
-            // pnInventory
-            // 
-            this.pnInventory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnInventory.BackgroundImage")));
-            this.pnInventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnInventory.Controls.Add(this.panel8);
-            this.pnInventory.Controls.Add(this.lblConInvent);
-            this.pnInventory.Controls.Add(this.pbConInvent);
-            this.pnInventory.Location = new System.Drawing.Point(10, 10);
-            this.pnInventory.Name = "pnInventory";
-            this.pnInventory.Size = new System.Drawing.Size(1221, 672);
-            this.pnInventory.TabIndex = 16;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel8.Location = new System.Drawing.Point(0, 75);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1221, 5);
-            this.panel8.TabIndex = 20;
-            // 
-            // lblConInvent
-            // 
-            this.lblConInvent.AutoSize = true;
-            this.lblConInvent.BackColor = System.Drawing.Color.Transparent;
-            this.lblConInvent.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConInvent.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConInvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConInvent.Location = new System.Drawing.Point(524, 18);
-            this.lblConInvent.Name = "lblConInvent";
-            this.lblConInvent.Size = new System.Drawing.Size(192, 38);
-            this.lblConInvent.TabIndex = 12;
-            this.lblConInvent.Text = "INVENTORY";
-            // 
-            // pbConInvent
-            // 
-            this.pbConInvent.BackColor = System.Drawing.Color.Transparent;
-            this.pbConInvent.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConInvent.Image = ((System.Drawing.Image)(resources.GetObject("pbConInvent.Image")));
-            this.pbConInvent.Location = new System.Drawing.Point(466, 13);
-            this.pbConInvent.Name = "pbConInvent";
-            this.pbConInvent.Size = new System.Drawing.Size(43, 50);
-            this.pbConInvent.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConInvent.TabIndex = 11;
-            this.pbConInvent.TabStop = false;
-            // 
-            // pnSchedules
-            // 
-            this.pnSchedules.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnSchedules.BackgroundImage")));
-            this.pnSchedules.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnSchedules.Controls.Add(this.panel9);
-            this.pnSchedules.Controls.Add(this.lblConSched);
-            this.pnSchedules.Controls.Add(this.pbConSched);
-            this.pnSchedules.Location = new System.Drawing.Point(10, 10);
-            this.pnSchedules.Name = "pnSchedules";
-            this.pnSchedules.Size = new System.Drawing.Size(1221, 672);
-            this.pnSchedules.TabIndex = 15;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel9.Location = new System.Drawing.Point(0, 75);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1221, 5);
-            this.panel9.TabIndex = 21;
-            // 
-            // lblConSched
-            // 
-            this.lblConSched.AutoSize = true;
-            this.lblConSched.BackColor = System.Drawing.Color.Transparent;
-            this.lblConSched.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConSched.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConSched.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConSched.Location = new System.Drawing.Point(526, 19);
-            this.lblConSched.Name = "lblConSched";
-            this.lblConSched.Size = new System.Drawing.Size(188, 38);
-            this.lblConSched.TabIndex = 11;
-            this.lblConSched.Text = "SCHEDULES";
-            // 
-            // pbConSched
-            // 
-            this.pbConSched.BackColor = System.Drawing.Color.Transparent;
-            this.pbConSched.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConSched.Image = ((System.Drawing.Image)(resources.GetObject("pbConSched.Image")));
-            this.pbConSched.Location = new System.Drawing.Point(459, 13);
-            this.pbConSched.Name = "pbConSched";
-            this.pbConSched.Size = new System.Drawing.Size(50, 50);
-            this.pbConSched.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConSched.TabIndex = 10;
-            this.pbConSched.TabStop = false;
-            // 
-            // pnProf
-            // 
-            this.pnProf.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnProf.BackgroundImage")));
-            this.pnProf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnProf.Controls.Add(this.panel10);
-            this.pnProf.Controls.Add(this.lblConProf);
-            this.pnProf.Controls.Add(this.pbConProf);
-            this.pnProf.Location = new System.Drawing.Point(10, 10);
-            this.pnProf.Name = "pnProf";
-            this.pnProf.Size = new System.Drawing.Size(1221, 672);
-            this.pnProf.TabIndex = 14;
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel10.Location = new System.Drawing.Point(0, 75);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1221, 5);
-            this.panel10.TabIndex = 22;
-            // 
-            // lblConProf
-            // 
-            this.lblConProf.AutoSize = true;
-            this.lblConProf.BackColor = System.Drawing.Color.Transparent;
-            this.lblConProf.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConProf.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConProf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConProf.Location = new System.Drawing.Point(515, 19);
-            this.lblConProf.Name = "lblConProf";
-            this.lblConProf.Size = new System.Drawing.Size(210, 38);
-            this.lblConProf.TabIndex = 10;
-            this.lblConProf.Text = "PROFESSORS";
-            // 
-            // pbConProf
-            // 
-            this.pbConProf.BackColor = System.Drawing.Color.Transparent;
-            this.pbConProf.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConProf.Image = ((System.Drawing.Image)(resources.GetObject("pbConProf.Image")));
-            this.pbConProf.Location = new System.Drawing.Point(426, 13);
-            this.pbConProf.Name = "pbConProf";
-            this.pbConProf.Size = new System.Drawing.Size(75, 50);
-            this.pbConProf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConProf.TabIndex = 9;
-            this.pbConProf.TabStop = false;
-            // 
-            // pnStaffs
-            // 
-            this.pnStaffs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStaffs.BackgroundImage")));
-            this.pnStaffs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnStaffs.Controls.Add(this.panel11);
-            this.pnStaffs.Controls.Add(this.lblConStaffs);
-            this.pnStaffs.Controls.Add(this.pbConStaffs);
-            this.pnStaffs.Location = new System.Drawing.Point(10, 10);
-            this.pnStaffs.Name = "pnStaffs";
-            this.pnStaffs.Size = new System.Drawing.Size(1221, 672);
-            this.pnStaffs.TabIndex = 13;
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel11.Location = new System.Drawing.Point(0, 75);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1221, 5);
-            this.panel11.TabIndex = 22;
-            // 
-            // lblConStaffs
-            // 
-            this.lblConStaffs.AutoSize = true;
-            this.lblConStaffs.BackColor = System.Drawing.Color.Transparent;
-            this.lblConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConStaffs.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConStaffs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConStaffs.Location = new System.Drawing.Point(561, 19);
-            this.lblConStaffs.Name = "lblConStaffs";
-            this.lblConStaffs.Size = new System.Drawing.Size(118, 38);
-            this.lblConStaffs.TabIndex = 9;
-            this.lblConStaffs.Text = "STAFFS";
-            // 
-            // pbConStaffs
-            // 
-            this.pbConStaffs.BackColor = System.Drawing.Color.Transparent;
-            this.pbConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConStaffs.Image = ((System.Drawing.Image)(resources.GetObject("pbConStaffs.Image")));
-            this.pbConStaffs.Location = new System.Drawing.Point(492, 13);
-            this.pbConStaffs.Name = "pbConStaffs";
-            this.pbConStaffs.Size = new System.Drawing.Size(50, 50);
-            this.pbConStaffs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConStaffs.TabIndex = 8;
-            this.pbConStaffs.TabStop = false;
-            // 
-            // pnRequests
-            // 
-            this.pnRequests.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnRequests.BackgroundImage")));
-            this.pnRequests.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnRequests.Controls.Add(this.panel2);
-            this.pnRequests.Controls.Add(this.listView1);
-            this.pnRequests.Controls.Add(this.lblConReq);
-            this.pnRequests.Controls.Add(this.pbConRequest);
-            this.pnRequests.Location = new System.Drawing.Point(10, 10);
-            this.pnRequests.Name = "pnRequests";
-            this.pnRequests.Size = new System.Drawing.Size(1221, 672);
-            this.pnRequests.TabIndex = 12;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel2.Location = new System.Drawing.Point(0, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1221, 5);
-            this.panel2.TabIndex = 22;
-            // 
-            // listView1
-            // 
-            this.listView1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.listView1.Location = new System.Drawing.Point(42, 145);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1132, 486);
-            this.listView1.TabIndex = 7;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // lblConReq
-            // 
-            this.lblConReq.AutoSize = true;
-            this.lblConReq.BackColor = System.Drawing.Color.Transparent;
-            this.lblConReq.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConReq.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConReq.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConReq.Location = new System.Drawing.Point(538, 19);
-            this.lblConReq.Name = "lblConReq";
-            this.lblConReq.Size = new System.Drawing.Size(164, 38);
-            this.lblConReq.TabIndex = 6;
-            this.lblConReq.Text = "REQUESTS";
-            // 
-            // pbConRequest
-            // 
-            this.pbConRequest.BackColor = System.Drawing.Color.Transparent;
-            this.pbConRequest.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConRequest.Image = ((System.Drawing.Image)(resources.GetObject("pbConRequest.Image")));
-            this.pbConRequest.Location = new System.Drawing.Point(445, 13);
-            this.pbConRequest.Name = "pbConRequest";
-            this.pbConRequest.Size = new System.Drawing.Size(80, 50);
-            this.pbConRequest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConRequest.TabIndex = 0;
-            this.pbConRequest.TabStop = false;
             // 
             // pnDashboard
             // 
@@ -1452,6 +1064,404 @@
             this.label6.TabIndex = 18;
             this.label6.Text = "New Requests";
             // 
+            // pnStudents
+            // 
+            this.pnStudents.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStudents.BackgroundImage")));
+            this.pnStudents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnStudents.Controls.Add(this.bunifuTextbox1);
+            this.pnStudents.Controls.Add(this.label5);
+            this.pnStudents.Controls.Add(this.label4);
+            this.pnStudents.Controls.Add(this.label3);
+            this.pnStudents.Controls.Add(this.pictureBox8);
+            this.pnStudents.Controls.Add(this.bunifuDropdown3);
+            this.pnStudents.Controls.Add(this.bunifuDropdown2);
+            this.pnStudents.Controls.Add(this.bunifuDropdown1);
+            this.pnStudents.Controls.Add(this.panel1);
+            this.pnStudents.Controls.Add(this.listView2);
+            this.pnStudents.Controls.Add(this.lblConStud);
+            this.pnStudents.Location = new System.Drawing.Point(10, 10);
+            this.pnStudents.Name = "pnStudents";
+            this.pnStudents.Size = new System.Drawing.Size(1221, 672);
+            this.pnStudents.TabIndex = 17;
+            // 
+            // bunifuTextbox1
+            // 
+            this.bunifuTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(2)))), ((int)(((byte)(4)))));
+            this.bunifuTextbox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.BackgroundImage")));
+            this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
+            this.bunifuTextbox1.Location = new System.Drawing.Point(128, 104);
+            this.bunifuTextbox1.Name = "bunifuTextbox1";
+            this.bunifuTextbox1.Size = new System.Drawing.Size(217, 35);
+            this.bunifuTextbox1.TabIndex = 28;
+            this.bunifuTextbox1.text = "Student Number";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(969, 110);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 22);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Section";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(723, 110);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 22);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Year";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(453, 110);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 22);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Course";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(419, 13);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(71, 50);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
+            // 
+            // bunifuDropdown3
+            // 
+            this.bunifuDropdown3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDropdown3.BorderRadius = 3;
+            this.bunifuDropdown3.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDropdown3.ForeColor = System.Drawing.Color.White;
+            this.bunifuDropdown3.Items = new string[0];
+            this.bunifuDropdown3.Location = new System.Drawing.Point(899, 104);
+            this.bunifuDropdown3.Name = "bunifuDropdown3";
+            this.bunifuDropdown3.NomalColor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuDropdown3.onHoverColor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuDropdown3.selectedIndex = -1;
+            this.bunifuDropdown3.Size = new System.Drawing.Size(217, 35);
+            this.bunifuDropdown3.TabIndex = 23;
+            // 
+            // bunifuDropdown2
+            // 
+            this.bunifuDropdown2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDropdown2.BorderRadius = 3;
+            this.bunifuDropdown2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDropdown2.ForeColor = System.Drawing.Color.White;
+            this.bunifuDropdown2.Items = new string[0];
+            this.bunifuDropdown2.Location = new System.Drawing.Point(641, 104);
+            this.bunifuDropdown2.Name = "bunifuDropdown2";
+            this.bunifuDropdown2.NomalColor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuDropdown2.onHoverColor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuDropdown2.selectedIndex = -1;
+            this.bunifuDropdown2.Size = new System.Drawing.Size(217, 35);
+            this.bunifuDropdown2.TabIndex = 22;
+            // 
+            // bunifuDropdown1
+            // 
+            this.bunifuDropdown1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDropdown1.BorderRadius = 3;
+            this.bunifuDropdown1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDropdown1.ForeColor = System.Drawing.Color.White;
+            this.bunifuDropdown1.Items = new string[] {
+        "COURSE"};
+            this.bunifuDropdown1.Location = new System.Drawing.Point(382, 104);
+            this.bunifuDropdown1.Name = "bunifuDropdown1";
+            this.bunifuDropdown1.NomalColor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuDropdown1.onHoverColor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuDropdown1.selectedIndex = -1;
+            this.bunifuDropdown1.Size = new System.Drawing.Size(217, 35);
+            this.bunifuDropdown1.TabIndex = 21;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel1.Location = new System.Drawing.Point(0, 75);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1221, 5);
+            this.panel1.TabIndex = 19;
+            // 
+            // listView2
+            // 
+            this.listView2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.listView2.Location = new System.Drawing.Point(54, 152);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(1132, 391);
+            this.listView2.TabIndex = 14;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            // 
+            // lblConStud
+            // 
+            this.lblConStud.AutoSize = true;
+            this.lblConStud.BackColor = System.Drawing.Color.Transparent;
+            this.lblConStud.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConStud.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConStud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConStud.Location = new System.Drawing.Point(504, 19);
+            this.lblConStud.Name = "lblConStud";
+            this.lblConStud.Size = new System.Drawing.Size(233, 38);
+            this.lblConStud.TabIndex = 13;
+            this.lblConStud.Text = "CSD STUDENTS";
+            // 
+            // pnInventory
+            // 
+            this.pnInventory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnInventory.BackgroundImage")));
+            this.pnInventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnInventory.Controls.Add(this.listView3);
+            this.pnInventory.Controls.Add(this.panel8);
+            this.pnInventory.Controls.Add(this.lblConInvent);
+            this.pnInventory.Controls.Add(this.pbConInvent);
+            this.pnInventory.Location = new System.Drawing.Point(10, 10);
+            this.pnInventory.Name = "pnInventory";
+            this.pnInventory.Size = new System.Drawing.Size(1221, 672);
+            this.pnInventory.TabIndex = 16;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel8.Location = new System.Drawing.Point(0, 75);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(1221, 5);
+            this.panel8.TabIndex = 20;
+            // 
+            // lblConInvent
+            // 
+            this.lblConInvent.AutoSize = true;
+            this.lblConInvent.BackColor = System.Drawing.Color.Transparent;
+            this.lblConInvent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConInvent.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConInvent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConInvent.Location = new System.Drawing.Point(524, 18);
+            this.lblConInvent.Name = "lblConInvent";
+            this.lblConInvent.Size = new System.Drawing.Size(192, 38);
+            this.lblConInvent.TabIndex = 12;
+            this.lblConInvent.Text = "INVENTORY";
+            // 
+            // pbConInvent
+            // 
+            this.pbConInvent.BackColor = System.Drawing.Color.Transparent;
+            this.pbConInvent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConInvent.Image = ((System.Drawing.Image)(resources.GetObject("pbConInvent.Image")));
+            this.pbConInvent.Location = new System.Drawing.Point(466, 13);
+            this.pbConInvent.Name = "pbConInvent";
+            this.pbConInvent.Size = new System.Drawing.Size(43, 50);
+            this.pbConInvent.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConInvent.TabIndex = 11;
+            this.pbConInvent.TabStop = false;
+            // 
+            // pnSchedules
+            // 
+            this.pnSchedules.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnSchedules.BackgroundImage")));
+            this.pnSchedules.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnSchedules.Controls.Add(this.panel9);
+            this.pnSchedules.Controls.Add(this.lblConSched);
+            this.pnSchedules.Controls.Add(this.pbConSched);
+            this.pnSchedules.Location = new System.Drawing.Point(10, 10);
+            this.pnSchedules.Name = "pnSchedules";
+            this.pnSchedules.Size = new System.Drawing.Size(1221, 672);
+            this.pnSchedules.TabIndex = 15;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel9.Location = new System.Drawing.Point(0, 75);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1221, 5);
+            this.panel9.TabIndex = 21;
+            // 
+            // lblConSched
+            // 
+            this.lblConSched.AutoSize = true;
+            this.lblConSched.BackColor = System.Drawing.Color.Transparent;
+            this.lblConSched.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConSched.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConSched.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConSched.Location = new System.Drawing.Point(526, 19);
+            this.lblConSched.Name = "lblConSched";
+            this.lblConSched.Size = new System.Drawing.Size(188, 38);
+            this.lblConSched.TabIndex = 11;
+            this.lblConSched.Text = "SCHEDULES";
+            // 
+            // pbConSched
+            // 
+            this.pbConSched.BackColor = System.Drawing.Color.Transparent;
+            this.pbConSched.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConSched.Image = ((System.Drawing.Image)(resources.GetObject("pbConSched.Image")));
+            this.pbConSched.Location = new System.Drawing.Point(459, 13);
+            this.pbConSched.Name = "pbConSched";
+            this.pbConSched.Size = new System.Drawing.Size(50, 50);
+            this.pbConSched.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConSched.TabIndex = 10;
+            this.pbConSched.TabStop = false;
+            // 
+            // pnProf
+            // 
+            this.pnProf.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnProf.BackgroundImage")));
+            this.pnProf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnProf.Controls.Add(this.panel10);
+            this.pnProf.Controls.Add(this.lblConProf);
+            this.pnProf.Controls.Add(this.pbConProf);
+            this.pnProf.Location = new System.Drawing.Point(10, 10);
+            this.pnProf.Name = "pnProf";
+            this.pnProf.Size = new System.Drawing.Size(1221, 672);
+            this.pnProf.TabIndex = 14;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel10.Location = new System.Drawing.Point(0, 75);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1221, 5);
+            this.panel10.TabIndex = 22;
+            // 
+            // lblConProf
+            // 
+            this.lblConProf.AutoSize = true;
+            this.lblConProf.BackColor = System.Drawing.Color.Transparent;
+            this.lblConProf.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConProf.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConProf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConProf.Location = new System.Drawing.Point(515, 19);
+            this.lblConProf.Name = "lblConProf";
+            this.lblConProf.Size = new System.Drawing.Size(210, 38);
+            this.lblConProf.TabIndex = 10;
+            this.lblConProf.Text = "PROFESSORS";
+            // 
+            // pbConProf
+            // 
+            this.pbConProf.BackColor = System.Drawing.Color.Transparent;
+            this.pbConProf.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConProf.Image = ((System.Drawing.Image)(resources.GetObject("pbConProf.Image")));
+            this.pbConProf.Location = new System.Drawing.Point(426, 13);
+            this.pbConProf.Name = "pbConProf";
+            this.pbConProf.Size = new System.Drawing.Size(75, 50);
+            this.pbConProf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConProf.TabIndex = 9;
+            this.pbConProf.TabStop = false;
+            // 
+            // pnStaffs
+            // 
+            this.pnStaffs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStaffs.BackgroundImage")));
+            this.pnStaffs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnStaffs.Controls.Add(this.panel11);
+            this.pnStaffs.Controls.Add(this.lblConStaffs);
+            this.pnStaffs.Controls.Add(this.pbConStaffs);
+            this.pnStaffs.Location = new System.Drawing.Point(10, 10);
+            this.pnStaffs.Name = "pnStaffs";
+            this.pnStaffs.Size = new System.Drawing.Size(1221, 672);
+            this.pnStaffs.TabIndex = 13;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel11.Location = new System.Drawing.Point(0, 75);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(1221, 5);
+            this.panel11.TabIndex = 22;
+            // 
+            // lblConStaffs
+            // 
+            this.lblConStaffs.AutoSize = true;
+            this.lblConStaffs.BackColor = System.Drawing.Color.Transparent;
+            this.lblConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConStaffs.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConStaffs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConStaffs.Location = new System.Drawing.Point(561, 19);
+            this.lblConStaffs.Name = "lblConStaffs";
+            this.lblConStaffs.Size = new System.Drawing.Size(118, 38);
+            this.lblConStaffs.TabIndex = 9;
+            this.lblConStaffs.Text = "STAFFS";
+            // 
+            // pbConStaffs
+            // 
+            this.pbConStaffs.BackColor = System.Drawing.Color.Transparent;
+            this.pbConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConStaffs.Image = ((System.Drawing.Image)(resources.GetObject("pbConStaffs.Image")));
+            this.pbConStaffs.Location = new System.Drawing.Point(492, 13);
+            this.pbConStaffs.Name = "pbConStaffs";
+            this.pbConStaffs.Size = new System.Drawing.Size(50, 50);
+            this.pbConStaffs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConStaffs.TabIndex = 8;
+            this.pbConStaffs.TabStop = false;
+            // 
+            // pnRequests
+            // 
+            this.pnRequests.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnRequests.BackgroundImage")));
+            this.pnRequests.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnRequests.Controls.Add(this.panel2);
+            this.pnRequests.Controls.Add(this.listView1);
+            this.pnRequests.Controls.Add(this.lblConReq);
+            this.pnRequests.Controls.Add(this.pbConRequest);
+            this.pnRequests.Location = new System.Drawing.Point(10, 10);
+            this.pnRequests.Name = "pnRequests";
+            this.pnRequests.Size = new System.Drawing.Size(1221, 672);
+            this.pnRequests.TabIndex = 12;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel2.Location = new System.Drawing.Point(0, 75);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1221, 5);
+            this.panel2.TabIndex = 22;
+            // 
+            // listView1
+            // 
+            this.listView1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.listView1.Location = new System.Drawing.Point(42, 145);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1132, 486);
+            this.listView1.TabIndex = 7;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // lblConReq
+            // 
+            this.lblConReq.AutoSize = true;
+            this.lblConReq.BackColor = System.Drawing.Color.Transparent;
+            this.lblConReq.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConReq.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConReq.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConReq.Location = new System.Drawing.Point(538, 19);
+            this.lblConReq.Name = "lblConReq";
+            this.lblConReq.Size = new System.Drawing.Size(164, 38);
+            this.lblConReq.TabIndex = 6;
+            this.lblConReq.Text = "REQUESTS";
+            // 
+            // pbConRequest
+            // 
+            this.pbConRequest.BackColor = System.Drawing.Color.Transparent;
+            this.pbConRequest.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConRequest.Image = ((System.Drawing.Image)(resources.GetObject("pbConRequest.Image")));
+            this.pbConRequest.Location = new System.Drawing.Point(445, 13);
+            this.pbConRequest.Name = "pbConRequest";
+            this.pbConRequest.Size = new System.Drawing.Size(80, 50);
+            this.pbConRequest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConRequest.TabIndex = 0;
+            this.pbConRequest.TabStop = false;
+            // 
+            // listView3
+            // 
+            this.listView3.Location = new System.Drawing.Point(560, 215);
+            this.listView3.Name = "listView3";
+            this.listView3.Size = new System.Drawing.Size(121, 97);
+            this.listView3.TabIndex = 21;
+            this.listView3.UseCompatibleStateImageBehavior = false;
+            // 
             // AdminModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1481,24 +1491,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).EndInit();
             this.pnContent.ResumeLayout(false);
-            this.pnStudents.ResumeLayout(false);
-            this.pnStudents.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.pnInventory.ResumeLayout(false);
-            this.pnInventory.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).EndInit();
-            this.pnSchedules.ResumeLayout(false);
-            this.pnSchedules.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).EndInit();
-            this.pnProf.ResumeLayout(false);
-            this.pnProf.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).EndInit();
-            this.pnStaffs.ResumeLayout(false);
-            this.pnStaffs.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).EndInit();
-            this.pnRequests.ResumeLayout(false);
-            this.pnRequests.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).EndInit();
             this.pnDashboard.ResumeLayout(false);
             this.pnDashboard.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -1521,6 +1513,24 @@
             this.bunifuGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.pnStudents.ResumeLayout(false);
+            this.pnStudents.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.pnInventory.ResumeLayout(false);
+            this.pnInventory.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).EndInit();
+            this.pnSchedules.ResumeLayout(false);
+            this.pnSchedules.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).EndInit();
+            this.pnProf.ResumeLayout(false);
+            this.pnProf.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).EndInit();
+            this.pnStaffs.ResumeLayout(false);
+            this.pnStaffs.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).EndInit();
+            this.pnRequests.ResumeLayout(false);
+            this.pnRequests.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1632,5 +1642,6 @@
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ListView listView3;
     }
 }

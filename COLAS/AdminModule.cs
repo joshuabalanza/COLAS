@@ -269,5 +269,10 @@ namespace COLAS
         {
 
         }
+
+        private void pnDashboard_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

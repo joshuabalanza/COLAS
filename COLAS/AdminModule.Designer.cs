@@ -800,6 +800,7 @@
             this.pnDashboard.Name = "pnDashboard";
             this.pnDashboard.Size = new System.Drawing.Size(1221, 672);
             this.pnDashboard.TabIndex = 1;
+            this.pnDashboard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnDashboard_Paint);
             // 
             // panel6
             // 

@@ -61,59 +61,8 @@
             this.TitleLine = new System.Windows.Forms.Panel();
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.pnContent = new System.Windows.Forms.Panel();
-            this.pnDashboard = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel5 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel6 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.bunifuGradientPanel7 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.bunifuGradientPanel8 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel4 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pnStudents = new System.Windows.Forms.Panel();
-            this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.bunifuDropdown3 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.bunifuDropdown2 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.bunifuDropdown1 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.lblConStud = new System.Windows.Forms.Label();
             this.pnInventory = new System.Windows.Forms.Panel();
+            this.listView3 = new System.Windows.Forms.ListView();
             this.panel8 = new System.Windows.Forms.Panel();
             this.lblConInvent = new System.Windows.Forms.Label();
             this.pbConInvent = new System.Windows.Forms.PictureBox();
@@ -134,7 +83,46 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.lblConReq = new System.Windows.Forms.Label();
             this.pbConRequest = new System.Windows.Forms.PictureBox();
-            this.listView3 = new System.Windows.Forms.ListView();
+            this.pnDashboard = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pnStudents = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.lblConStud = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInventory)).BeginInit();
@@ -148,23 +136,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).BeginInit();
             this.pnContent.SuspendLayout();
-            this.pnDashboard.SuspendLayout();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            this.bunifuGradientPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            this.bunifuGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.pnStudents.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.pnInventory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).BeginInit();
             this.pnSchedules.SuspendLayout();
@@ -175,6 +146,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).BeginInit();
             this.pnRequests.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).BeginInit();
+            this.pnDashboard.SuspendLayout();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.pnStudents.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // pnSidebar
@@ -541,682 +527,18 @@
             // 
             this.pnContent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnContent.BackgroundImage")));
             this.pnContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnContent.Controls.Add(this.pnDashboard);
+            this.pnContent.Controls.Add(this.pnStudents);
             this.pnContent.Controls.Add(this.pnInventory);
             this.pnContent.Controls.Add(this.pnSchedules);
             this.pnContent.Controls.Add(this.pnProf);
             this.pnContent.Controls.Add(this.pnStaffs);
             this.pnContent.Controls.Add(this.pnRequests);
-            this.pnContent.Controls.Add(this.pnDashboard);
-            this.pnContent.Controls.Add(this.pnStudents);
             this.pnContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnContent.Location = new System.Drawing.Point(123, 73);
             this.pnContent.Name = "pnContent";
             this.pnContent.Size = new System.Drawing.Size(1243, 695);
             this.pnContent.TabIndex = 2;
-            // 
-            // pnDashboard
-            // 
-            this.pnDashboard.BackColor = System.Drawing.Color.Transparent;
-            this.pnDashboard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnDashboard.BackgroundImage")));
-            this.pnDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnDashboard.Controls.Add(this.panel6);
-            this.pnDashboard.Controls.Add(this.panel7);
-            this.pnDashboard.Controls.Add(this.panel5);
-            this.pnDashboard.Controls.Add(this.panel4);
-            this.pnDashboard.Controls.Add(this.pictureBox12);
-            this.pnDashboard.Controls.Add(this.bunifuGradientPanel5);
-            this.pnDashboard.Controls.Add(this.bunifuGradientPanel1);
-            this.pnDashboard.Controls.Add(this.TitleLine);
-            this.pnDashboard.Controls.Add(this.lblTitlePage);
-            this.pnDashboard.Location = new System.Drawing.Point(10, 10);
-            this.pnDashboard.Name = "pnDashboard";
-            this.pnDashboard.Size = new System.Drawing.Size(1221, 672);
-            this.pnDashboard.TabIndex = 1;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label21);
-            this.panel6.Controls.Add(this.label22);
-            this.panel6.Controls.Add(this.pictureBox2);
-            this.panel6.Location = new System.Drawing.Point(853, 377);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(326, 275);
-            this.panel6.TabIndex = 29;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.label21.Location = new System.Drawing.Point(111, 201);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(102, 22);
-            this.label21.TabIndex = 25;
-            this.label21.Text = "Schedules";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.label22.Location = new System.Drawing.Point(144, 93);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(38, 41);
-            this.label22.TabIndex = 24;
-            this.label22.Text = "8";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(93, 46);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(139, 136);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 23;
-            this.pictureBox2.TabStop = false;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.label23);
-            this.panel7.Controls.Add(this.label24);
-            this.panel7.Controls.Add(this.pictureBox3);
-            this.panel7.Location = new System.Drawing.Point(521, 377);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(326, 275);
-            this.panel7.TabIndex = 28;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.label23.Location = new System.Drawing.Point(113, 201);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(96, 22);
-            this.label23.TabIndex = 25;
-            this.label23.Text = "Professors";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.label24.Location = new System.Drawing.Point(143, 93);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(38, 41);
-            this.label24.TabIndex = 24;
-            this.label24.Text = "8";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(92, 46);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(139, 136);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(40)))), ((int)(((byte)(53)))));
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.label19);
-            this.panel5.Controls.Add(this.label20);
-            this.panel5.Controls.Add(this.pictureBox1);
-            this.panel5.Location = new System.Drawing.Point(853, 96);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(326, 275);
-            this.panel5.TabIndex = 27;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.label19.Location = new System.Drawing.Point(133, 201);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(58, 22);
-            this.label19.TabIndex = 25;
-            this.label19.Text = "Staffs";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.label20.Location = new System.Drawing.Point(144, 93);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(38, 41);
-            this.label20.TabIndex = 24;
-            this.label20.Text = "8";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(93, 46);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 136);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 23;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label18);
-            this.panel4.Controls.Add(this.label17);
-            this.panel4.Controls.Add(this.pictureBox10);
-            this.panel4.Location = new System.Drawing.Point(521, 96);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(326, 275);
-            this.panel4.TabIndex = 26;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.label18.Location = new System.Drawing.Point(72, 201);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(179, 22);
-            this.label18.TabIndex = 25;
-            this.label18.Text = "Account Requests";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.label17.Location = new System.Drawing.Point(143, 93);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(38, 41);
-            this.label17.TabIndex = 24;
-            this.label17.Text = "8";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(92, 46);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(139, 136);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 23;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(450, 13);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox12.TabIndex = 22;
-            this.pictureBox12.TabStop = false;
-            // 
-            // bunifuGradientPanel5
-            // 
-            this.bunifuGradientPanel5.BackColor = System.Drawing.Color.White;
-            this.bunifuGradientPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel5.BackgroundImage")));
-            this.bunifuGradientPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel5.Controls.Add(this.label16);
-            this.bunifuGradientPanel5.Controls.Add(this.label15);
-            this.bunifuGradientPanel5.Controls.Add(this.label14);
-            this.bunifuGradientPanel5.Controls.Add(this.pictureBox14);
-            this.bunifuGradientPanel5.Controls.Add(this.bunifuGradientPanel6);
-            this.bunifuGradientPanel5.Controls.Add(this.label10);
-            this.bunifuGradientPanel5.Controls.Add(this.bunifuGradientPanel7);
-            this.bunifuGradientPanel5.Controls.Add(this.label11);
-            this.bunifuGradientPanel5.Controls.Add(this.bunifuGradientPanel8);
-            this.bunifuGradientPanel5.Controls.Add(this.label12);
-            this.bunifuGradientPanel5.Controls.Add(this.label13);
-            this.bunifuGradientPanel5.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel5.GradientBottomRight = System.Drawing.Color.LightGray;
-            this.bunifuGradientPanel5.GradientTopLeft = System.Drawing.Color.Silver;
-            this.bunifuGradientPanel5.GradientTopRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel5.Location = new System.Drawing.Point(34, 377);
-            this.bunifuGradientPanel5.Name = "bunifuGradientPanel5";
-            this.bunifuGradientPanel5.Quality = 10;
-            this.bunifuGradientPanel5.Size = new System.Drawing.Size(481, 275);
-            this.bunifuGradientPanel5.TabIndex = 20;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(70, 222);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(94, 21);
-            this.label16.TabIndex = 27;
-            this.label16.Text = "7am-10am";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(70, 166);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(94, 21);
-            this.label15.TabIndex = 26;
-            this.label15.Text = "7am-10am";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(70, 105);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(94, 21);
-            this.label14.TabIndex = 25;
-            this.label14.Text = "7am-10am";
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(71, 9);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(49, 51);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 23;
-            this.pictureBox14.TabStop = false;
-            // 
-            // bunifuGradientPanel6
-            // 
-            this.bunifuGradientPanel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel6.BackgroundImage")));
-            this.bunifuGradientPanel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel6.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel6.GradientBottomRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel6.GradientTopLeft = System.Drawing.Color.DarkTurquoise;
-            this.bunifuGradientPanel6.GradientTopRight = System.Drawing.Color.MidnightBlue;
-            this.bunifuGradientPanel6.Location = new System.Drawing.Point(70, 246);
-            this.bunifuGradientPanel6.Name = "bunifuGradientPanel6";
-            this.bunifuGradientPanel6.Quality = 10;
-            this.bunifuGradientPanel6.Size = new System.Drawing.Size(341, 5);
-            this.bunifuGradientPanel6.TabIndex = 24;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(70, 199);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(174, 21);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "Mr. Alysson Merdegia";
-            // 
-            // bunifuGradientPanel7
-            // 
-            this.bunifuGradientPanel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel7.BackgroundImage")));
-            this.bunifuGradientPanel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel7.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel7.GradientBottomRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel7.GradientTopLeft = System.Drawing.Color.DarkTurquoise;
-            this.bunifuGradientPanel7.GradientTopRight = System.Drawing.Color.MidnightBlue;
-            this.bunifuGradientPanel7.Location = new System.Drawing.Point(70, 191);
-            this.bunifuGradientPanel7.Name = "bunifuGradientPanel7";
-            this.bunifuGradientPanel7.Quality = 10;
-            this.bunifuGradientPanel7.Size = new System.Drawing.Size(341, 5);
-            this.bunifuGradientPanel7.TabIndex = 22;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(70, 139);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(192, 21);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "Mrs. Genalyn Villafuerte";
-            // 
-            // bunifuGradientPanel8
-            // 
-            this.bunifuGradientPanel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel8.BackgroundImage")));
-            this.bunifuGradientPanel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel8.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel8.GradientBottomRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel8.GradientTopLeft = System.Drawing.Color.DarkTurquoise;
-            this.bunifuGradientPanel8.GradientTopRight = System.Drawing.Color.MidnightBlue;
-            this.bunifuGradientPanel8.Location = new System.Drawing.Point(70, 129);
-            this.bunifuGradientPanel8.Name = "bunifuGradientPanel8";
-            this.bunifuGradientPanel8.Quality = 10;
-            this.bunifuGradientPanel8.Size = new System.Drawing.Size(341, 5);
-            this.bunifuGradientPanel8.TabIndex = 20;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(70, 78);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(198, 21);
-            this.label12.TabIndex = 19;
-            this.label12.Text = "Ms. Cherry Rose Concha";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(132, 22);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(216, 25);
-            this.label13.TabIndex = 18;
-            this.label13.Text = "Schedules for Today";
-            // 
-            // bunifuGradientPanel1
-            // 
-            this.bunifuGradientPanel1.BackColor = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
-            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox9);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox13);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuGradientPanel4);
-            this.bunifuGradientPanel1.Controls.Add(this.label9);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuGradientPanel3);
-            this.bunifuGradientPanel1.Controls.Add(this.label8);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuGradientPanel2);
-            this.bunifuGradientPanel1.Controls.Add(this.label7);
-            this.bunifuGradientPanel1.Controls.Add(this.label6);
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.LightGray;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Silver;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(34, 96);
-            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
-            this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(481, 275);
-            this.bunifuGradientPanel1.TabIndex = 19;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(259, 14);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(25, 22);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 25;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(205, 24);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(70, 44);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 23;
-            this.pictureBox13.TabStop = false;
-            // 
-            // bunifuGradientPanel4
-            // 
-            this.bunifuGradientPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel4.BackgroundImage")));
-            this.bunifuGradientPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel4.GradientBottomRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel4.GradientTopLeft = System.Drawing.Color.DarkTurquoise;
-            this.bunifuGradientPanel4.GradientTopRight = System.Drawing.Color.MidnightBlue;
-            this.bunifuGradientPanel4.Location = new System.Drawing.Point(70, 226);
-            this.bunifuGradientPanel4.Name = "bunifuGradientPanel4";
-            this.bunifuGradientPanel4.Quality = 10;
-            this.bunifuGradientPanel4.Size = new System.Drawing.Size(341, 5);
-            this.bunifuGradientPanel4.TabIndex = 24;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(70, 198);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(174, 21);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "Mr. Alysson Merdegia";
-            // 
-            // bunifuGradientPanel3
-            // 
-            this.bunifuGradientPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel3.BackgroundImage")));
-            this.bunifuGradientPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel3.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel3.GradientBottomRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel3.GradientTopLeft = System.Drawing.Color.DarkTurquoise;
-            this.bunifuGradientPanel3.GradientTopRight = System.Drawing.Color.MidnightBlue;
-            this.bunifuGradientPanel3.Location = new System.Drawing.Point(70, 190);
-            this.bunifuGradientPanel3.Name = "bunifuGradientPanel3";
-            this.bunifuGradientPanel3.Quality = 10;
-            this.bunifuGradientPanel3.Size = new System.Drawing.Size(341, 5);
-            this.bunifuGradientPanel3.TabIndex = 22;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(70, 162);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(192, 21);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Mrs. Genalyn Villafuerte";
-            // 
-            // bunifuGradientPanel2
-            // 
-            this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
-            this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.DarkTurquoise;
-            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.MidnightBlue;
-            this.bunifuGradientPanel2.Location = new System.Drawing.Point(70, 154);
-            this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
-            this.bunifuGradientPanel2.Quality = 10;
-            this.bunifuGradientPanel2.Size = new System.Drawing.Size(341, 5);
-            this.bunifuGradientPanel2.TabIndex = 20;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(70, 126);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(198, 21);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "Ms. Cherry Rose Concha";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(164, 71);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(153, 25);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "New Requests";
-            // 
-            // pnStudents
-            // 
-            this.pnStudents.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStudents.BackgroundImage")));
-            this.pnStudents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnStudents.Controls.Add(this.bunifuTextbox1);
-            this.pnStudents.Controls.Add(this.label5);
-            this.pnStudents.Controls.Add(this.label4);
-            this.pnStudents.Controls.Add(this.label3);
-            this.pnStudents.Controls.Add(this.pictureBox8);
-            this.pnStudents.Controls.Add(this.bunifuDropdown3);
-            this.pnStudents.Controls.Add(this.bunifuDropdown2);
-            this.pnStudents.Controls.Add(this.bunifuDropdown1);
-            this.pnStudents.Controls.Add(this.panel1);
-            this.pnStudents.Controls.Add(this.listView2);
-            this.pnStudents.Controls.Add(this.lblConStud);
-            this.pnStudents.Location = new System.Drawing.Point(10, 10);
-            this.pnStudents.Name = "pnStudents";
-            this.pnStudents.Size = new System.Drawing.Size(1221, 672);
-            this.pnStudents.TabIndex = 17;
-            // 
-            // bunifuTextbox1
-            // 
-            this.bunifuTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(2)))), ((int)(((byte)(4)))));
-            this.bunifuTextbox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.BackgroundImage")));
-            this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
-            this.bunifuTextbox1.Location = new System.Drawing.Point(128, 104);
-            this.bunifuTextbox1.Name = "bunifuTextbox1";
-            this.bunifuTextbox1.Size = new System.Drawing.Size(217, 35);
-            this.bunifuTextbox1.TabIndex = 28;
-            this.bunifuTextbox1.text = "Student Number";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(969, 110);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 22);
-            this.label5.TabIndex = 27;
-            this.label5.Text = "Section";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(723, 110);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 22);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Year";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(453, 110);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 22);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "Course";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(419, 13);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(71, 50);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 22;
-            this.pictureBox8.TabStop = false;
-            // 
-            // bunifuDropdown3
-            // 
-            this.bunifuDropdown3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDropdown3.BorderRadius = 3;
-            this.bunifuDropdown3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDropdown3.ForeColor = System.Drawing.Color.White;
-            this.bunifuDropdown3.Items = new string[0];
-            this.bunifuDropdown3.Location = new System.Drawing.Point(899, 104);
-            this.bunifuDropdown3.Name = "bunifuDropdown3";
-            this.bunifuDropdown3.NomalColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown3.onHoverColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown3.selectedIndex = -1;
-            this.bunifuDropdown3.Size = new System.Drawing.Size(217, 35);
-            this.bunifuDropdown3.TabIndex = 23;
-            // 
-            // bunifuDropdown2
-            // 
-            this.bunifuDropdown2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDropdown2.BorderRadius = 3;
-            this.bunifuDropdown2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDropdown2.ForeColor = System.Drawing.Color.White;
-            this.bunifuDropdown2.Items = new string[0];
-            this.bunifuDropdown2.Location = new System.Drawing.Point(641, 104);
-            this.bunifuDropdown2.Name = "bunifuDropdown2";
-            this.bunifuDropdown2.NomalColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown2.onHoverColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown2.selectedIndex = -1;
-            this.bunifuDropdown2.Size = new System.Drawing.Size(217, 35);
-            this.bunifuDropdown2.TabIndex = 22;
-            // 
-            // bunifuDropdown1
-            // 
-            this.bunifuDropdown1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDropdown1.BorderRadius = 3;
-            this.bunifuDropdown1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDropdown1.ForeColor = System.Drawing.Color.White;
-            this.bunifuDropdown1.Items = new string[] {
-        "COURSE"};
-            this.bunifuDropdown1.Location = new System.Drawing.Point(382, 104);
-            this.bunifuDropdown1.Name = "bunifuDropdown1";
-            this.bunifuDropdown1.NomalColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown1.onHoverColor = System.Drawing.Color.DarkSlateGray;
-            this.bunifuDropdown1.selectedIndex = -1;
-            this.bunifuDropdown1.Size = new System.Drawing.Size(217, 35);
-            this.bunifuDropdown1.TabIndex = 21;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel1.Location = new System.Drawing.Point(0, 75);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1221, 5);
-            this.panel1.TabIndex = 19;
-            // 
-            // listView2
-            // 
-            this.listView2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.listView2.Location = new System.Drawing.Point(54, 152);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(1132, 391);
-            this.listView2.TabIndex = 14;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            // 
-            // lblConStud
-            // 
-            this.lblConStud.AutoSize = true;
-            this.lblConStud.BackColor = System.Drawing.Color.Transparent;
-            this.lblConStud.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConStud.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConStud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConStud.Location = new System.Drawing.Point(504, 19);
-            this.lblConStud.Name = "lblConStud";
-            this.lblConStud.Size = new System.Drawing.Size(233, 38);
-            this.lblConStud.TabIndex = 13;
-            this.lblConStud.Text = "CSD STUDENTS";
             // 
             // pnInventory
             // 
@@ -1230,6 +552,14 @@
             this.pnInventory.Name = "pnInventory";
             this.pnInventory.Size = new System.Drawing.Size(1221, 672);
             this.pnInventory.TabIndex = 16;
+            // 
+            // listView3
+            // 
+            this.listView3.Location = new System.Drawing.Point(489, 215);
+            this.listView3.Name = "listView3";
+            this.listView3.Size = new System.Drawing.Size(263, 97);
+            this.listView3.TabIndex = 21;
+            this.listView3.UseCompatibleStateImageBehavior = false;
             // 
             // panel8
             // 
@@ -1454,13 +784,470 @@
             this.pbConRequest.TabIndex = 0;
             this.pbConRequest.TabStop = false;
             // 
-            // listView3
+            // pnDashboard
             // 
-            this.listView3.Location = new System.Drawing.Point(489, 215);
-            this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(263, 97);
-            this.listView3.TabIndex = 21;
-            this.listView3.UseCompatibleStateImageBehavior = false;
+            this.pnDashboard.BackColor = System.Drawing.Color.Transparent;
+            this.pnDashboard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnDashboard.BackgroundImage")));
+            this.pnDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnDashboard.Controls.Add(this.panel6);
+            this.pnDashboard.Controls.Add(this.panel7);
+            this.pnDashboard.Controls.Add(this.panel5);
+            this.pnDashboard.Controls.Add(this.panel4);
+            this.pnDashboard.Controls.Add(this.pictureBox12);
+            this.pnDashboard.Controls.Add(this.TitleLine);
+            this.pnDashboard.Controls.Add(this.lblTitlePage);
+            this.pnDashboard.Location = new System.Drawing.Point(10, 10);
+            this.pnDashboard.Name = "pnDashboard";
+            this.pnDashboard.Size = new System.Drawing.Size(1221, 672);
+            this.pnDashboard.TabIndex = 1;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.label21);
+            this.panel6.Controls.Add(this.label22);
+            this.panel6.Controls.Add(this.pictureBox2);
+            this.panel6.Location = new System.Drawing.Point(853, 377);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(326, 275);
+            this.panel6.TabIndex = 29;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.label21.Location = new System.Drawing.Point(111, 201);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(102, 22);
+            this.label21.TabIndex = 25;
+            this.label21.Text = "Schedules";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label22.Location = new System.Drawing.Point(144, 93);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(38, 41);
+            this.label22.TabIndex = 24;
+            this.label22.Text = "8";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(93, 46);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(139, 136);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 23;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.label23);
+            this.panel7.Controls.Add(this.label24);
+            this.panel7.Controls.Add(this.pictureBox3);
+            this.panel7.Location = new System.Drawing.Point(521, 377);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(326, 275);
+            this.panel7.TabIndex = 28;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.label23.Location = new System.Drawing.Point(113, 201);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(96, 22);
+            this.label23.TabIndex = 25;
+            this.label23.Text = "Professors";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label24.Location = new System.Drawing.Point(143, 93);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(38, 41);
+            this.label24.TabIndex = 24;
+            this.label24.Text = "8";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(92, 46);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(139, 136);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 23;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(40)))), ((int)(((byte)(53)))));
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.label19);
+            this.panel5.Controls.Add(this.label20);
+            this.panel5.Controls.Add(this.pictureBox1);
+            this.panel5.Location = new System.Drawing.Point(853, 96);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(326, 275);
+            this.panel5.TabIndex = 27;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.label19.Location = new System.Drawing.Point(133, 201);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(58, 22);
+            this.label19.TabIndex = 25;
+            this.label19.Text = "Staffs";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label20.Location = new System.Drawing.Point(144, 93);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(38, 41);
+            this.label20.TabIndex = 24;
+            this.label20.Text = "8";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(93, 46);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(139, 136);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.label18);
+            this.panel4.Controls.Add(this.label17);
+            this.panel4.Controls.Add(this.pictureBox10);
+            this.panel4.Location = new System.Drawing.Point(521, 96);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(326, 275);
+            this.panel4.TabIndex = 26;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.label18.Location = new System.Drawing.Point(72, 201);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(179, 22);
+            this.label18.TabIndex = 25;
+            this.label18.Text = "Account Requests";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label17.Location = new System.Drawing.Point(143, 93);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(38, 41);
+            this.label17.TabIndex = 24;
+            this.label17.Text = "8";
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(92, 46);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(139, 136);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 23;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(450, 13);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox12.TabIndex = 22;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pnStudents
+            // 
+            this.pnStudents.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStudents.BackgroundImage")));
+            this.pnStudents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnStudents.Controls.Add(this.label5);
+            this.pnStudents.Controls.Add(this.label4);
+            this.pnStudents.Controls.Add(this.label3);
+            this.pnStudents.Controls.Add(this.pictureBox8);
+            this.pnStudents.Controls.Add(this.panel1);
+            this.pnStudents.Controls.Add(this.listView2);
+            this.pnStudents.Controls.Add(this.lblConStud);
+            this.pnStudents.Location = new System.Drawing.Point(10, 10);
+            this.pnStudents.Name = "pnStudents";
+            this.pnStudents.Size = new System.Drawing.Size(1221, 672);
+            this.pnStudents.TabIndex = 17;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(969, 110);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 22);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Section";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(723, 110);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 22);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Year";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(453, 110);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 22);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Course";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(419, 13);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(71, 50);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel1.Location = new System.Drawing.Point(0, 75);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1221, 5);
+            this.panel1.TabIndex = 19;
+            // 
+            // listView2
+            // 
+            this.listView2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.listView2.Location = new System.Drawing.Point(54, 152);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(1132, 391);
+            this.listView2.TabIndex = 14;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            // 
+            // lblConStud
+            // 
+            this.lblConStud.AutoSize = true;
+            this.lblConStud.BackColor = System.Drawing.Color.Transparent;
+            this.lblConStud.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConStud.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConStud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConStud.Location = new System.Drawing.Point(504, 19);
+            this.lblConStud.Name = "lblConStud";
+            this.lblConStud.Size = new System.Drawing.Size(233, 38);
+            this.lblConStud.TabIndex = 13;
+            this.lblConStud.Text = "CSD STUDENTS";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(70, 222);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(94, 21);
+            this.label16.TabIndex = 27;
+            this.label16.Text = "7am-10am";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(70, 166);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(94, 21);
+            this.label15.TabIndex = 26;
+            this.label15.Text = "7am-10am";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(70, 105);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(94, 21);
+            this.label14.TabIndex = 25;
+            this.label14.Text = "7am-10am";
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(71, 9);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(49, 51);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 23;
+            this.pictureBox14.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(70, 199);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(174, 21);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "Mr. Alysson Merdegia";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(70, 139);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(192, 21);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Mrs. Genalyn Villafuerte";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(70, 78);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(198, 21);
+            this.label12.TabIndex = 19;
+            this.label12.Text = "Ms. Cherry Rose Concha";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(132, 22);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(216, 25);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "Schedules for Today";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(259, 14);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(25, 22);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 25;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(205, 24);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(70, 44);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 23;
+            this.pictureBox13.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(70, 198);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(174, 21);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "Mr. Alysson Merdegia";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(70, 162);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(192, 21);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "Mrs. Genalyn Villafuerte";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(70, 126);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(198, 21);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Ms. Cherry Rose Concha";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(164, 71);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(153, 25);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "New Requests";
             // 
             // AdminModule
             // 
@@ -1491,31 +1278,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).EndInit();
             this.pnContent.ResumeLayout(false);
-            this.pnDashboard.ResumeLayout(false);
-            this.pnDashboard.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            this.bunifuGradientPanel5.ResumeLayout(false);
-            this.bunifuGradientPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            this.bunifuGradientPanel1.ResumeLayout(false);
-            this.bunifuGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.pnStudents.ResumeLayout(false);
-            this.pnStudents.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.pnInventory.ResumeLayout(false);
             this.pnInventory.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).EndInit();
@@ -1531,6 +1293,27 @@
             this.pnRequests.ResumeLayout(false);
             this.pnRequests.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).EndInit();
+            this.pnDashboard.ResumeLayout(false);
+            this.pnDashboard.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.pnStudents.ResumeLayout(false);
+            this.pnStudents.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1589,30 +1372,27 @@
         private System.Windows.Forms.ListView listView2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.Framework.UI.BunifuDropdown bunifuDropdown1;
-        private Bunifu.Framework.UI.BunifuDropdown bunifuDropdown3;
-        private Bunifu.Framework.UI.BunifuDropdown bunifuDropdown2;
+       
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox1;
+       
         private System.Windows.Forms.Panel panel3;
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
+       
         private System.Windows.Forms.Label label6;
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
+       
         private System.Windows.Forms.Label label7;
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel4;
+       
         private System.Windows.Forms.Label label9;
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel3;
+       
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel5;
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel6;
+       
         private System.Windows.Forms.Label label10;
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel7;
+      
         private System.Windows.Forms.Label label11;
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel8;
+       
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox12;

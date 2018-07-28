@@ -37,13 +37,15 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnLogin2 = new System.Windows.Forms.Panel();
             this.lblLogin2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pbActiveColas = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.pbInactiveColas = new System.Windows.Forms.PictureBox();
             this.pnLogin1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnLogin2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbActiveColas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInactiveColas)).BeginInit();
             this.SuspendLayout();
             // 
             // pnLogin1
@@ -131,8 +133,9 @@
             this.pnLogin2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(22)))));
             this.pnLogin2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnLogin2.BackgroundImage")));
             this.pnLogin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnLogin2.Controls.Add(this.pbInactiveColas);
             this.pnLogin2.Controls.Add(this.lblLogin2);
-            this.pnLogin2.Controls.Add(this.pictureBox2);
+            this.pnLogin2.Controls.Add(this.pbActiveColas);
             this.pnLogin2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnLogin2.Location = new System.Drawing.Point(0, 0);
             this.pnLogin2.Name = "pnLogin2";
@@ -154,16 +157,16 @@
             this.lblLogin2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblLogin2.Click += new System.EventHandler(this.lblLogin2_Click);
             // 
-            // pictureBox2
+            // pbActiveColas
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(508, 209);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(350, 350);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.pbActiveColas.BackColor = System.Drawing.Color.Transparent;
+            this.pbActiveColas.Image = ((System.Drawing.Image)(resources.GetObject("pbActiveColas.Image")));
+            this.pbActiveColas.Location = new System.Drawing.Point(508, 209);
+            this.pbActiveColas.Name = "pbActiveColas";
+            this.pbActiveColas.Size = new System.Drawing.Size(350, 350);
+            this.pbActiveColas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbActiveColas.TabIndex = 0;
+            this.pbActiveColas.TabStop = false;
             // 
             // btnLogin
             // 
@@ -199,6 +202,17 @@
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click_1);
             // 
+            // pbInactiveColas
+            // 
+            this.pbInactiveColas.BackColor = System.Drawing.Color.Transparent;
+            this.pbInactiveColas.Image = ((System.Drawing.Image)(resources.GetObject("pbInactiveColas.Image")));
+            this.pbInactiveColas.Location = new System.Drawing.Point(93, 209);
+            this.pbInactiveColas.Name = "pbInactiveColas";
+            this.pbInactiveColas.Size = new System.Drawing.Size(350, 350);
+            this.pbInactiveColas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbInactiveColas.TabIndex = 7;
+            this.pbInactiveColas.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,7 +230,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnLogin2.ResumeLayout(false);
             this.pnLogin2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbActiveColas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInactiveColas)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -226,7 +241,7 @@
         private System.Windows.Forms.Panel pnLogin1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel pnLogin2;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pbActiveColas;
         private System.Windows.Forms.Label lblLogin2;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblUsername;
@@ -234,6 +249,7 @@
         private System.Windows.Forms.TextBox txtbxPassword;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.PictureBox pbInactiveColas;
     }
 }
 

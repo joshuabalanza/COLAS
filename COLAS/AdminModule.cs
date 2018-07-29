@@ -17,7 +17,7 @@ namespace COLAS
 {
     public partial class AdminModule : Form
     {
-        int activetext;
+        colas1 colas1 = new colas1();
         public AdminModule()
         {
             InitializeComponent();

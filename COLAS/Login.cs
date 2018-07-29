@@ -17,6 +17,9 @@ namespace COLAS
             InitializeComponent();
         }
 
+        AdminModule adminmodule = new AdminModule();
+        ProfessorModule professormodule = new ProfessorModule();
+
         private void Username()
         {
             if (string.IsNullOrEmpty(txtbxUsername.Text))
@@ -66,14 +69,76 @@ namespace COLAS
 
         private void btnLogin_Click_1(object sender, EventArgs e)
         {
-            AdminModule adminmodule = new AdminModule();
-            this.Hide();
-            adminmodule.Show();
+
+            if (txtbxUsername.Text == "Admin_Raul" || txtbxPassword.Text == "admin")
+            {
+                this.Hide();
+                adminmodule.Show();
+            }
+
+            else if (txtbxUsername.Text == "Prof_Joemen" || txtbxPassword.Text == "professor")
+            {
+                MessageBox.Show("Login Successful");
+                this.Hide();
+                professormodule.Show();
+            }
+
+
+            else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
+            {
+                MessageBox.Show("Please input your username");
+            }
+
+            else if (string.IsNullOrEmpty(txtbxPassword.Text) || string.IsNullOrWhiteSpace(txtbxPassword.Text))
+            {
+                MessageBox.Show("Please input your password");
+            }
+
+            else
+            {
+                MessageBox.Show("Invalid Credentials");
+            }
+            
         }
 
         private void btnCancel_Click_1(object sender, EventArgs e)
         {
             pnLogin2.BringToFront();
+        }
+
+        private void txtbxPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (txtbxUsername.Text == "Admin_Raul" && txtbxPassword.Text == "admin")
+                {
+                    this.Hide();
+                    adminmodule.Show();
+                }
+
+                else if (txtbxUsername.Text == "Prof_Joemen" && txtbxPassword.Text == "professor")
+                {
+                    this.Hide();
+                    professormodule.Show();
+                }
+
+                else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
+                {
+                    MessageBox.Show("Please input your username");
+                }
+
+                else if (string.IsNullOrEmpty(txtbxPassword.Text) || string.IsNullOrWhiteSpace(txtbxPassword.Text))
+                {
+                    MessageBox.Show("Please input your password");
+                }
+
+                else
+                {
+                    MessageBox.Show("Invalid Credentials");
+                    txtbxUsername.Clear();
+                    txtbxPassword.Clear();
+                }
+            }
         }
     }
 }

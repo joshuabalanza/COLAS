@@ -128,7 +128,7 @@ namespace COLAS
             {
                 MessageBox.Show("Invalid Credentials");
             }
-            
+
         }
 
         private void btnCancel_Click_1(object sender, EventArgs e)
@@ -173,7 +173,7 @@ namespace COLAS
         }
 
         private void Login_Load(object sender, EventArgs e)
-        { 
+        {
             startVoice();
         }
 
@@ -182,7 +182,7 @@ namespace COLAS
         public void startVoice()
         {
             Choices command = new Choices();
-            command.Add(new string[] { "Hey Colas" ,"Log in Admin", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan"});
+            command.Add(new string[] { "Log in Admin", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan" });
             Grammar grammar = new Grammar(new GrammarBuilder(command));
             try
             {
@@ -203,64 +203,51 @@ namespace COLAS
         {
             Pb.ClearContent();
             SpVoice obj = new SpVoice();
-            if (e.Result.Text == "Hey Colas")
+            if (e.Result.Text == "Log in Admin")
             {
-
                 Pb.ClearContent();
-                pbActiveColas.Visible = true;
-                pbInactiveColas.Visible = false;
+                Pb.AppendText("Logging-in, Welcome Sir Raul Gutierrez");
+                Ss.Speak(Pb);
                 Sre.RecognizeAsyncStop();
-                colas1.stat = "1";
-               
+                colas1.name = "RAUL GUTIERREZ";
+                adminmodule.Show();
+                this.Hide();
             }
-            if (colas1.stat == "1")
+            else
             {
-                if (e.Result.Text == "Log in Admin")
+                switch (e.Result.Text)
                 {
-                    Pb.ClearContent();
-                    Pb.AppendText("Logging-in, Welcome Sir Raul Gutierrez");
-                    Ss.Speak(Pb);
-                    Sre.RecognizeAsyncStop();
-                    colas1.name = "RAUL GUTIERREZ";
-                    adminmodule.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    switch (e.Result.Text)
-                    {
-                        case "Log in Joemen Barrios":
-                            Pb.ClearContent();
-                            Pb.AppendText("Logging-in, Welcome Maam Joemen Barrios");
-                            Ss.Speak(Pb);
-                            Sre.RecognizeAsyncStop();
-                            colas1.name = "JOEMEN BARRIOS";
-                            professormodule.Show();
-                            this.Hide();
-                            break;
-                        case "Log in Genalyn Villafuerte":
-                            Pb.ClearContent();
-                            Pb.AppendText("Logging-in, Welcome Maam Genalyn Villafuerte");
-                            Ss.Speak(Pb);
-                            Sre.RecognizeAsyncStop();
-                            colas1.name = "GENALYN VILLAFUERTE";
-                            professormodule.Show();
-                            this.Hide();
-                            break;
-                        case "Log in Michael Tan":
-                            Pb.ClearContent();
-                            Pb.AppendText("Logging-in, Welcome Sir Michael Tan");
-                            Ss.Speak(Pb);
-                            Sre.RecognizeAsyncStop();
-                            colas1.name = "MICHAEL TAN";
-                            professormodule.Show();
-                            this.Hide();
-                            break;
-                    }
+                    case "Log in Joemen Barrios":
+                        Pb.ClearContent();
+                        Pb.AppendText("Logging-in, Welcome Maam Joemen Barrios");
+                        Ss.Speak(Pb);
+                        Sre.RecognizeAsyncStop();
+                        colas1.name = "JOEMEN BARRIOS";
+                        professormodule.Show();
+                        this.Hide();
+                        break;
+                    case "Log in Genalyn Villafuerte":
+                        Pb.ClearContent();
+                        Pb.AppendText("Logging-in, Welcome Maam Genalyn Villafuerte");
+                        Ss.Speak(Pb);
+                        Sre.RecognizeAsyncStop();
+                        colas1.name = "GENALYN VILLAFUERTE";
+                        professormodule.Show();
+                        this.Hide();
+                        break;
+                    case "Log in Michael Tan":
+                        Pb.ClearContent();
+                        Pb.AppendText("Logging-in, Welcome Sir Michael Tan");
+                        Ss.Speak(Pb);
+                        Sre.RecognizeAsyncStop();
+                        colas1.name = "MICHAEL TAN";
+                        professormodule.Show();
+                        this.Hide();
+                        break;
                 }
 
             }
-          
+
         }
     }
 }

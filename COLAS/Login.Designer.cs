@@ -174,8 +174,8 @@
             this.pnLogin2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnLogin2.BackgroundImage")));
             this.pnLogin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnLogin2.Controls.Add(this.lblLogin2);
-            this.pnLogin2.Controls.Add(this.pbInactiveColas);
             this.pnLogin2.Controls.Add(this.pbActiveColas);
+            this.pnLogin2.Controls.Add(this.pbInactiveColas);
             this.pnLogin2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnLogin2.Location = new System.Drawing.Point(0, 0);
             this.pnLogin2.Name = "pnLogin2";

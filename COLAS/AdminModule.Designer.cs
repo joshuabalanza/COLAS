@@ -62,7 +62,20 @@
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.pnContent = new System.Windows.Forms.Panel();
             this.pnDashboard = new System.Windows.Forms.Panel();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pnDashReqList = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.pnDashSchedList = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
@@ -71,12 +84,6 @@
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
             this.lblNotifSched = new System.Windows.Forms.Label();
@@ -93,14 +100,10 @@
             this.label18 = new System.Windows.Forms.Label();
             this.lblNotifReq = new System.Windows.Forms.Label();
             this.pbDashReq = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pnStudents = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.listView2 = new System.Windows.Forms.ListView();
+            this.lstStud = new System.Windows.Forms.ListView();
             this.lblConStud = new System.Windows.Forms.Label();
             this.pnInventory = new System.Windows.Forms.Panel();
             this.lstInventory = new System.Windows.Forms.ListView();
@@ -152,10 +155,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).BeginInit();
             this.pnContent.SuspendLayout();
             this.pnDashboard.SuspendLayout();
-            this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.pnDashReqList.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnDashSchedList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashSched)).BeginInit();
             this.panel7.SuspendLayout();
@@ -164,7 +168,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbDashStaffs)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashReq)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.pnStudents.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.pnInventory.SuspendLayout();
@@ -481,11 +484,11 @@
             // 
             this.lblTitleColas.AutoSize = true;
             this.lblTitleColas.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitleColas.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitleColas.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitleColas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblTitleColas.Location = new System.Drawing.Point(10, 18);
+            this.lblTitleColas.Location = new System.Drawing.Point(11, 25);
             this.lblTitleColas.Name = "lblTitleColas";
-            this.lblTitleColas.Size = new System.Drawing.Size(446, 36);
+            this.lblTitleColas.Size = new System.Drawing.Size(322, 25);
             this.lblTitleColas.TabIndex = 20;
             this.lblTitleColas.Text = "Computer Laboratory Assistant";
             // 
@@ -546,8 +549,8 @@
             // 
             this.pnContent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnContent.BackgroundImage")));
             this.pnContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnContent.Controls.Add(this.pnDashboard);
             this.pnContent.Controls.Add(this.pnStudents);
+            this.pnContent.Controls.Add(this.pnDashboard);
             this.pnContent.Controls.Add(this.pnInventory);
             this.pnContent.Controls.Add(this.pnSchedules);
             this.pnContent.Controls.Add(this.pnProf);
@@ -567,8 +570,8 @@
             this.pnDashboard.Controls.Add(this.pictureBox12);
             this.pnDashboard.Controls.Add(this.lblTitlePage);
             this.pnDashboard.Controls.Add(this.TitleLine);
-            this.pnDashboard.Controls.Add(this.panel13);
-            this.pnDashboard.Controls.Add(this.panel12);
+            this.pnDashboard.Controls.Add(this.pnDashReqList);
+            this.pnDashboard.Controls.Add(this.pnDashSchedList);
             this.pnDashboard.Controls.Add(this.panel6);
             this.pnDashboard.Controls.Add(this.panel7);
             this.pnDashboard.Controls.Add(this.panel5);
@@ -579,115 +582,68 @@
             this.pnDashboard.TabIndex = 1;
             this.pnDashboard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnDashboard_Paint);
             // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(450, 13);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox12.TabIndex = 22;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pnDashReqList
+            // 
+            this.pnDashReqList.BackColor = System.Drawing.Color.LightGray;
+            this.pnDashReqList.Controls.Add(this.panel14);
+            this.pnDashReqList.Controls.Add(this.panel13);
+            this.pnDashReqList.Controls.Add(this.panel12);
+            this.pnDashReqList.Controls.Add(this.pictureBox1);
+            this.pnDashReqList.Controls.Add(this.label28);
+            this.pnDashReqList.Controls.Add(this.label27);
+            this.pnDashReqList.Controls.Add(this.label26);
+            this.pnDashReqList.Controls.Add(this.label25);
+            this.pnDashReqList.Location = new System.Drawing.Point(23, 100);
+            this.pnDashReqList.Name = "pnDashReqList";
+            this.pnDashReqList.Size = new System.Drawing.Size(486, 269);
+            this.pnDashReqList.TabIndex = 30;
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel14.Location = new System.Drawing.Point(85, 199);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(342, 3);
+            this.panel14.TabIndex = 33;
+            // 
             // panel13
             // 
-            this.panel13.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel13.Controls.Add(this.label35);
-            this.panel13.Controls.Add(this.label34);
-            this.panel13.Controls.Add(this.label33);
-            this.panel13.Controls.Add(this.pictureBox6);
-            this.panel13.Controls.Add(this.label29);
-            this.panel13.Controls.Add(this.label30);
-            this.panel13.Controls.Add(this.label31);
-            this.panel13.Controls.Add(this.label32);
-            this.panel13.Location = new System.Drawing.Point(23, 377);
+            this.panel13.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel13.Location = new System.Drawing.Point(85, 166);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(486, 269);
-            this.panel13.TabIndex = 31;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(81, 224);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(98, 22);
-            this.label35.TabIndex = 29;
-            this.label35.Text = "1pm-6pm";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(81, 174);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(109, 22);
-            this.label34.TabIndex = 28;
-            this.label34.Text = "10am-1pm";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(81, 123);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(109, 22);
-            this.label33.TabIndex = 27;
-            this.label33.Text = "7am-10am";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(120, 28);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox6.TabIndex = 22;
-            this.pictureBox6.TabStop = false;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(81, 202);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(204, 22);
-            this.label29.TabIndex = 26;
-            this.label29.Text = "Mr. Alysson Merdegia";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(81, 152);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(227, 22);
-            this.label30.TabIndex = 25;
-            this.label30.Text = "Mrs. Genalyn Villafuerte";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(81, 101);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(235, 22);
-            this.label31.TabIndex = 24;
-            this.label31.Text = "Ms. Cherry Rose Concha";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(176, 43);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(215, 24);
-            this.label32.TabIndex = 23;
-            this.label32.Text = "Schedules for Today";
+            this.panel13.Size = new System.Drawing.Size(342, 3);
+            this.panel13.TabIndex = 32;
             // 
             // panel12
             // 
-            this.panel12.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel12.Controls.Add(this.label28);
-            this.panel12.Controls.Add(this.label27);
-            this.panel12.Controls.Add(this.label26);
-            this.panel12.Controls.Add(this.label25);
-            this.panel12.Controls.Add(this.pictureBox4);
-            this.panel12.Location = new System.Drawing.Point(23, 100);
+            this.panel12.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel12.Location = new System.Drawing.Point(85, 133);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(486, 269);
-            this.panel12.TabIndex = 30;
+            this.panel12.Size = new System.Drawing.Size(342, 3);
+            this.panel12.TabIndex = 31;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(129, 41);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
             // 
             // label28
             // 
@@ -723,22 +679,137 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
             this.label25.Location = new System.Drawing.Point(185, 43);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(155, 24);
             this.label25.TabIndex = 23;
             this.label25.Text = "New Requests";
             // 
-            // pictureBox4
+            // pnDashSchedList
             // 
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(129, 29);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 22;
-            this.pictureBox4.TabStop = false;
+            this.pnDashSchedList.BackColor = System.Drawing.Color.LightGray;
+            this.pnDashSchedList.Controls.Add(this.panel17);
+            this.pnDashSchedList.Controls.Add(this.panel16);
+            this.pnDashSchedList.Controls.Add(this.panel15);
+            this.pnDashSchedList.Controls.Add(this.label35);
+            this.pnDashSchedList.Controls.Add(this.label34);
+            this.pnDashSchedList.Controls.Add(this.label33);
+            this.pnDashSchedList.Controls.Add(this.pictureBox6);
+            this.pnDashSchedList.Controls.Add(this.label29);
+            this.pnDashSchedList.Controls.Add(this.label30);
+            this.pnDashSchedList.Controls.Add(this.label31);
+            this.pnDashSchedList.Controls.Add(this.label32);
+            this.pnDashSchedList.Location = new System.Drawing.Point(23, 377);
+            this.pnDashSchedList.Name = "pnDashSchedList";
+            this.pnDashSchedList.Size = new System.Drawing.Size(486, 269);
+            this.pnDashSchedList.TabIndex = 31;
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel17.Location = new System.Drawing.Point(77, 242);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(342, 3);
+            this.panel17.TabIndex = 35;
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel16.Location = new System.Drawing.Point(77, 189);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(342, 3);
+            this.panel16.TabIndex = 34;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel15.Location = new System.Drawing.Point(77, 139);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(342, 3);
+            this.panel15.TabIndex = 33;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(73, 217);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(98, 22);
+            this.label35.TabIndex = 29;
+            this.label35.Text = "1pm-6pm";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(73, 167);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(109, 22);
+            this.label34.TabIndex = 28;
+            this.label34.Text = "10am-1pm";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(73, 116);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(109, 22);
+            this.label33.TabIndex = 27;
+            this.label33.Text = "7am-10am";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(110, 18);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 22;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(73, 195);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(204, 22);
+            this.label29.TabIndex = 26;
+            this.label29.Text = "Mr. Alysson Merdegia";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(73, 145);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(227, 22);
+            this.label30.TabIndex = 25;
+            this.label30.Text = "Mrs. Genalyn Villafuerte";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(73, 94);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(235, 22);
+            this.label31.TabIndex = 24;
+            this.label31.Text = "Ms. Cherry Rose Concha";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
+            this.label32.Location = new System.Drawing.Point(166, 33);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(215, 24);
+            this.label32.TabIndex = 23;
+            this.label32.Text = "Schedules for Today";
             // 
             // panel6
             // 
@@ -918,66 +989,18 @@
             this.pbDashReq.TabStop = false;
             this.pbDashReq.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(450, 13);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox12.TabIndex = 22;
-            this.pictureBox12.TabStop = false;
-            // 
             // pnStudents
             // 
             this.pnStudents.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStudents.BackgroundImage")));
             this.pnStudents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnStudents.Controls.Add(this.label5);
-            this.pnStudents.Controls.Add(this.label4);
-            this.pnStudents.Controls.Add(this.label3);
             this.pnStudents.Controls.Add(this.pictureBox8);
             this.pnStudents.Controls.Add(this.panel1);
-            this.pnStudents.Controls.Add(this.listView2);
+            this.pnStudents.Controls.Add(this.lstStud);
             this.pnStudents.Controls.Add(this.lblConStud);
             this.pnStudents.Location = new System.Drawing.Point(10, 10);
             this.pnStudents.Name = "pnStudents";
             this.pnStudents.Size = new System.Drawing.Size(1221, 672);
             this.pnStudents.TabIndex = 17;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(969, 110);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 22);
-            this.label5.TabIndex = 27;
-            this.label5.Text = "Section";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(723, 110);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 22);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Year";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(453, 110);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 22);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "Course";
             // 
             // pictureBox8
             // 
@@ -999,14 +1022,14 @@
             this.panel1.Size = new System.Drawing.Size(1221, 5);
             this.panel1.TabIndex = 19;
             // 
-            // listView2
+            // lstStud
             // 
-            this.listView2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.listView2.Location = new System.Drawing.Point(54, 152);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(1132, 391);
-            this.listView2.TabIndex = 14;
-            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.lstStud.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.lstStud.Location = new System.Drawing.Point(54, 152);
+            this.lstStud.Name = "lstStud";
+            this.lstStud.Size = new System.Drawing.Size(1132, 391);
+            this.lstStud.TabIndex = 14;
+            this.lstStud.UseCompatibleStateImageBehavior = false;
             // 
             // lblConStud
             // 
@@ -1464,12 +1487,13 @@
             this.pnContent.ResumeLayout(false);
             this.pnDashboard.ResumeLayout(false);
             this.pnDashboard.PerformLayout();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.pnDashReqList.ResumeLayout(false);
+            this.pnDashReqList.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnDashSchedList.ResumeLayout(false);
+            this.pnDashSchedList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashSched)).EndInit();
@@ -1482,7 +1506,6 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashReq)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.pnStudents.ResumeLayout(false);
             this.pnStudents.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -1559,13 +1582,9 @@
         private System.Windows.Forms.Panel pnStudents;
         private System.Windows.Forms.Label lblConStud;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ListView lstStud;
         private System.Windows.Forms.Label lblTitleColas;
         private System.Windows.Forms.Panel panel1;
-       
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox8;
        
         private System.Windows.Forms.Panel panel3;
@@ -1613,7 +1632,7 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView lstInventory;
-        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel pnDashSchedList;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
@@ -1622,11 +1641,17 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Panel pnDashReqList;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel panel15;
     }
 }

@@ -38,8 +38,8 @@
             this.txtbxUsername = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnLogin2 = new System.Windows.Forms.Panel();
-            this.pbInactiveColas = new System.Windows.Forms.PictureBox();
             this.lblLogin2 = new System.Windows.Forms.Label();
+            this.pbInactiveColas = new System.Windows.Forms.PictureBox();
             this.pbActiveColas = new System.Windows.Forms.PictureBox();
             this.pnLogin1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -129,6 +129,7 @@
             this.txtbxPassword.Size = new System.Drawing.Size(330, 31);
             this.txtbxPassword.TabIndex = 8;
             this.txtbxPassword.TextChanged += new System.EventHandler(this.txtbxPassword_TextChanged);
+            this.txtbxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtbxPassword_KeyDown);
             // 
             // lblUsername
             // 
@@ -154,6 +155,7 @@
             this.txtbxUsername.Size = new System.Drawing.Size(330, 31);
             this.txtbxUsername.TabIndex = 7;
             this.txtbxUsername.TextChanged += new System.EventHandler(this.txtbxUsername_TextChanged);
+            this.txtbxUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtbxPassword_KeyDown);
             // 
             // pictureBox1
             // 
@@ -180,17 +182,6 @@
             this.pnLogin2.Size = new System.Drawing.Size(1366, 768);
             this.pnLogin2.TabIndex = 7;
             // 
-            // pbInactiveColas
-            // 
-            this.pbInactiveColas.BackColor = System.Drawing.Color.Transparent;
-            this.pbInactiveColas.Image = ((System.Drawing.Image)(resources.GetObject("pbInactiveColas.Image")));
-            this.pbInactiveColas.Location = new System.Drawing.Point(508, 209);
-            this.pbInactiveColas.Name = "pbInactiveColas";
-            this.pbInactiveColas.Size = new System.Drawing.Size(350, 350);
-            this.pbInactiveColas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbInactiveColas.TabIndex = 7;
-            this.pbInactiveColas.TabStop = false;
-            // 
             // lblLogin2
             // 
             this.lblLogin2.AutoSize = true;
@@ -205,6 +196,17 @@
             this.lblLogin2.Text = "Can\'t access account ?";
             this.lblLogin2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblLogin2.Click += new System.EventHandler(this.lblLogin2_Click);
+            // 
+            // pbInactiveColas
+            // 
+            this.pbInactiveColas.BackColor = System.Drawing.Color.Transparent;
+            this.pbInactiveColas.Image = ((System.Drawing.Image)(resources.GetObject("pbInactiveColas.Image")));
+            this.pbInactiveColas.Location = new System.Drawing.Point(508, 209);
+            this.pbInactiveColas.Name = "pbInactiveColas";
+            this.pbInactiveColas.Size = new System.Drawing.Size(350, 350);
+            this.pbInactiveColas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbInactiveColas.TabIndex = 7;
+            this.pbInactiveColas.TabStop = false;
             // 
             // pbActiveColas
             // 

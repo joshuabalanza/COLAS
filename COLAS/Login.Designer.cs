@@ -39,13 +39,13 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnLogin2 = new System.Windows.Forms.Panel();
             this.lblLogin2 = new System.Windows.Forms.Label();
-            this.pbInactiveColas = new System.Windows.Forms.PictureBox();
             this.pbActiveColas = new System.Windows.Forms.PictureBox();
+            this.pbInactiveColas = new System.Windows.Forms.PictureBox();
             this.pnLogin1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnLogin2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbInactiveColas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbActiveColas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInactiveColas)).BeginInit();
             this.SuspendLayout();
             // 
             // pnLogin1
@@ -110,7 +110,7 @@
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
             this.lblPassword.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.lblPassword.Location = new System.Drawing.Point(528, 443);
+            this.lblPassword.Location = new System.Drawing.Point(519, 443);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(95, 22);
             this.lblPassword.TabIndex = 6;
@@ -137,7 +137,7 @@
             this.lblUsername.BackColor = System.Drawing.Color.Transparent;
             this.lblUsername.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.lblUsername.Location = new System.Drawing.Point(528, 384);
+            this.lblUsername.Location = new System.Drawing.Point(520, 384);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(101, 22);
             this.lblUsername.TabIndex = 5;
@@ -197,17 +197,6 @@
             this.lblLogin2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblLogin2.Click += new System.EventHandler(this.lblLogin2_Click);
             // 
-            // pbInactiveColas
-            // 
-            this.pbInactiveColas.BackColor = System.Drawing.Color.Transparent;
-            this.pbInactiveColas.Image = ((System.Drawing.Image)(resources.GetObject("pbInactiveColas.Image")));
-            this.pbInactiveColas.Location = new System.Drawing.Point(508, 209);
-            this.pbInactiveColas.Name = "pbInactiveColas";
-            this.pbInactiveColas.Size = new System.Drawing.Size(350, 350);
-            this.pbInactiveColas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbInactiveColas.TabIndex = 7;
-            this.pbInactiveColas.TabStop = false;
-            // 
             // pbActiveColas
             // 
             this.pbActiveColas.BackColor = System.Drawing.Color.Transparent;
@@ -219,13 +208,24 @@
             this.pbActiveColas.TabIndex = 0;
             this.pbActiveColas.TabStop = false;
             // 
+            // pbInactiveColas
+            // 
+            this.pbInactiveColas.BackColor = System.Drawing.Color.Transparent;
+            this.pbInactiveColas.Image = ((System.Drawing.Image)(resources.GetObject("pbInactiveColas.Image")));
+            this.pbInactiveColas.Location = new System.Drawing.Point(508, 209);
+            this.pbInactiveColas.Name = "pbInactiveColas";
+            this.pbInactiveColas.Size = new System.Drawing.Size(350, 350);
+            this.pbInactiveColas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbInactiveColas.TabIndex = 7;
+            this.pbInactiveColas.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1366, 768);
-            this.Controls.Add(this.pnLogin2);
             this.Controls.Add(this.pnLogin1);
+            this.Controls.Add(this.pnLogin2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -237,8 +237,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnLogin2.ResumeLayout(false);
             this.pnLogin2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbInactiveColas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbActiveColas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInactiveColas)).EndInit();
             this.ResumeLayout(false);
 
         }

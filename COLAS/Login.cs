@@ -114,6 +114,15 @@ namespace COLAS
                 this.Hide();
                 professormodule.Show();
             }
+            else if (txtbxUsername.Text == "staff" || txtbxPassword.Text == "staff")
+            {
+                colas1.name = "MICHAEL TAN";
+                MessageBox.Show("Login Successful");
+                StaffModule staff = new StaffModule();
+                staff.Show();
+                this.Hide();
+                
+            }
 
             else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
             {
@@ -142,48 +151,14 @@ namespace COLAS
         {
             if (e.KeyCode == Keys.Enter)
             {
-                if (txtbxUsername.Text == "Admin_Raul" && txtbxPassword.Text == "admin")
-                {
-                    this.Hide();
-                    adminmodule.Show();
-                }
-
-                else if (txtbxUsername.Text == "Prof_Joemen" && txtbxPassword.Text == "professor")
-                {
-                    this.Hide();
-                    professormodule.Show();
-                }
-                else if (txtbxUsername.Text == "staffe" && txtbxPassword.Text == "staff")
-                {
-                    this.Hide();
-                    StaffModule staff = new StaffModule();
-                    staff.Show();
-         
-
-                }
-
-                else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
-                {
-                    MessageBox.Show("Please input your username");
-                }
-
-                else if (string.IsNullOrEmpty(txtbxPassword.Text) || string.IsNullOrWhiteSpace(txtbxPassword.Text))
-                {
-                    MessageBox.Show("Please input your password");
-                }
-
-                else
-                {
-                    MessageBox.Show("Invalid Credentials");
-                    txtbxUsername.Clear();
-                    txtbxPassword.Clear();
-                }
+                btnLogin_Click_1(this, new EventArgs());
             }
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
             startVoice(); // START VOICE COMMAND
+            pnLogin2.BringToFront();
         }
 
 

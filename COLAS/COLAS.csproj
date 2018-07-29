@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\..\..\..\..\Downloads\Compressed\Bunifu UI WinForms 1.5.7.0\New folder\Bunifu_UI_v1.5.3.dll</HintPath>
-    </Reference>
     <Reference Include="ControlzEx">
       <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net45\ControlzEx.dll</HintPath>
     </Reference>
@@ -82,6 +79,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessorModule.Designer.cs">
+      <DependentUpon>ProfessorModule.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

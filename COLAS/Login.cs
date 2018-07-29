@@ -35,12 +35,6 @@ namespace COLAS
         AdminModule adminmodule = new AdminModule();
         ProfessorModule professormodule = new ProfessorModule();
 
-
-        //private struct Commands {
-        //    List<string> command = new List<string> {
-        //    }
-        //}
-
         private void Username()
         {
             if (string.IsNullOrEmpty(txtbxUsername.Text))
@@ -113,6 +107,13 @@ namespace COLAS
                 this.Hide();
                 professormodule.Show();
             }
+            else if (txtbxUsername.Text == "Prof_Michael" || txtbxPassword.Text == "tan")
+            {
+                colas1.name = "MICHAEL TAN";
+                MessageBox.Show("Login Successful");
+                this.Hide();
+                professormodule.Show();
+            }
 
             else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
             {
@@ -174,11 +175,11 @@ namespace COLAS
 
         private void Login_Load(object sender, EventArgs e)
         {
-            startVoice();
+            startVoice(); // START VOICE COMMAND
         }
 
 
-
+        //START VOICE COMMAND 
         public void startVoice()
         {
             Choices command = new Choices();
@@ -197,7 +198,6 @@ namespace COLAS
                 return;
             }
         }
-
 
         void Sre_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
@@ -249,5 +249,6 @@ namespace COLAS
             }
 
         }
+        //END VOICE COMMAND
     }
 }

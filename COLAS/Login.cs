@@ -153,6 +153,14 @@ namespace COLAS
                     this.Hide();
                     professormodule.Show();
                 }
+                else if (txtbxUsername.Text == "staffe" && txtbxPassword.Text == "staff")
+                {
+                    this.Hide();
+                    StaffModule staff = new StaffModule();
+                    staff.Show();
+         
+
+                }
 
                 else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
                 {
@@ -243,7 +251,7 @@ namespace COLAS
                         colas1.name = "MICHAEL TAN";
                         professormodule.Show();
                         this.Hide();
-                        break;
+                        break;               
                 }
 
             }

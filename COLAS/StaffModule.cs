@@ -28,6 +28,7 @@ namespace COLAS
             //Active Panel
             indiDashboard.Visible = true;
             indiSchedules.Visible = false;
+            indiProfessors.Visible = false;
             indiInventory.Visible = false;
             indiStudents.Visible = false;
             //End of active panel
@@ -35,6 +36,25 @@ namespace COLAS
             //Content Panel
             pnDashboard.BringToFront();
 
+        }
+
+        public void Professors()
+        {
+            //Title
+            lblTitlePage.Text = "PROFESSORS";
+            lblTitlePage.Visible = false;
+            TitleLine.Visible = false;
+
+            //Active Panel
+            indiDashboard.Visible = false;
+            indiProfessors.Visible = true;
+            indiSchedules.Visible = false;
+            indiInventory.Visible = false;
+            indiStudents.Visible = false;
+            //End of active panel
+
+            //Content Panel
+            pnProf.BringToFront();
         }
 
         public void Schedules()
@@ -46,6 +66,8 @@ namespace COLAS
 
             //Active Panel
             indiDashboard.Visible = false;
+            indiProfessors.Visible = false;
+            indiSchedules.Visible = true;
             indiInventory.Visible = false;
             indiStudents.Visible = false;
             //End of active panel
@@ -64,6 +86,7 @@ namespace COLAS
             //Active Panel
             indiDashboard.Visible = false;
             indiSchedules.Visible = false;
+            indiProfessors.Visible = false;
             indiInventory.Visible = true;
             indiStudents.Visible = false;
             //End of active panel
@@ -82,6 +105,7 @@ namespace COLAS
             //Active Panel
             indiDashboard.Visible = false;
             indiSchedules.Visible = false;
+            indiProfessors.Visible = false;
             indiInventory.Visible = false;
             indiStudents.Visible = true;
             //End of active panel
@@ -116,6 +140,11 @@ namespace COLAS
             Dashboard();
             //End of active panel
 
+        }
+
+        private void pbProf_Click(object sender, EventArgs e)
+        {
+            Professors();
         }
     }
 }

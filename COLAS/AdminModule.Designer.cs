@@ -550,13 +550,13 @@
             // 
             this.pnContent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnContent.BackgroundImage")));
             this.pnContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnContent.Controls.Add(this.pnStudents);
             this.pnContent.Controls.Add(this.pnDashboard);
             this.pnContent.Controls.Add(this.pnInventory);
             this.pnContent.Controls.Add(this.pnSchedules);
             this.pnContent.Controls.Add(this.pnProf);
             this.pnContent.Controls.Add(this.pnStaffs);
             this.pnContent.Controls.Add(this.pnRequests);
+            this.pnContent.Controls.Add(this.pnStudents);
             this.pnContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnContent.Location = new System.Drawing.Point(123, 73);
             this.pnContent.Name = "pnContent";

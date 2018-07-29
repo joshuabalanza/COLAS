@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Speech;
+
 namespace COLAS
 {
     public partial class ProfessorModule : Form
@@ -15,6 +17,11 @@ namespace COLAS
         public ProfessorModule()
         {
             InitializeComponent();
+        }
+
+        private void ProfessorModule_Load(object sender, EventArgs e)
+        {
+            lblUsers.Text = colas1.name;
         }
     }
 }

@@ -473,6 +473,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ProfessorModule";
             this.Text = "ProfessorModule";
+            this.Load += new System.EventHandler(this.ProfessorModule_Load);
             this.pnSidebar.ResumeLayout(false);
             this.pnSidebar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudents)).EndInit();

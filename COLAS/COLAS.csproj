@@ -74,6 +74,7 @@
     <Compile Include="AdminModule.Designer.cs">
       <DependentUpon>AdminModule.cs</DependentUpon>
     </Compile>
+    <Compile Include="colas1.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

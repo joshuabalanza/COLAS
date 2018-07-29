@@ -18,6 +18,9 @@ namespace COLAS
     public partial class AdminModule : Form
     {
         int activetext;
+
+        colas1 colas1 = new colas1();//Class
+
         public AdminModule()
         {
             InitializeComponent();
@@ -183,6 +186,7 @@ namespace COLAS
 
         private void AdminModule_Load(object sender, EventArgs e)
         {
+            lblUsers.Text = colas1.name;
             //Active Panel
             Dashboard();
             //End of active panel

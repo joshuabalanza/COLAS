@@ -62,7 +62,8 @@
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.pnContent = new System.Windows.Forms.Panel();
             this.pnDashboard = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pnDashSchedList = new System.Windows.Forms.Panel();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
@@ -71,7 +72,7 @@
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
+            this.pnDashReqList = new System.Windows.Forms.Panel();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -93,7 +94,6 @@
             this.label18 = new System.Windows.Forms.Label();
             this.lblNotifReq = new System.Windows.Forms.Label();
             this.pbDashReq = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pnStudents = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -152,9 +152,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).BeginInit();
             this.pnContent.SuspendLayout();
             this.pnDashboard.SuspendLayout();
-            this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.pnDashSchedList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel12.SuspendLayout();
+            this.pnDashReqList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashSched)).BeginInit();
@@ -164,7 +165,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbDashStaffs)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashReq)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.pnStudents.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.pnInventory.SuspendLayout();
@@ -567,8 +567,8 @@
             this.pnDashboard.Controls.Add(this.pictureBox12);
             this.pnDashboard.Controls.Add(this.lblTitlePage);
             this.pnDashboard.Controls.Add(this.TitleLine);
-            this.pnDashboard.Controls.Add(this.panel13);
-            this.pnDashboard.Controls.Add(this.panel12);
+            this.pnDashboard.Controls.Add(this.pnDashReqList);
+            this.pnDashboard.Controls.Add(this.pnDashSchedList);
             this.pnDashboard.Controls.Add(this.panel6);
             this.pnDashboard.Controls.Add(this.panel7);
             this.pnDashboard.Controls.Add(this.panel5);
@@ -579,21 +579,33 @@
             this.pnDashboard.TabIndex = 1;
             this.pnDashboard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnDashboard_Paint);
             // 
-            // panel13
+            // pictureBox12
             // 
-            this.panel13.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel13.Controls.Add(this.label35);
-            this.panel13.Controls.Add(this.label34);
-            this.panel13.Controls.Add(this.label33);
-            this.panel13.Controls.Add(this.pictureBox6);
-            this.panel13.Controls.Add(this.label29);
-            this.panel13.Controls.Add(this.label30);
-            this.panel13.Controls.Add(this.label31);
-            this.panel13.Controls.Add(this.label32);
-            this.panel13.Location = new System.Drawing.Point(23, 377);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(486, 269);
-            this.panel13.TabIndex = 31;
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(450, 13);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox12.TabIndex = 22;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pnDashSchedList
+            // 
+            this.pnDashSchedList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
+            this.pnDashSchedList.Controls.Add(this.label35);
+            this.pnDashSchedList.Controls.Add(this.label34);
+            this.pnDashSchedList.Controls.Add(this.label33);
+            this.pnDashSchedList.Controls.Add(this.pictureBox6);
+            this.pnDashSchedList.Controls.Add(this.label29);
+            this.pnDashSchedList.Controls.Add(this.label30);
+            this.pnDashSchedList.Controls.Add(this.label31);
+            this.pnDashSchedList.Controls.Add(this.label32);
+            this.pnDashSchedList.Location = new System.Drawing.Point(23, 377);
+            this.pnDashSchedList.Name = "pnDashSchedList";
+            this.pnDashSchedList.Size = new System.Drawing.Size(486, 269);
+            this.pnDashSchedList.TabIndex = 31;
             // 
             // label35
             // 
@@ -670,24 +682,25 @@
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
             this.label32.Location = new System.Drawing.Point(176, 43);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(215, 24);
             this.label32.TabIndex = 23;
             this.label32.Text = "Schedules for Today";
             // 
-            // panel12
+            // pnDashReqList
             // 
-            this.panel12.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel12.Controls.Add(this.label28);
-            this.panel12.Controls.Add(this.label27);
-            this.panel12.Controls.Add(this.label26);
-            this.panel12.Controls.Add(this.label25);
-            this.panel12.Controls.Add(this.pictureBox4);
-            this.panel12.Location = new System.Drawing.Point(23, 100);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(486, 269);
-            this.panel12.TabIndex = 30;
+            this.pnDashReqList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
+            this.pnDashReqList.Controls.Add(this.label28);
+            this.pnDashReqList.Controls.Add(this.label27);
+            this.pnDashReqList.Controls.Add(this.label26);
+            this.pnDashReqList.Controls.Add(this.label25);
+            this.pnDashReqList.Controls.Add(this.pictureBox4);
+            this.pnDashReqList.Location = new System.Drawing.Point(23, 100);
+            this.pnDashReqList.Name = "pnDashReqList";
+            this.pnDashReqList.Size = new System.Drawing.Size(486, 269);
+            this.pnDashReqList.TabIndex = 30;
             // 
             // label28
             // 
@@ -723,6 +736,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
             this.label25.Location = new System.Drawing.Point(185, 43);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(155, 24);
@@ -917,18 +931,6 @@
             this.pbDashReq.TabIndex = 23;
             this.pbDashReq.TabStop = false;
             this.pbDashReq.Click += new System.EventHandler(this.pictureBox10_Click);
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(450, 13);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox12.TabIndex = 22;
-            this.pictureBox12.TabStop = false;
             // 
             // pnStudents
             // 
@@ -1464,11 +1466,12 @@
             this.pnContent.ResumeLayout(false);
             this.pnDashboard.ResumeLayout(false);
             this.pnDashboard.PerformLayout();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.pnDashSchedList.ResumeLayout(false);
+            this.pnDashSchedList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
+            this.pnDashReqList.ResumeLayout(false);
+            this.pnDashReqList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
@@ -1482,7 +1485,6 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashReq)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.pnStudents.ResumeLayout(false);
             this.pnStudents.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -1613,7 +1615,7 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView lstInventory;
-        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel pnDashSchedList;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
@@ -1622,7 +1624,7 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel pnDashReqList;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;

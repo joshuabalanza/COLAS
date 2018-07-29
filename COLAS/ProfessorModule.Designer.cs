@@ -397,14 +397,14 @@
             // 
             // lblUsers
             // 
-            this.lblUsers.AutoSize = true;
             this.lblUsers.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblUsers.Location = new System.Drawing.Point(889, 29);
+            this.lblUsers.Location = new System.Drawing.Point(656, 25);
             this.lblUsers.Name = "lblUsers";
-            this.lblUsers.Size = new System.Drawing.Size(150, 23);
+            this.lblUsers.Size = new System.Drawing.Size(450, 23);
             this.lblUsers.TabIndex = 0;
             this.lblUsers.Text = "Joemen Barrios";
+            this.lblUsers.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pnContent
             // 

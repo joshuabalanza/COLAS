@@ -61,6 +61,11 @@
             this.TitleLine = new System.Windows.Forms.Panel();
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.pnContent = new System.Windows.Forms.Panel();
+            this.pnStudents = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lstStud = new System.Windows.Forms.ListView();
+            this.lblConStud = new System.Windows.Forms.Label();
             this.pnDashboard = new System.Windows.Forms.Panel();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pnDashReqList = new System.Windows.Forms.Panel();
@@ -100,11 +105,6 @@
             this.label18 = new System.Windows.Forms.Label();
             this.lblNotifReq = new System.Windows.Forms.Label();
             this.pbDashReq = new System.Windows.Forms.PictureBox();
-            this.pnStudents = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lstStud = new System.Windows.Forms.ListView();
-            this.lblConStud = new System.Windows.Forms.Label();
             this.pnInventory = new System.Windows.Forms.Panel();
             this.lstInventory = new System.Windows.Forms.ListView();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -154,6 +154,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).BeginInit();
             this.pnContent.SuspendLayout();
+            this.pnStudents.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.pnDashboard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.pnDashReqList.SuspendLayout();
@@ -168,8 +170,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbDashStaffs)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashReq)).BeginInit();
-            this.pnStudents.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.pnInventory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).BeginInit();
             this.pnSchedules.SuspendLayout();
@@ -524,6 +524,7 @@
             this.lblUsers.Size = new System.Drawing.Size(138, 23);
             this.lblUsers.TabIndex = 0;
             this.lblUsers.Text = "Raul Gutierrez";
+            this.lblUsers.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // TitleLine
             // 
@@ -561,6 +562,61 @@
             this.pnContent.Name = "pnContent";
             this.pnContent.Size = new System.Drawing.Size(1243, 695);
             this.pnContent.TabIndex = 2;
+            // 
+            // pnStudents
+            // 
+            this.pnStudents.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStudents.BackgroundImage")));
+            this.pnStudents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnStudents.Controls.Add(this.pictureBox8);
+            this.pnStudents.Controls.Add(this.panel1);
+            this.pnStudents.Controls.Add(this.lstStud);
+            this.pnStudents.Controls.Add(this.lblConStud);
+            this.pnStudents.Location = new System.Drawing.Point(10, 10);
+            this.pnStudents.Name = "pnStudents";
+            this.pnStudents.Size = new System.Drawing.Size(1221, 672);
+            this.pnStudents.TabIndex = 17;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(419, 13);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(71, 50);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel1.Location = new System.Drawing.Point(0, 75);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1221, 5);
+            this.panel1.TabIndex = 19;
+            // 
+            // lstStud
+            // 
+            this.lstStud.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.lstStud.Location = new System.Drawing.Point(54, 152);
+            this.lstStud.Name = "lstStud";
+            this.lstStud.Size = new System.Drawing.Size(1132, 391);
+            this.lstStud.TabIndex = 14;
+            this.lstStud.UseCompatibleStateImageBehavior = false;
+            // 
+            // lblConStud
+            // 
+            this.lblConStud.AutoSize = true;
+            this.lblConStud.BackColor = System.Drawing.Color.Transparent;
+            this.lblConStud.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConStud.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConStud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConStud.Location = new System.Drawing.Point(504, 19);
+            this.lblConStud.Name = "lblConStud";
+            this.lblConStud.Size = new System.Drawing.Size(233, 38);
+            this.lblConStud.TabIndex = 13;
+            this.lblConStud.Text = "CSD STUDENTS";
             // 
             // pnDashboard
             // 
@@ -988,61 +1044,6 @@
             this.pbDashReq.TabIndex = 23;
             this.pbDashReq.TabStop = false;
             this.pbDashReq.Click += new System.EventHandler(this.pictureBox10_Click);
-            // 
-            // pnStudents
-            // 
-            this.pnStudents.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStudents.BackgroundImage")));
-            this.pnStudents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnStudents.Controls.Add(this.pictureBox8);
-            this.pnStudents.Controls.Add(this.panel1);
-            this.pnStudents.Controls.Add(this.lstStud);
-            this.pnStudents.Controls.Add(this.lblConStud);
-            this.pnStudents.Location = new System.Drawing.Point(10, 10);
-            this.pnStudents.Name = "pnStudents";
-            this.pnStudents.Size = new System.Drawing.Size(1221, 672);
-            this.pnStudents.TabIndex = 17;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(419, 13);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(71, 50);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 22;
-            this.pictureBox8.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel1.Location = new System.Drawing.Point(0, 75);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1221, 5);
-            this.panel1.TabIndex = 19;
-            // 
-            // lstStud
-            // 
-            this.lstStud.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.lstStud.Location = new System.Drawing.Point(54, 152);
-            this.lstStud.Name = "lstStud";
-            this.lstStud.Size = new System.Drawing.Size(1132, 391);
-            this.lstStud.TabIndex = 14;
-            this.lstStud.UseCompatibleStateImageBehavior = false;
-            // 
-            // lblConStud
-            // 
-            this.lblConStud.AutoSize = true;
-            this.lblConStud.BackColor = System.Drawing.Color.Transparent;
-            this.lblConStud.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConStud.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConStud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConStud.Location = new System.Drawing.Point(504, 19);
-            this.lblConStud.Name = "lblConStud";
-            this.lblConStud.Size = new System.Drawing.Size(233, 38);
-            this.lblConStud.TabIndex = 13;
-            this.lblConStud.Text = "CSD STUDENTS";
             // 
             // pnInventory
             // 
@@ -1485,6 +1486,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).EndInit();
             this.pnContent.ResumeLayout(false);
+            this.pnStudents.ResumeLayout(false);
+            this.pnStudents.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.pnDashboard.ResumeLayout(false);
             this.pnDashboard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
@@ -1506,9 +1510,6 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDashReq)).EndInit();
-            this.pnStudents.ResumeLayout(false);
-            this.pnStudents.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.pnInventory.ResumeLayout(false);
             this.pnInventory.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).EndInit();

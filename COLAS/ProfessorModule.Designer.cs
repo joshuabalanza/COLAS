@@ -63,6 +63,7 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.TitleLine = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInventory)).BeginInit();
@@ -82,7 +83,8 @@
             // 
             // pnSidebar
             // 
-            this.pnSidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(4)))), ((int)(((byte)(9)))));
+            this.pnSidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(8)))), ((int)(((byte)(16)))));
+            this.pnSidebar.Controls.Add(this.panel1);
             this.pnSidebar.Controls.Add(this.indiStudents);
             this.pnSidebar.Controls.Add(this.indiInventory);
             this.pnSidebar.Controls.Add(this.indiSchedules);
@@ -356,20 +358,20 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 68);
+            this.panel3.Location = new System.Drawing.Point(0, 70);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1243, 5);
+            this.panel3.Size = new System.Drawing.Size(1243, 3);
             this.panel3.TabIndex = 29;
             // 
             // lblTitleColas
             // 
             this.lblTitleColas.AutoSize = true;
             this.lblTitleColas.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitleColas.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitleColas.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitleColas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblTitleColas.Location = new System.Drawing.Point(10, 18);
+            this.lblTitleColas.Location = new System.Drawing.Point(6, 27);
             this.lblTitleColas.Name = "lblTitleColas";
-            this.lblTitleColas.Size = new System.Drawing.Size(446, 36);
+            this.lblTitleColas.Size = new System.Drawing.Size(322, 25);
             this.lblTitleColas.TabIndex = 20;
             this.lblTitleColas.Text = "Computer Laboratory Assistant";
             // 
@@ -462,6 +464,15 @@
             this.TitleLine.Size = new System.Drawing.Size(1218, 5);
             this.TitleLine.TabIndex = 18;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(120, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(3, 768);
+            this.panel1.TabIndex = 23;
+            // 
             // ProfessorModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -533,5 +544,6 @@
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Label lblTitlePage;
         private System.Windows.Forms.Panel TitleLine;
+        private System.Windows.Forms.Panel panel1;
     }
 }

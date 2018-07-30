@@ -70,9 +70,12 @@
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(-1, -1);
             this.MaximizeBox = false;
             this.Name = "ComputerModule";
+            this.Sizable = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ComputerModule_FormClosing);
             this.Load += new System.EventHandler(this.ComputerModule_Load);
             this.ResumeLayout(false);

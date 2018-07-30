@@ -42,7 +42,7 @@ namespace COLAS
 
         private void ComputerModule_FormClosing(object sender, FormClosingEventArgs e)
         {
-            validation = Microsoft.VisualBasic.Interaction.InputBox("Validate your credentials","Password");
+            validation = Microsoft.VisualBasic.Interaction.InputBox("Validate your credentials","Input Password");
 
             if (validation == "concha")
             {

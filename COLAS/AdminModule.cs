@@ -194,8 +194,8 @@ namespace COLAS
 
         public void LogoutPanel()
         {
-            //pnDropDownAccount.BringToFront();
-            //pnDropDownAccount.Visible = true;
+            pnDropDownAccount.BringToFront();
+            pnDropDownAccount.Visible = true;
         }
 
 

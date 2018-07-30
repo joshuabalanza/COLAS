@@ -154,6 +154,8 @@
             this.pbConInvent = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbCOLAS)).BeginInit();
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbProf)).BeginInit();
@@ -190,6 +192,7 @@
             this.pnInventory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pbCOLAS
@@ -1638,6 +1641,8 @@
             // 
             this.pnInventory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnInventory.BackgroundImage")));
             this.pnInventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnInventory.Controls.Add(this.label6);
+            this.pnInventory.Controls.Add(this.pictureBox3);
             this.pnInventory.Controls.Add(this.label5);
             this.pnInventory.Controls.Add(this.pictureBox1);
             this.pnInventory.Controls.Add(this.panel8);
@@ -1704,6 +1709,29 @@
             this.label5.TabIndex = 24;
             this.label5.Text = "Computer 1";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Silver;
+            this.label6.Location = new System.Drawing.Point(514, 331);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(134, 24);
+            this.label6.TabIndex = 26;
+            this.label6.Text = "Computer 2";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(459, 113);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(235, 203);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 25;
+            this.pictureBox3.TabStop = false;
+            // 
             // StaffModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1769,6 +1797,7 @@
             this.pnInventory.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1894,5 +1923,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

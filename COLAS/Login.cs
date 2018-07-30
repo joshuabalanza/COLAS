@@ -35,6 +35,7 @@ namespace COLAS
         AdminModule adminmodule = new AdminModule();
         ProfessorModule professormodule = new ProfessorModule();
         StaffModule staffmodule = new StaffModule();
+        ComputerModule computermodule = new ComputerModule();
 
         private void Username()
         {
@@ -87,7 +88,7 @@ namespace COLAS
         private void btnLogin_Click_1(object sender, EventArgs e)
         {
 
-            if (txtbxUsername.Text == "Admin_Raul" || txtbxPassword.Text == "admin")
+            if (txtbxUsername.Text == "Admin_Raul" && txtbxPassword.Text == "admin")
             {
                 colas1.name = "RAUL GUTIERREZ";
                 Pb.ClearContent();
@@ -98,7 +99,7 @@ namespace COLAS
                 adminmodule.Show();
             }
 
-            else if (txtbxUsername.Text == "Prof_Joemen" || txtbxPassword.Text == "barrios")
+            else if (txtbxUsername.Text == "Prof_Joemen" && txtbxPassword.Text == "barrios")
             {
                 colas1.name = "JOEMEN BARRIOS";
                 Pb.ClearContent();
@@ -108,7 +109,7 @@ namespace COLAS
                 this.Hide();
                 professormodule.Show();
             }
-            else if (txtbxUsername.Text == "Prof_Gena" || txtbxPassword.Text == "villafuerte")
+            else if (txtbxUsername.Text == "Prof_Gena" && txtbxPassword.Text == "villafuerte")
             {
                 colas1.name = "GENALYN VILLAFUERTE";
                 Pb.ClearContent();
@@ -118,7 +119,7 @@ namespace COLAS
                 this.Hide();
                 professormodule.Show();
             }
-            else if (txtbxUsername.Text == "Prof_Michael" || txtbxPassword.Text == "tan")
+            else if (txtbxUsername.Text == "Prof_Michael" && txtbxPassword.Text == "tan")
             {
                 colas1.name = "MICHAEL TAN";
                 Pb.ClearContent();
@@ -128,7 +129,7 @@ namespace COLAS
                 this.Hide();
                 professormodule.Show();
             }
-            else if (txtbxUsername.Text == "staff" || txtbxPassword.Text == "staff")
+            else if (txtbxUsername.Text == "staff" && txtbxPassword.Text == "staff")
             {
                 colas1.name = "DENZ TORREZ";
                 Pb.ClearContent();
@@ -140,7 +141,7 @@ namespace COLAS
                 
             }
 
-            else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
+            else if (string.IsNullOrEmpty(txtbxUsername.Text) && string.IsNullOrWhiteSpace(txtbxUsername.Text))
             {
                 Pb.ClearContent();
                 Pb.AppendText("Please input your username");
@@ -149,7 +150,7 @@ namespace COLAS
                 MessageBox.Show("Please input your username");
             }
 
-            else if (string.IsNullOrEmpty(txtbxPassword.Text) || string.IsNullOrWhiteSpace(txtbxPassword.Text))
+            else if (string.IsNullOrEmpty(txtbxPassword.Text) && string.IsNullOrWhiteSpace(txtbxPassword.Text))
             {
                 Pb.ClearContent();
                 Pb.AppendText("Please input your password");
@@ -194,7 +195,7 @@ namespace COLAS
         public void startVoice()
         {
             Choices command = new Choices();
-            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan" });
+            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan", "Log in" });
             Grammar grammar = new Grammar(new GrammarBuilder(command));
             try
             {
@@ -255,7 +256,19 @@ namespace COLAS
                         colas1.name = "MICHAEL TAN";
                         professormodule.Show();
                         this.Hide();
-                        break;               
+                        break;
+
+                        //Computer Module Testing
+                    case "Log in":
+                        Pb.ClearContent();
+                        Pb.AppendText("Computer Laboratory Activated");
+                        Ss.Speak(Pb);
+                        Sre.RecognizeAsyncStop();
+                        colas1.name = "Cherry Rose Concha";
+                        computermodule.Show();
+                        this.Hide();
+                        break;
+                        //End of Computer Module
                 }
 
             }

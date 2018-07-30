@@ -38,7 +38,6 @@
     <Reference Include="ControlzEx">
       <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net45\ControlzEx.dll</HintPath>
     </Reference>
-    <Reference Include="DevComponents.DotNetBar2, Version=12.8.0.17, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="MahApps.Metro">
       <HintPath>..\packages\MahApps.Metro.1.6.5\lib\net45\MahApps.Metro.dll</HintPath>
     </Reference>
@@ -79,6 +78,12 @@
       <DependentUpon>AdminModule.cs</DependentUpon>
     </Compile>
     <Compile Include="colas1.cs" />
+    <Compile Include="ComputerModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComputerModule.Designer.cs">
+      <DependentUpon>ComputerModule.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +106,9 @@
     </Compile>
     <EmbeddedResource Include="AdminModule.resx">
       <DependentUpon>AdminModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComputerModule.resx">
+      <DependentUpon>ComputerModule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

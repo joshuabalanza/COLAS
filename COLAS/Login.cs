@@ -34,6 +34,7 @@ namespace COLAS
 
         AdminModule adminmodule = new AdminModule();
         ProfessorModule professormodule = new ProfessorModule();
+        StaffModule staffmodule = new StaffModule();
 
         private void Username()
         {
@@ -89,6 +90,10 @@ namespace COLAS
             if (txtbxUsername.Text == "Admin_Raul" || txtbxPassword.Text == "admin")
             {
                 colas1.name = "RAUL GUTIERREZ";
+                Pb.ClearContent();
+                Pb.AppendText("Logging-in, Welcome Sir Raul Gutierrez");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 this.Hide();
                 adminmodule.Show();
             }
@@ -96,46 +101,69 @@ namespace COLAS
             else if (txtbxUsername.Text == "Prof_Joemen" || txtbxPassword.Text == "barrios")
             {
                 colas1.name = "JOEMEN BARRIOS";
-                MessageBox.Show("Login Successful");
+                Pb.ClearContent();
+                Pb.AppendText("Logging-in, Welcome Maam Joemen Barrios");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 this.Hide();
                 professormodule.Show();
             }
             else if (txtbxUsername.Text == "Prof_Gena" || txtbxPassword.Text == "villafuerte")
             {
                 colas1.name = "GENALYN VILLAFUERTE";
-                MessageBox.Show("Login Successful");
+                Pb.ClearContent();
+                Pb.AppendText("Logging-in, Welcome Maam Genalyn Villafuerte");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 this.Hide();
                 professormodule.Show();
             }
             else if (txtbxUsername.Text == "Prof_Michael" || txtbxPassword.Text == "tan")
             {
                 colas1.name = "MICHAEL TAN";
-                MessageBox.Show("Login Successful");
+                Pb.ClearContent();
+                Pb.AppendText("Logging-in, Welcome Sir Michael Tan");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 this.Hide();
                 professormodule.Show();
             }
             else if (txtbxUsername.Text == "staff" || txtbxPassword.Text == "staff")
             {
-                colas1.name = "MICHAEL TAN";
-                MessageBox.Show("Login Successful");
-                StaffModule staff = new StaffModule();
-                staff.Show();
+                colas1.name = "DENZ TORREZ";
+                Pb.ClearContent();
+                Pb.AppendText("Logging-in, Welcome Totoy Brown");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 this.Hide();
+                staffmodule.Show();
                 
             }
 
             else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
             {
+                Pb.ClearContent();
+                Pb.AppendText("Please input your username");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 MessageBox.Show("Please input your username");
             }
 
             else if (string.IsNullOrEmpty(txtbxPassword.Text) || string.IsNullOrWhiteSpace(txtbxPassword.Text))
             {
+                Pb.ClearContent();
+                Pb.AppendText("Please input your password");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 MessageBox.Show("Please input your password");
             }
 
             else
             {
+                Pb.ClearContent();
+                Pb.AppendText("Invalid Credentials");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 MessageBox.Show("Invalid Credentials");
             }
 
@@ -166,7 +194,7 @@ namespace COLAS
         public void startVoice()
         {
             Choices command = new Choices();
-            command.Add(new string[] { "Log in Admin", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan" });
+            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan" });
             Grammar grammar = new Grammar(new GrammarBuilder(command));
             try
             {
@@ -186,7 +214,7 @@ namespace COLAS
         {
             Pb.ClearContent();
             SpVoice obj = new SpVoice();
-            if (e.Result.Text == "Log in Admin")
+            if (e.Result.Text == "Admin Log in")
             {
                 Pb.ClearContent();
                 Pb.AppendText("Logging-in, Welcome Sir Raul Gutierrez");
@@ -196,6 +224,7 @@ namespace COLAS
                 adminmodule.Show();
                 this.Hide();
             }
+
             else
             {
                 switch (e.Result.Text)

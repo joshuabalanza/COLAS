@@ -217,7 +217,7 @@ namespace COLAS
         public void startVoice()
         {
             Choices command = new Choices();
-            command.Add(new string[] { "dashboard", "request", "staff", "professor", "schedule", "inventory", "student" });
+            command.Add(new string[] { "dashboard", "request", "staff", "professor", "schedule", "inventory", "student", "Log out" });
             Grammar grammar = new Grammar(new GrammarBuilder(command));
             try
             {
@@ -281,6 +281,14 @@ namespace COLAS
                     Students();
                     Pb.AppendText("student panel opened");
                     Ss.Speak(Pb);
+                    break;
+                case "log out":
+                    Pb.ClearContent();
+                    Pb.AppendText("logging out");
+                    Ss.Speak(Pb);
+                    Login login = new Login();
+                    login.Show();
+                    this.Hide();
                     break;
             }
 

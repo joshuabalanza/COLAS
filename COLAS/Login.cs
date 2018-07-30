@@ -196,7 +196,7 @@ namespace COLAS
         public void startVoice()
         {
             Choices command = new Choices();
-            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan" });
+            command.Add(new string[] { "Log in Admin", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan" });
             Grammar grammar = new Grammar(new GrammarBuilder(command));
             try
             {
@@ -216,7 +216,7 @@ namespace COLAS
         {
             Pb.ClearContent();
             SpVoice obj = new SpVoice();
-            if (e.Result.Text == "Admin Log in")
+            if (e.Result.Text == "Log in Admin")
             {
                 Pb.ClearContent();
                 Pb.AppendText("Logging-in, Welcome Sir Raul Gutierrez");

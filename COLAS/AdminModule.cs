@@ -192,10 +192,16 @@ namespace COLAS
             pnStudents.BringToFront();
         }
 
+        public void LogoutPanel()
+        {
+            pnDropDownAccount.BringToFront();
+            pnDropDownAccount.Visible = true;
+        }
+
 
         private void AdminModule_Load(object sender, EventArgs e)
         {
-            lblUsers.Text = colas1.name;
+            lblAdminUsers.Text = colas1.name;
             //Active Panel
             Dashboard();
             //End of active panel
@@ -385,6 +391,23 @@ namespace COLAS
         private void pnDashboard_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void pbProfilePic_Click(object sender, EventArgs e)
+        {
+            //ACCOUNT PANEL
+            LogoutPanel();
+            //END OF ACCOUNT PANEL
+        }
+
+        private void pbProfilePic_MouseClick(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void pbProfilePic_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            pnDropDownAccount.Visible = false;
         }
     }
 }

@@ -444,14 +444,14 @@
             // 
             // lblUsers
             // 
-            this.lblUsers.AutoSize = true;
             this.lblUsers.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblUsers.Location = new System.Drawing.Point(997, 25);
+            this.lblUsers.Location = new System.Drawing.Point(732, 25);
             this.lblUsers.Name = "lblUsers";
-            this.lblUsers.Size = new System.Drawing.Size(112, 23);
+            this.lblUsers.Size = new System.Drawing.Size(377, 23);
             this.lblUsers.TabIndex = 0;
             this.lblUsers.Text = "Denz Torres";
+            this.lblUsers.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pnContent
             // 
@@ -1686,6 +1686,7 @@
             this.Controls.Add(this.pnNavbar);
             this.Controls.Add(this.pnSidebar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StaffModule";
             this.Text = "StaffModule";
             this.Load += new System.EventHandler(this.StaffModule_Load);

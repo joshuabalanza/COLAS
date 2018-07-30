@@ -34,6 +34,7 @@ namespace COLAS
 
         AdminModule adminmodule = new AdminModule();
         ProfessorModule professormodule = new ProfessorModule();
+        StaffModule staffmodule = new StaffModule();
 
         private void Username()
         {
@@ -166,7 +167,7 @@ namespace COLAS
         public void startVoice()
         {
             Choices command = new Choices();
-            command.Add(new string[] { "Log in Admin", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan" });
+            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan", "Staff Log in" });
             Grammar grammar = new Grammar(new GrammarBuilder(command));
             try
             {
@@ -186,7 +187,7 @@ namespace COLAS
         {
             Pb.ClearContent();
             SpVoice obj = new SpVoice();
-            if (e.Result.Text == "Log in Admin")
+            if (e.Result.Text == "Admin Log in")
             {
                 Pb.ClearContent();
                 Pb.AppendText("Logging-in, Welcome Sir Raul Gutierrez");
@@ -196,6 +197,18 @@ namespace COLAS
                 adminmodule.Show();
                 this.Hide();
             }
+
+            else if (e.Result.Text == "Staff Log in")
+            {
+                Pb.ClearContent();
+                Pb.AppendText("Logging-in, Welcome Totoy Brown");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
+                //colas1.name = "RAUL GUTIERREZ";
+                staffmodule.Show();
+                this.Hide();
+            }
+
             else
             {
                 switch (e.Result.Text)

@@ -197,7 +197,7 @@ namespace COLAS
         public void startVoice()
         {
             Choices command = new Choices();
-            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan", "Log in" });
+            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan", "Activate Computer Laboratory" });
             Grammar grammar = new Grammar(new GrammarBuilder(command));
             try
             {
@@ -261,7 +261,7 @@ namespace COLAS
                         break;
 
                         //Computer Module Testing
-                    case "Log in":
+                    case "Activate Computer Laboratory":
                         Pb.ClearContent();
                         Pb.AppendText("Computer Laboratory Activated");
                         Ss.Speak(Pb);

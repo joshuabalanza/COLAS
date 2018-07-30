@@ -282,7 +282,7 @@ namespace COLAS
                     Pb.AppendText("student panel opened");
                     Ss.Speak(Pb);
                     break;
-                case "log out":
+                case "Log out":
                     Pb.ClearContent();
                     Pb.AppendText("logging out");
                     Ss.Speak(Pb);

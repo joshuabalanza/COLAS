@@ -85,5 +85,23 @@ namespace COLAS
         {
 
         }
+
+        private void lblComputerLogout_Click(object sender, EventArgs e)
+        {
+            validation = Microsoft.VisualBasic.Interaction.InputBox("Input Admin Password");
+
+            if (validation == "admin")
+            {
+                Login login = new Login();
+                login.Show();
+
+                this.Hide();
+            }
+
+            else
+            {
+                MessageBox.Show("Closing failed");
+            }
+        }
     }
 }

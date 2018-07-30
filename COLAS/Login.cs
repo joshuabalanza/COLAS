@@ -36,7 +36,6 @@ namespace COLAS
         ProfessorModule professormodule = new ProfessorModule();
         StaffModule staffmodule = new StaffModule();
 
-
         private void Username()
         {
             if (string.IsNullOrEmpty(txtbxUsername.Text))
@@ -166,8 +165,6 @@ namespace COLAS
                 Ss.Speak(Pb);
                 Sre.RecognizeAsyncStop();
                 MessageBox.Show("Invalid Credentials");
-                txtbxUsername.Clear();
-                txtbxPassword.Clear();
             }
 
         }

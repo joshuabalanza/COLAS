@@ -29,12 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminModule));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Aaron John M. Gabriel",
             "BSCS",
             "4th",
             "4B",
             "2018-2019"}, -1);
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnSidebar = new System.Windows.Forms.Panel();
             this.indiStudents = new System.Windows.Forms.Panel();
             this.indiInventory = new System.Windows.Forms.Panel();
@@ -67,21 +73,12 @@
             this.TitleLine = new System.Windows.Forms.Panel();
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.pnContent = new System.Windows.Forms.Panel();
-            this.pnSchedules = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.lblConSched = new System.Windows.Forms.Label();
-            this.pbConSched = new System.Windows.Forms.PictureBox();
-            this.pnProf = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.lblConProf = new System.Windows.Forms.Label();
-            this.pbConProf = new System.Windows.Forms.PictureBox();
-            this.pnStaffs = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.lblConStaffs = new System.Windows.Forms.Label();
-            this.pbConStaffs = new System.Windows.Forms.PictureBox();
             this.pnRequests = new System.Windows.Forms.Panel();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
+            this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.lblConReq = new System.Windows.Forms.Label();
             this.pbConRequest = new System.Windows.Forms.PictureBox();
             this.pnStudents = new System.Windows.Forms.Panel();
@@ -143,10 +140,27 @@
             this.lblNotifReq = new System.Windows.Forms.Label();
             this.pbDashReq = new System.Windows.Forms.PictureBox();
             this.pnInventory = new System.Windows.Forms.Panel();
-            this.lstInventory = new System.Windows.Forms.ListView();
             this.panel8 = new System.Windows.Forms.Panel();
             this.lblConInvent = new System.Windows.Forms.Label();
             this.pbConInvent = new System.Windows.Forms.PictureBox();
+            this.pnSchedules = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.lblConSched = new System.Windows.Forms.Label();
+            this.pbConSched = new System.Windows.Forms.PictureBox();
+            this.pnProf = new System.Windows.Forms.Panel();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.lblConProf = new System.Windows.Forms.Label();
+            this.pbConProf = new System.Windows.Forms.PictureBox();
+            this.pnStaffs = new System.Windows.Forms.Panel();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.label46 = new System.Windows.Forms.Label();
+            this.bunifuImageButton16 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.lblConStaffs = new System.Windows.Forms.Label();
+            this.pbConStaffs = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -170,6 +184,81 @@
             this.lblAdminAccountSettings = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.label54 = new System.Windows.Forms.Label();
+            this.bunifuImageButton24 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton17 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label47 = new System.Windows.Forms.Label();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton18 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label48 = new System.Windows.Forms.Label();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton19 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label49 = new System.Windows.Forms.Label();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton20 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label50 = new System.Windows.Forms.Label();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton21 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label51 = new System.Windows.Forms.Label();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton22 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label52 = new System.Windows.Forms.Label();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton23 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label53 = new System.Windows.Forms.Label();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label17 = new System.Windows.Forms.Label();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label20 = new System.Windows.Forms.Label();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton4 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label22 = new System.Windows.Forms.Label();
+            this.panel38 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton5 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label24 = new System.Windows.Forms.Label();
+            this.panel39 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton6 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label36 = new System.Windows.Forms.Label();
+            this.panel40 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton7 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label37 = new System.Windows.Forms.Label();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton8 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label38 = new System.Windows.Forms.Label();
+            this.panel49 = new System.Windows.Forms.Panel();
+            this.metroGrid2 = new MetroFramework.Controls.MetroGrid();
+            this.label56 = new System.Windows.Forms.Label();
+            this.metroComboBox6 = new MetroFramework.Controls.MetroComboBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.metroComboBox7 = new MetroFramework.Controls.MetroComboBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.metroComboBox8 = new MetroFramework.Controls.MetroComboBox();
+            this.panel42 = new System.Windows.Forms.Panel();
+            this.label39 = new System.Windows.Forms.Label();
+            this.bunifuImageButton9 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel43 = new System.Windows.Forms.Panel();
+            this.label40 = new System.Windows.Forms.Label();
+            this.bunifuImageButton10 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel44 = new System.Windows.Forms.Panel();
+            this.label41 = new System.Windows.Forms.Label();
+            this.bunifuImageButton11 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel45 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.bunifuImageButton12 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel46 = new System.Windows.Forms.Panel();
+            this.label43 = new System.Windows.Forms.Label();
+            this.bunifuImageButton13 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel47 = new System.Windows.Forms.Panel();
+            this.label44 = new System.Windows.Forms.Label();
+            this.bunifuImageButton14 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel48 = new System.Windows.Forms.Panel();
+            this.label45 = new System.Windows.Forms.Label();
+            this.bunifuImageButton15 = new Bunifu.Framework.UI.BunifuImageButton();
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInventory)).BeginInit();
@@ -183,13 +272,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).BeginInit();
             this.pnContent.SuspendLayout();
-            this.pnSchedules.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).BeginInit();
-            this.pnProf.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).BeginInit();
-            this.pnStaffs.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).BeginInit();
             this.pnRequests.SuspendLayout();
+            this.panel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).BeginInit();
             this.pnStudents.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -209,10 +294,66 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbDashReq)).BeginInit();
             this.pnInventory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).BeginInit();
+            this.pnSchedules.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).BeginInit();
+            this.pnProf.SuspendLayout();
+            this.panel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).BeginInit();
+            this.pnStaffs.SuspendLayout();
+            this.panel25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.pnDropDownAccount.SuspendLayout();
+            this.panel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton24)).BeginInit();
+            this.panel28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton17)).BeginInit();
+            this.panel29.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton18)).BeginInit();
+            this.panel30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton19)).BeginInit();
+            this.panel31.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton20)).BeginInit();
+            this.panel32.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton21)).BeginInit();
+            this.panel33.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton22)).BeginInit();
+            this.panel34.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton23)).BeginInit();
+            this.panel35.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
+            this.panel36.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
+            this.panel37.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
+            this.panel38.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).BeginInit();
+            this.panel39.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).BeginInit();
+            this.panel40.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).BeginInit();
+            this.panel41.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton8)).BeginInit();
+            this.panel49.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroGrid2)).BeginInit();
+            this.panel42.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).BeginInit();
+            this.panel43.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).BeginInit();
+            this.panel44.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton11)).BeginInit();
+            this.panel45.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton12)).BeginInit();
+            this.panel46.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton13)).BeginInit();
+            this.panel47.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton14)).BeginInit();
+            this.panel48.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton15)).BeginInit();
             this.SuspendLayout();
             // 
             // pnSidebar
@@ -582,166 +723,111 @@
             // 
             this.pnContent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnContent.BackgroundImage")));
             this.pnContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnContent.Controls.Add(this.pnSchedules);
-            this.pnContent.Controls.Add(this.pnProf);
             this.pnContent.Controls.Add(this.pnStaffs);
             this.pnContent.Controls.Add(this.pnRequests);
             this.pnContent.Controls.Add(this.pnStudents);
             this.pnContent.Controls.Add(this.pnDashboard);
             this.pnContent.Controls.Add(this.pnInventory);
+            this.pnContent.Controls.Add(this.pnSchedules);
+            this.pnContent.Controls.Add(this.pnProf);
             this.pnContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnContent.Location = new System.Drawing.Point(123, 73);
             this.pnContent.Name = "pnContent";
             this.pnContent.Size = new System.Drawing.Size(1243, 695);
             this.pnContent.TabIndex = 2;
             // 
-            // pnSchedules
-            // 
-            this.pnSchedules.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnSchedules.BackgroundImage")));
-            this.pnSchedules.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnSchedules.Controls.Add(this.panel9);
-            this.pnSchedules.Controls.Add(this.lblConSched);
-            this.pnSchedules.Controls.Add(this.pbConSched);
-            this.pnSchedules.Location = new System.Drawing.Point(10, 10);
-            this.pnSchedules.Name = "pnSchedules";
-            this.pnSchedules.Size = new System.Drawing.Size(1221, 672);
-            this.pnSchedules.TabIndex = 15;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel9.Location = new System.Drawing.Point(0, 75);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1221, 5);
-            this.panel9.TabIndex = 21;
-            // 
-            // lblConSched
-            // 
-            this.lblConSched.AutoSize = true;
-            this.lblConSched.BackColor = System.Drawing.Color.Transparent;
-            this.lblConSched.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConSched.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConSched.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConSched.Location = new System.Drawing.Point(526, 19);
-            this.lblConSched.Name = "lblConSched";
-            this.lblConSched.Size = new System.Drawing.Size(188, 38);
-            this.lblConSched.TabIndex = 11;
-            this.lblConSched.Text = "SCHEDULES";
-            // 
-            // pbConSched
-            // 
-            this.pbConSched.BackColor = System.Drawing.Color.Transparent;
-            this.pbConSched.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConSched.Image = ((System.Drawing.Image)(resources.GetObject("pbConSched.Image")));
-            this.pbConSched.Location = new System.Drawing.Point(459, 13);
-            this.pbConSched.Name = "pbConSched";
-            this.pbConSched.Size = new System.Drawing.Size(50, 50);
-            this.pbConSched.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConSched.TabIndex = 10;
-            this.pbConSched.TabStop = false;
-            // 
-            // pnProf
-            // 
-            this.pnProf.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnProf.BackgroundImage")));
-            this.pnProf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnProf.Controls.Add(this.panel10);
-            this.pnProf.Controls.Add(this.lblConProf);
-            this.pnProf.Controls.Add(this.pbConProf);
-            this.pnProf.Location = new System.Drawing.Point(10, 10);
-            this.pnProf.Name = "pnProf";
-            this.pnProf.Size = new System.Drawing.Size(1221, 672);
-            this.pnProf.TabIndex = 14;
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel10.Location = new System.Drawing.Point(0, 75);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1221, 5);
-            this.panel10.TabIndex = 22;
-            // 
-            // lblConProf
-            // 
-            this.lblConProf.AutoSize = true;
-            this.lblConProf.BackColor = System.Drawing.Color.Transparent;
-            this.lblConProf.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConProf.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConProf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConProf.Location = new System.Drawing.Point(515, 19);
-            this.lblConProf.Name = "lblConProf";
-            this.lblConProf.Size = new System.Drawing.Size(210, 38);
-            this.lblConProf.TabIndex = 10;
-            this.lblConProf.Text = "PROFESSORS";
-            // 
-            // pbConProf
-            // 
-            this.pbConProf.BackColor = System.Drawing.Color.Transparent;
-            this.pbConProf.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConProf.Image = ((System.Drawing.Image)(resources.GetObject("pbConProf.Image")));
-            this.pbConProf.Location = new System.Drawing.Point(426, 13);
-            this.pbConProf.Name = "pbConProf";
-            this.pbConProf.Size = new System.Drawing.Size(75, 50);
-            this.pbConProf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConProf.TabIndex = 9;
-            this.pbConProf.TabStop = false;
-            // 
-            // pnStaffs
-            // 
-            this.pnStaffs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStaffs.BackgroundImage")));
-            this.pnStaffs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnStaffs.Controls.Add(this.panel11);
-            this.pnStaffs.Controls.Add(this.lblConStaffs);
-            this.pnStaffs.Controls.Add(this.pbConStaffs);
-            this.pnStaffs.Location = new System.Drawing.Point(10, 10);
-            this.pnStaffs.Name = "pnStaffs";
-            this.pnStaffs.Size = new System.Drawing.Size(1221, 672);
-            this.pnStaffs.TabIndex = 13;
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel11.Location = new System.Drawing.Point(0, 75);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1221, 5);
-            this.panel11.TabIndex = 22;
-            // 
-            // lblConStaffs
-            // 
-            this.lblConStaffs.AutoSize = true;
-            this.lblConStaffs.BackColor = System.Drawing.Color.Transparent;
-            this.lblConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConStaffs.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConStaffs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConStaffs.Location = new System.Drawing.Point(561, 19);
-            this.lblConStaffs.Name = "lblConStaffs";
-            this.lblConStaffs.Size = new System.Drawing.Size(118, 38);
-            this.lblConStaffs.TabIndex = 9;
-            this.lblConStaffs.Text = "STAFFS";
-            // 
-            // pbConStaffs
-            // 
-            this.pbConStaffs.BackColor = System.Drawing.Color.Transparent;
-            this.pbConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConStaffs.Image = ((System.Drawing.Image)(resources.GetObject("pbConStaffs.Image")));
-            this.pbConStaffs.Location = new System.Drawing.Point(492, 13);
-            this.pbConStaffs.Name = "pbConStaffs";
-            this.pbConStaffs.Size = new System.Drawing.Size(50, 50);
-            this.pbConStaffs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConStaffs.TabIndex = 8;
-            this.pbConStaffs.TabStop = false;
-            // 
             // pnRequests
             // 
             this.pnRequests.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnRequests.BackgroundImage")));
             this.pnRequests.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnRequests.Controls.Add(this.panel26);
             this.pnRequests.Controls.Add(this.panel2);
-            this.pnRequests.Controls.Add(this.listView1);
             this.pnRequests.Controls.Add(this.lblConReq);
             this.pnRequests.Controls.Add(this.pbConRequest);
             this.pnRequests.Location = new System.Drawing.Point(10, 10);
             this.pnRequests.Name = "pnRequests";
             this.pnRequests.Size = new System.Drawing.Size(1221, 672);
             this.pnRequests.TabIndex = 12;
+            // 
+            // panel26
+            // 
+            this.panel26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
+            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel26.Controls.Add(this.metroGrid1);
+            this.panel26.Controls.Add(this.materialRaisedButton2);
+            this.panel26.Controls.Add(this.materialRaisedButton1);
+            this.panel26.Location = new System.Drawing.Point(96, 129);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(1046, 480);
+            this.panel26.TabIndex = 27;
+            // 
+            // metroGrid1
+            // 
+            this.metroGrid1.AllowUserToResizeRows = false;
+            this.metroGrid1.BackgroundColor = System.Drawing.Color.LightGray;
+            this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle8;
+            this.metroGrid1.EnableHeadersVisualStyles = false;
+            this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.metroGrid1.Location = new System.Drawing.Point(44, 29);
+            this.metroGrid1.Name = "metroGrid1";
+            this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.metroGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.metroGrid1.Size = new System.Drawing.Size(978, 363);
+            this.metroGrid1.TabIndex = 2;
+            // 
+            // materialRaisedButton2
+            // 
+            this.materialRaisedButton2.BackColor = System.Drawing.Color.Red;
+            this.materialRaisedButton2.Depth = 0;
+            this.materialRaisedButton2.Location = new System.Drawing.Point(870, 418);
+            this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton2.Name = "materialRaisedButton2";
+            this.materialRaisedButton2.Primary = true;
+            this.materialRaisedButton2.Size = new System.Drawing.Size(157, 45);
+            this.materialRaisedButton2.TabIndex = 1;
+            this.materialRaisedButton2.Text = "Decline";
+            this.materialRaisedButton2.UseVisualStyleBackColor = false;
+            // 
+            // materialRaisedButton1
+            // 
+            this.materialRaisedButton1.Depth = 0;
+            this.materialRaisedButton1.Location = new System.Drawing.Point(693, 418);
+            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton1.Name = "materialRaisedButton1";
+            this.materialRaisedButton1.Primary = true;
+            this.materialRaisedButton1.Size = new System.Drawing.Size(157, 45);
+            this.materialRaisedButton1.TabIndex = 0;
+            this.materialRaisedButton1.Text = "Accept";
+            this.materialRaisedButton1.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -750,15 +836,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1221, 5);
             this.panel2.TabIndex = 22;
-            // 
-            // listView1
-            // 
-            this.listView1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.listView1.Location = new System.Drawing.Point(42, 145);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1132, 486);
-            this.listView1.TabIndex = 7;
-            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // lblConReq
             // 
@@ -946,7 +1023,7 @@
             this.listView2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.ForeColor = System.Drawing.SystemColors.Info;
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem2});
             this.listView2.Location = new System.Drawing.Point(100, 165);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(1022, 391);
@@ -1443,7 +1520,14 @@
             // 
             this.pnInventory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnInventory.BackgroundImage")));
             this.pnInventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnInventory.Controls.Add(this.lstInventory);
+            this.pnInventory.Controls.Add(this.panel31);
+            this.pnInventory.Controls.Add(this.panel32);
+            this.pnInventory.Controls.Add(this.panel33);
+            this.pnInventory.Controls.Add(this.panel34);
+            this.pnInventory.Controls.Add(this.panel30);
+            this.pnInventory.Controls.Add(this.panel29);
+            this.pnInventory.Controls.Add(this.panel28);
+            this.pnInventory.Controls.Add(this.panel27);
             this.pnInventory.Controls.Add(this.panel8);
             this.pnInventory.Controls.Add(this.lblConInvent);
             this.pnInventory.Controls.Add(this.pbConInvent);
@@ -1451,15 +1535,6 @@
             this.pnInventory.Name = "pnInventory";
             this.pnInventory.Size = new System.Drawing.Size(1221, 672);
             this.pnInventory.TabIndex = 16;
-            // 
-            // lstInventory
-            // 
-            this.lstInventory.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.lstInventory.Location = new System.Drawing.Point(54, 145);
-            this.lstInventory.Name = "lstInventory";
-            this.lstInventory.Size = new System.Drawing.Size(1132, 486);
-            this.lstInventory.TabIndex = 21;
-            this.lstInventory.UseCompatibleStateImageBehavior = false;
             // 
             // panel8
             // 
@@ -1493,6 +1568,230 @@
             this.pbConInvent.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbConInvent.TabIndex = 11;
             this.pbConInvent.TabStop = false;
+            // 
+            // pnSchedules
+            // 
+            this.pnSchedules.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnSchedules.BackgroundImage")));
+            this.pnSchedules.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnSchedules.Controls.Add(this.panel49);
+            this.pnSchedules.Controls.Add(this.panel9);
+            this.pnSchedules.Controls.Add(this.lblConSched);
+            this.pnSchedules.Controls.Add(this.pbConSched);
+            this.pnSchedules.Location = new System.Drawing.Point(10, 10);
+            this.pnSchedules.Name = "pnSchedules";
+            this.pnSchedules.Size = new System.Drawing.Size(1221, 672);
+            this.pnSchedules.TabIndex = 15;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel9.Location = new System.Drawing.Point(0, 75);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1221, 5);
+            this.panel9.TabIndex = 21;
+            // 
+            // lblConSched
+            // 
+            this.lblConSched.AutoSize = true;
+            this.lblConSched.BackColor = System.Drawing.Color.Transparent;
+            this.lblConSched.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConSched.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConSched.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConSched.Location = new System.Drawing.Point(526, 19);
+            this.lblConSched.Name = "lblConSched";
+            this.lblConSched.Size = new System.Drawing.Size(188, 38);
+            this.lblConSched.TabIndex = 11;
+            this.lblConSched.Text = "SCHEDULES";
+            // 
+            // pbConSched
+            // 
+            this.pbConSched.BackColor = System.Drawing.Color.Transparent;
+            this.pbConSched.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConSched.Image = ((System.Drawing.Image)(resources.GetObject("pbConSched.Image")));
+            this.pbConSched.Location = new System.Drawing.Point(459, 13);
+            this.pbConSched.Name = "pbConSched";
+            this.pbConSched.Size = new System.Drawing.Size(50, 50);
+            this.pbConSched.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConSched.TabIndex = 10;
+            this.pbConSched.TabStop = false;
+            // 
+            // pnProf
+            // 
+            this.pnProf.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnProf.BackgroundImage")));
+            this.pnProf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnProf.Controls.Add(this.panel38);
+            this.pnProf.Controls.Add(this.panel39);
+            this.pnProf.Controls.Add(this.panel40);
+            this.pnProf.Controls.Add(this.panel41);
+            this.pnProf.Controls.Add(this.panel37);
+            this.pnProf.Controls.Add(this.panel36);
+            this.pnProf.Controls.Add(this.panel35);
+            this.pnProf.Controls.Add(this.panel24);
+            this.pnProf.Controls.Add(this.panel10);
+            this.pnProf.Controls.Add(this.lblConProf);
+            this.pnProf.Controls.Add(this.pbConProf);
+            this.pnProf.Location = new System.Drawing.Point(10, 10);
+            this.pnProf.Name = "pnProf";
+            this.pnProf.Size = new System.Drawing.Size(1221, 672);
+            this.pnProf.TabIndex = 14;
+            // 
+            // panel24
+            // 
+            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel24.Controls.Add(this.bunifuImageButton1);
+            this.panel24.Controls.Add(this.label5);
+            this.panel24.Location = new System.Drawing.Point(96, 114);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(231, 224);
+            this.panel24.TabIndex = 39;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label5.Location = new System.Drawing.Point(45, 188);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(144, 25);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "Prof. Solayao";
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(12, 10);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 39;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel10.Location = new System.Drawing.Point(0, 75);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1221, 5);
+            this.panel10.TabIndex = 22;
+            // 
+            // lblConProf
+            // 
+            this.lblConProf.AutoSize = true;
+            this.lblConProf.BackColor = System.Drawing.Color.Transparent;
+            this.lblConProf.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConProf.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConProf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConProf.Location = new System.Drawing.Point(515, 19);
+            this.lblConProf.Name = "lblConProf";
+            this.lblConProf.Size = new System.Drawing.Size(210, 38);
+            this.lblConProf.TabIndex = 10;
+            this.lblConProf.Text = "PROFESSORS";
+            // 
+            // pbConProf
+            // 
+            this.pbConProf.BackColor = System.Drawing.Color.Transparent;
+            this.pbConProf.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConProf.Image = ((System.Drawing.Image)(resources.GetObject("pbConProf.Image")));
+            this.pbConProf.Location = new System.Drawing.Point(426, 13);
+            this.pbConProf.Name = "pbConProf";
+            this.pbConProf.Size = new System.Drawing.Size(75, 50);
+            this.pbConProf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConProf.TabIndex = 9;
+            this.pbConProf.TabStop = false;
+            // 
+            // pnStaffs
+            // 
+            this.pnStaffs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStaffs.BackgroundImage")));
+            this.pnStaffs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnStaffs.Controls.Add(this.panel45);
+            this.pnStaffs.Controls.Add(this.panel46);
+            this.pnStaffs.Controls.Add(this.panel47);
+            this.pnStaffs.Controls.Add(this.panel48);
+            this.pnStaffs.Controls.Add(this.panel44);
+            this.pnStaffs.Controls.Add(this.panel43);
+            this.pnStaffs.Controls.Add(this.panel42);
+            this.pnStaffs.Controls.Add(this.panel25);
+            this.pnStaffs.Controls.Add(this.panel11);
+            this.pnStaffs.Controls.Add(this.lblConStaffs);
+            this.pnStaffs.Controls.Add(this.pbConStaffs);
+            this.pnStaffs.Location = new System.Drawing.Point(10, 10);
+            this.pnStaffs.Name = "pnStaffs";
+            this.pnStaffs.Size = new System.Drawing.Size(1221, 672);
+            this.pnStaffs.TabIndex = 13;
+            // 
+            // panel25
+            // 
+            this.panel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel25.Controls.Add(this.label46);
+            this.panel25.Controls.Add(this.bunifuImageButton16);
+            this.panel25.Location = new System.Drawing.Point(98, 124);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(234, 222);
+            this.panel25.TabIndex = 40;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label46.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label46.Location = new System.Drawing.Point(24, 191);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(198, 25);
+            this.label46.TabIndex = 40;
+            this.label46.Text = "Johanne Sustiguer";
+            // 
+            // bunifuImageButton16
+            // 
+            this.bunifuImageButton16.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton16.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton16.Image")));
+            this.bunifuImageButton16.ImageActive = null;
+            this.bunifuImageButton16.Location = new System.Drawing.Point(18, 18);
+            this.bunifuImageButton16.Name = "bunifuImageButton16";
+            this.bunifuImageButton16.Size = new System.Drawing.Size(201, 161);
+            this.bunifuImageButton16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton16.TabIndex = 39;
+            this.bunifuImageButton16.TabStop = false;
+            this.bunifuImageButton16.Zoom = 10;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel11.Location = new System.Drawing.Point(0, 75);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(1221, 5);
+            this.panel11.TabIndex = 22;
+            // 
+            // lblConStaffs
+            // 
+            this.lblConStaffs.AutoSize = true;
+            this.lblConStaffs.BackColor = System.Drawing.Color.Transparent;
+            this.lblConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConStaffs.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConStaffs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConStaffs.Location = new System.Drawing.Point(561, 19);
+            this.lblConStaffs.Name = "lblConStaffs";
+            this.lblConStaffs.Size = new System.Drawing.Size(118, 38);
+            this.lblConStaffs.TabIndex = 9;
+            this.lblConStaffs.Text = "STAFFS";
+            // 
+            // pbConStaffs
+            // 
+            this.pbConStaffs.BackColor = System.Drawing.Color.Transparent;
+            this.pbConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConStaffs.Image = ((System.Drawing.Image)(resources.GetObject("pbConStaffs.Image")));
+            this.pbConStaffs.Location = new System.Drawing.Point(492, 13);
+            this.pbConStaffs.Name = "pbConStaffs";
+            this.pbConStaffs.Size = new System.Drawing.Size(50, 50);
+            this.pbConStaffs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConStaffs.TabIndex = 8;
+            this.pbConStaffs.TabStop = false;
             // 
             // label16
             // 
@@ -1757,6 +2056,962 @@
             this.panel18.Size = new System.Drawing.Size(201, 3);
             this.panel18.TabIndex = 30;
             // 
+            // panel27
+            // 
+            this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel27.Controls.Add(this.bunifuImageButton24);
+            this.panel27.Controls.Add(this.label54);
+            this.panel27.Location = new System.Drawing.Point(68, 114);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(240, 227);
+            this.panel27.TabIndex = 40;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.Transparent;
+            this.label54.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label54.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label54.Location = new System.Drawing.Point(60, 189);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(132, 25);
+            this.label54.TabIndex = 40;
+            this.label54.Text = "Computer 1";
+            // 
+            // bunifuImageButton24
+            // 
+            this.bunifuImageButton24.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton24.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton24.Image")));
+            this.bunifuImageButton24.ImageActive = null;
+            this.bunifuImageButton24.Location = new System.Drawing.Point(14, 12);
+            this.bunifuImageButton24.Name = "bunifuImageButton24";
+            this.bunifuImageButton24.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton24.TabIndex = 39;
+            this.bunifuImageButton24.TabStop = false;
+            this.bunifuImageButton24.Zoom = 10;
+            // 
+            // panel28
+            // 
+            this.panel28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel28.Controls.Add(this.bunifuImageButton17);
+            this.panel28.Controls.Add(this.label47);
+            this.panel28.Location = new System.Drawing.Point(352, 114);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(240, 227);
+            this.panel28.TabIndex = 41;
+            // 
+            // bunifuImageButton17
+            // 
+            this.bunifuImageButton17.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton17.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton17.Image")));
+            this.bunifuImageButton17.ImageActive = null;
+            this.bunifuImageButton17.Location = new System.Drawing.Point(14, 12);
+            this.bunifuImageButton17.Name = "bunifuImageButton17";
+            this.bunifuImageButton17.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton17.TabIndex = 39;
+            this.bunifuImageButton17.TabStop = false;
+            this.bunifuImageButton17.Zoom = 10;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label47.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label47.Location = new System.Drawing.Point(60, 189);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(132, 25);
+            this.label47.TabIndex = 40;
+            this.label47.Text = "Computer 2";
+            // 
+            // panel29
+            // 
+            this.panel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel29.Controls.Add(this.bunifuImageButton18);
+            this.panel29.Controls.Add(this.label48);
+            this.panel29.Location = new System.Drawing.Point(639, 114);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(240, 227);
+            this.panel29.TabIndex = 42;
+            // 
+            // bunifuImageButton18
+            // 
+            this.bunifuImageButton18.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton18.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton18.Image")));
+            this.bunifuImageButton18.ImageActive = null;
+            this.bunifuImageButton18.Location = new System.Drawing.Point(14, 12);
+            this.bunifuImageButton18.Name = "bunifuImageButton18";
+            this.bunifuImageButton18.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton18.TabIndex = 39;
+            this.bunifuImageButton18.TabStop = false;
+            this.bunifuImageButton18.Zoom = 10;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.BackColor = System.Drawing.Color.Transparent;
+            this.label48.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label48.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label48.Location = new System.Drawing.Point(60, 189);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(132, 25);
+            this.label48.TabIndex = 40;
+            this.label48.Text = "Computer 3";
+            // 
+            // panel30
+            // 
+            this.panel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel30.Controls.Add(this.bunifuImageButton19);
+            this.panel30.Controls.Add(this.label49);
+            this.panel30.Location = new System.Drawing.Point(925, 114);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(240, 227);
+            this.panel30.TabIndex = 43;
+            // 
+            // bunifuImageButton19
+            // 
+            this.bunifuImageButton19.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton19.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton19.Image")));
+            this.bunifuImageButton19.ImageActive = null;
+            this.bunifuImageButton19.Location = new System.Drawing.Point(14, 12);
+            this.bunifuImageButton19.Name = "bunifuImageButton19";
+            this.bunifuImageButton19.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton19.TabIndex = 39;
+            this.bunifuImageButton19.TabStop = false;
+            this.bunifuImageButton19.Zoom = 10;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.Transparent;
+            this.label49.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label49.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label49.Location = new System.Drawing.Point(60, 189);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(132, 25);
+            this.label49.TabIndex = 40;
+            this.label49.Text = "Computer 4";
+            // 
+            // panel31
+            // 
+            this.panel31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel31.Controls.Add(this.bunifuImageButton20);
+            this.panel31.Controls.Add(this.label50);
+            this.panel31.Location = new System.Drawing.Point(922, 389);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(240, 227);
+            this.panel31.TabIndex = 47;
+            // 
+            // bunifuImageButton20
+            // 
+            this.bunifuImageButton20.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton20.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton20.Image")));
+            this.bunifuImageButton20.ImageActive = null;
+            this.bunifuImageButton20.Location = new System.Drawing.Point(14, 12);
+            this.bunifuImageButton20.Name = "bunifuImageButton20";
+            this.bunifuImageButton20.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton20.TabIndex = 39;
+            this.bunifuImageButton20.TabStop = false;
+            this.bunifuImageButton20.Zoom = 10;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.BackColor = System.Drawing.Color.Transparent;
+            this.label50.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label50.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label50.Location = new System.Drawing.Point(60, 189);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(132, 25);
+            this.label50.TabIndex = 40;
+            this.label50.Text = "Computer 8";
+            // 
+            // panel32
+            // 
+            this.panel32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel32.Controls.Add(this.bunifuImageButton21);
+            this.panel32.Controls.Add(this.label51);
+            this.panel32.Location = new System.Drawing.Point(636, 389);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(240, 227);
+            this.panel32.TabIndex = 46;
+            // 
+            // bunifuImageButton21
+            // 
+            this.bunifuImageButton21.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton21.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton21.Image")));
+            this.bunifuImageButton21.ImageActive = null;
+            this.bunifuImageButton21.Location = new System.Drawing.Point(14, 12);
+            this.bunifuImageButton21.Name = "bunifuImageButton21";
+            this.bunifuImageButton21.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton21.TabIndex = 39;
+            this.bunifuImageButton21.TabStop = false;
+            this.bunifuImageButton21.Zoom = 10;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.Color.Transparent;
+            this.label51.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label51.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label51.Location = new System.Drawing.Point(60, 189);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(132, 25);
+            this.label51.TabIndex = 40;
+            this.label51.Text = "Computer 7";
+            // 
+            // panel33
+            // 
+            this.panel33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel33.Controls.Add(this.bunifuImageButton22);
+            this.panel33.Controls.Add(this.label52);
+            this.panel33.Location = new System.Drawing.Point(349, 389);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(240, 227);
+            this.panel33.TabIndex = 45;
+            // 
+            // bunifuImageButton22
+            // 
+            this.bunifuImageButton22.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton22.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton22.Image")));
+            this.bunifuImageButton22.ImageActive = null;
+            this.bunifuImageButton22.Location = new System.Drawing.Point(14, 12);
+            this.bunifuImageButton22.Name = "bunifuImageButton22";
+            this.bunifuImageButton22.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton22.TabIndex = 39;
+            this.bunifuImageButton22.TabStop = false;
+            this.bunifuImageButton22.Zoom = 10;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.BackColor = System.Drawing.Color.Transparent;
+            this.label52.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label52.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label52.Location = new System.Drawing.Point(60, 189);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(132, 25);
+            this.label52.TabIndex = 40;
+            this.label52.Text = "Computer 6";
+            // 
+            // panel34
+            // 
+            this.panel34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel34.Controls.Add(this.bunifuImageButton23);
+            this.panel34.Controls.Add(this.label53);
+            this.panel34.Location = new System.Drawing.Point(65, 389);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(240, 227);
+            this.panel34.TabIndex = 44;
+            // 
+            // bunifuImageButton23
+            // 
+            this.bunifuImageButton23.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton23.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton23.Image")));
+            this.bunifuImageButton23.ImageActive = null;
+            this.bunifuImageButton23.Location = new System.Drawing.Point(14, 12);
+            this.bunifuImageButton23.Name = "bunifuImageButton23";
+            this.bunifuImageButton23.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton23.TabIndex = 39;
+            this.bunifuImageButton23.TabStop = false;
+            this.bunifuImageButton23.Zoom = 10;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.label53.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label53.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label53.Location = new System.Drawing.Point(60, 189);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(132, 25);
+            this.label53.TabIndex = 40;
+            this.label53.Text = "Computer 5";
+            // 
+            // panel35
+            // 
+            this.panel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel35.Controls.Add(this.bunifuImageButton2);
+            this.panel35.Controls.Add(this.label17);
+            this.panel35.Location = new System.Drawing.Point(356, 114);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(231, 224);
+            this.panel35.TabIndex = 40;
+            // 
+            // bunifuImageButton2
+            // 
+            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
+            this.bunifuImageButton2.ImageActive = null;
+            this.bunifuImageButton2.Location = new System.Drawing.Point(12, 10);
+            this.bunifuImageButton2.Name = "bunifuImageButton2";
+            this.bunifuImageButton2.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton2.TabIndex = 39;
+            this.bunifuImageButton2.TabStop = false;
+            this.bunifuImageButton2.Zoom = 10;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label17.Location = new System.Drawing.Point(45, 188);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(144, 25);
+            this.label17.TabIndex = 40;
+            this.label17.Text = "Prof. Solayao";
+            // 
+            // panel36
+            // 
+            this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel36.Controls.Add(this.bunifuImageButton3);
+            this.panel36.Controls.Add(this.label20);
+            this.panel36.Location = new System.Drawing.Point(617, 114);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(231, 224);
+            this.panel36.TabIndex = 41;
+            // 
+            // bunifuImageButton3
+            // 
+            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
+            this.bunifuImageButton3.ImageActive = null;
+            this.bunifuImageButton3.Location = new System.Drawing.Point(12, 10);
+            this.bunifuImageButton3.Name = "bunifuImageButton3";
+            this.bunifuImageButton3.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton3.TabIndex = 39;
+            this.bunifuImageButton3.TabStop = false;
+            this.bunifuImageButton3.Zoom = 10;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label20.Location = new System.Drawing.Point(45, 188);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(144, 25);
+            this.label20.TabIndex = 40;
+            this.label20.Text = "Prof. Solayao";
+            // 
+            // panel37
+            // 
+            this.panel37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel37.Controls.Add(this.bunifuImageButton4);
+            this.panel37.Controls.Add(this.label22);
+            this.panel37.Location = new System.Drawing.Point(876, 114);
+            this.panel37.Name = "panel37";
+            this.panel37.Size = new System.Drawing.Size(231, 224);
+            this.panel37.TabIndex = 42;
+            // 
+            // bunifuImageButton4
+            // 
+            this.bunifuImageButton4.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton4.Image")));
+            this.bunifuImageButton4.ImageActive = null;
+            this.bunifuImageButton4.Location = new System.Drawing.Point(12, 10);
+            this.bunifuImageButton4.Name = "bunifuImageButton4";
+            this.bunifuImageButton4.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton4.TabIndex = 39;
+            this.bunifuImageButton4.TabStop = false;
+            this.bunifuImageButton4.Zoom = 10;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label22.Location = new System.Drawing.Point(45, 188);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(144, 25);
+            this.label22.TabIndex = 40;
+            this.label22.Text = "Prof. Solayao";
+            // 
+            // panel38
+            // 
+            this.panel38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel38.Controls.Add(this.bunifuImageButton5);
+            this.panel38.Controls.Add(this.label24);
+            this.panel38.Location = new System.Drawing.Point(876, 367);
+            this.panel38.Name = "panel38";
+            this.panel38.Size = new System.Drawing.Size(231, 224);
+            this.panel38.TabIndex = 46;
+            // 
+            // bunifuImageButton5
+            // 
+            this.bunifuImageButton5.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton5.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton5.Image")));
+            this.bunifuImageButton5.ImageActive = null;
+            this.bunifuImageButton5.Location = new System.Drawing.Point(12, 10);
+            this.bunifuImageButton5.Name = "bunifuImageButton5";
+            this.bunifuImageButton5.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton5.TabIndex = 39;
+            this.bunifuImageButton5.TabStop = false;
+            this.bunifuImageButton5.Zoom = 10;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label24.Location = new System.Drawing.Point(45, 188);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(144, 25);
+            this.label24.TabIndex = 40;
+            this.label24.Text = "Prof. Solayao";
+            // 
+            // panel39
+            // 
+            this.panel39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel39.Controls.Add(this.bunifuImageButton6);
+            this.panel39.Controls.Add(this.label36);
+            this.panel39.Location = new System.Drawing.Point(617, 367);
+            this.panel39.Name = "panel39";
+            this.panel39.Size = new System.Drawing.Size(231, 224);
+            this.panel39.TabIndex = 45;
+            // 
+            // bunifuImageButton6
+            // 
+            this.bunifuImageButton6.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton6.Image")));
+            this.bunifuImageButton6.ImageActive = null;
+            this.bunifuImageButton6.Location = new System.Drawing.Point(12, 10);
+            this.bunifuImageButton6.Name = "bunifuImageButton6";
+            this.bunifuImageButton6.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton6.TabIndex = 39;
+            this.bunifuImageButton6.TabStop = false;
+            this.bunifuImageButton6.Zoom = 10;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label36.Location = new System.Drawing.Point(45, 188);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(144, 25);
+            this.label36.TabIndex = 40;
+            this.label36.Text = "Prof. Solayao";
+            // 
+            // panel40
+            // 
+            this.panel40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel40.Controls.Add(this.bunifuImageButton7);
+            this.panel40.Controls.Add(this.label37);
+            this.panel40.Location = new System.Drawing.Point(356, 367);
+            this.panel40.Name = "panel40";
+            this.panel40.Size = new System.Drawing.Size(231, 224);
+            this.panel40.TabIndex = 44;
+            // 
+            // bunifuImageButton7
+            // 
+            this.bunifuImageButton7.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton7.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton7.Image")));
+            this.bunifuImageButton7.ImageActive = null;
+            this.bunifuImageButton7.Location = new System.Drawing.Point(12, 10);
+            this.bunifuImageButton7.Name = "bunifuImageButton7";
+            this.bunifuImageButton7.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton7.TabIndex = 39;
+            this.bunifuImageButton7.TabStop = false;
+            this.bunifuImageButton7.Zoom = 10;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.label37.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label37.Location = new System.Drawing.Point(45, 188);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(144, 25);
+            this.label37.TabIndex = 40;
+            this.label37.Text = "Prof. Solayao";
+            // 
+            // panel41
+            // 
+            this.panel41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel41.Controls.Add(this.bunifuImageButton8);
+            this.panel41.Controls.Add(this.label38);
+            this.panel41.Location = new System.Drawing.Point(96, 367);
+            this.panel41.Name = "panel41";
+            this.panel41.Size = new System.Drawing.Size(231, 224);
+            this.panel41.TabIndex = 43;
+            // 
+            // bunifuImageButton8
+            // 
+            this.bunifuImageButton8.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton8.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton8.Image")));
+            this.bunifuImageButton8.ImageActive = null;
+            this.bunifuImageButton8.Location = new System.Drawing.Point(12, 10);
+            this.bunifuImageButton8.Name = "bunifuImageButton8";
+            this.bunifuImageButton8.Size = new System.Drawing.Size(211, 173);
+            this.bunifuImageButton8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton8.TabIndex = 39;
+            this.bunifuImageButton8.TabStop = false;
+            this.bunifuImageButton8.Zoom = 10;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label38.Location = new System.Drawing.Point(45, 188);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(144, 25);
+            this.label38.TabIndex = 40;
+            this.label38.Text = "Prof. Solayao";
+            // 
+            // panel49
+            // 
+            this.panel49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
+            this.panel49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel49.Controls.Add(this.label56);
+            this.panel49.Controls.Add(this.metroComboBox6);
+            this.panel49.Controls.Add(this.label57);
+            this.panel49.Controls.Add(this.metroComboBox7);
+            this.panel49.Controls.Add(this.label58);
+            this.panel49.Controls.Add(this.metroTextBox2);
+            this.panel49.Controls.Add(this.metroComboBox8);
+            this.panel49.Controls.Add(this.metroGrid2);
+            this.panel49.Location = new System.Drawing.Point(65, 120);
+            this.panel49.Name = "panel49";
+            this.panel49.Size = new System.Drawing.Size(1094, 523);
+            this.panel49.TabIndex = 27;
+            // 
+            // metroGrid2
+            // 
+            this.metroGrid2.AllowUserToResizeRows = false;
+            this.metroGrid2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.metroGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.metroGrid2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.metroGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            this.metroGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGrid2.DefaultCellStyle = dataGridViewCellStyle11;
+            this.metroGrid2.EnableHeadersVisualStyles = false;
+            this.metroGrid2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroGrid2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.metroGrid2.Location = new System.Drawing.Point(56, 113);
+            this.metroGrid2.Name = "metroGrid2";
+            this.metroGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid2.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            this.metroGrid2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.metroGrid2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.metroGrid2.Size = new System.Drawing.Size(977, 363);
+            this.metroGrid2.TabIndex = 0;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.label56.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label56.Location = new System.Drawing.Point(787, 56);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(37, 17);
+            this.label56.TabIndex = 53;
+            this.label56.Text = "Time";
+            // 
+            // metroComboBox6
+            // 
+            this.metroComboBox6.FormattingEnabled = true;
+            this.metroComboBox6.ItemHeight = 23;
+            this.metroComboBox6.Location = new System.Drawing.Point(780, 50);
+            this.metroComboBox6.Name = "metroComboBox6";
+            this.metroComboBox6.Size = new System.Drawing.Size(172, 29);
+            this.metroComboBox6.TabIndex = 52;
+            this.metroComboBox6.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox6.UseSelectable = true;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.label57.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label57.Location = new System.Drawing.Point(580, 56);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(64, 17);
+            this.label57.TabIndex = 51;
+            this.label57.Text = "Professor";
+            // 
+            // metroComboBox7
+            // 
+            this.metroComboBox7.FormattingEnabled = true;
+            this.metroComboBox7.ItemHeight = 23;
+            this.metroComboBox7.Location = new System.Drawing.Point(573, 50);
+            this.metroComboBox7.Name = "metroComboBox7";
+            this.metroComboBox7.Size = new System.Drawing.Size(172, 29);
+            this.metroComboBox7.TabIndex = 50;
+            this.metroComboBox7.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox7.UseSelectable = true;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.label58.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label58.Location = new System.Drawing.Point(372, 56);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(33, 17);
+            this.label58.TabIndex = 49;
+            this.label58.Text = "Day";
+            // 
+            // metroTextBox2
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox2.CustomButton.Image = null;
+            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(157, 1);
+            this.metroTextBox2.CustomButton.Name = "";
+            this.metroTextBox2.CustomButton.Size = new System.Drawing.Size(27, 27);
+            this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox2.CustomButton.TabIndex = 1;
+            this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox2.CustomButton.UseSelectable = true;
+            this.metroTextBox2.CustomButton.Visible = false;
+            this.metroTextBox2.FontSize = MetroFramework.MetroTextBoxSize.Medium;
+            this.metroTextBox2.Lines = new string[] {
+        "Search"};
+            this.metroTextBox2.Location = new System.Drawing.Point(139, 50);
+            this.metroTextBox2.MaxLength = 32767;
+            this.metroTextBox2.Multiline = true;
+            this.metroTextBox2.Name = "metroTextBox2";
+            this.metroTextBox2.PasswordChar = '\0';
+            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox2.SelectedText = "";
+            this.metroTextBox2.SelectionLength = 0;
+            this.metroTextBox2.SelectionStart = 0;
+            this.metroTextBox2.ShortcutsEnabled = true;
+            this.metroTextBox2.Size = new System.Drawing.Size(185, 29);
+            this.metroTextBox2.TabIndex = 48;
+            this.metroTextBox2.Text = "Search";
+            this.metroTextBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTextBox2.UseSelectable = true;
+            this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroComboBox8
+            // 
+            this.metroComboBox8.FormattingEnabled = true;
+            this.metroComboBox8.ItemHeight = 23;
+            this.metroComboBox8.Location = new System.Drawing.Point(365, 50);
+            this.metroComboBox8.Name = "metroComboBox8";
+            this.metroComboBox8.Size = new System.Drawing.Size(172, 29);
+            this.metroComboBox8.TabIndex = 47;
+            this.metroComboBox8.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroComboBox8.UseSelectable = true;
+            // 
+            // panel42
+            // 
+            this.panel42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel42.Controls.Add(this.label39);
+            this.panel42.Controls.Add(this.bunifuImageButton9);
+            this.panel42.Location = new System.Drawing.Point(361, 124);
+            this.panel42.Name = "panel42";
+            this.panel42.Size = new System.Drawing.Size(234, 222);
+            this.panel42.TabIndex = 41;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.Transparent;
+            this.label39.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label39.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label39.Location = new System.Drawing.Point(24, 191);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(198, 25);
+            this.label39.TabIndex = 40;
+            this.label39.Text = "Johanne Sustiguer";
+            // 
+            // bunifuImageButton9
+            // 
+            this.bunifuImageButton9.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton9.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton9.Image")));
+            this.bunifuImageButton9.ImageActive = null;
+            this.bunifuImageButton9.Location = new System.Drawing.Point(18, 18);
+            this.bunifuImageButton9.Name = "bunifuImageButton9";
+            this.bunifuImageButton9.Size = new System.Drawing.Size(201, 161);
+            this.bunifuImageButton9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton9.TabIndex = 39;
+            this.bunifuImageButton9.TabStop = false;
+            this.bunifuImageButton9.Zoom = 10;
+            // 
+            // panel43
+            // 
+            this.panel43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel43.Controls.Add(this.label40);
+            this.panel43.Controls.Add(this.bunifuImageButton10);
+            this.panel43.Location = new System.Drawing.Point(625, 122);
+            this.panel43.Name = "panel43";
+            this.panel43.Size = new System.Drawing.Size(234, 222);
+            this.panel43.TabIndex = 42;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.label40.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label40.Location = new System.Drawing.Point(24, 191);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(198, 25);
+            this.label40.TabIndex = 40;
+            this.label40.Text = "Johanne Sustiguer";
+            // 
+            // bunifuImageButton10
+            // 
+            this.bunifuImageButton10.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton10.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton10.Image")));
+            this.bunifuImageButton10.ImageActive = null;
+            this.bunifuImageButton10.Location = new System.Drawing.Point(18, 18);
+            this.bunifuImageButton10.Name = "bunifuImageButton10";
+            this.bunifuImageButton10.Size = new System.Drawing.Size(201, 161);
+            this.bunifuImageButton10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton10.TabIndex = 39;
+            this.bunifuImageButton10.TabStop = false;
+            this.bunifuImageButton10.Zoom = 10;
+            // 
+            // panel44
+            // 
+            this.panel44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel44.Controls.Add(this.label41);
+            this.panel44.Controls.Add(this.bunifuImageButton11);
+            this.panel44.Location = new System.Drawing.Point(892, 122);
+            this.panel44.Name = "panel44";
+            this.panel44.Size = new System.Drawing.Size(234, 222);
+            this.panel44.TabIndex = 43;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.Transparent;
+            this.label41.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label41.Location = new System.Drawing.Point(24, 191);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(198, 25);
+            this.label41.TabIndex = 40;
+            this.label41.Text = "Johanne Sustiguer";
+            // 
+            // bunifuImageButton11
+            // 
+            this.bunifuImageButton11.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton11.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton11.Image")));
+            this.bunifuImageButton11.ImageActive = null;
+            this.bunifuImageButton11.Location = new System.Drawing.Point(18, 18);
+            this.bunifuImageButton11.Name = "bunifuImageButton11";
+            this.bunifuImageButton11.Size = new System.Drawing.Size(201, 161);
+            this.bunifuImageButton11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton11.TabIndex = 39;
+            this.bunifuImageButton11.TabStop = false;
+            this.bunifuImageButton11.Zoom = 10;
+            // 
+            // panel45
+            // 
+            this.panel45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel45.Controls.Add(this.label42);
+            this.panel45.Controls.Add(this.bunifuImageButton12);
+            this.panel45.Location = new System.Drawing.Point(892, 366);
+            this.panel45.Name = "panel45";
+            this.panel45.Size = new System.Drawing.Size(234, 222);
+            this.panel45.TabIndex = 47;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.label42.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label42.Location = new System.Drawing.Point(24, 191);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(198, 25);
+            this.label42.TabIndex = 40;
+            this.label42.Text = "Johanne Sustiguer";
+            // 
+            // bunifuImageButton12
+            // 
+            this.bunifuImageButton12.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton12.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton12.Image")));
+            this.bunifuImageButton12.ImageActive = null;
+            this.bunifuImageButton12.Location = new System.Drawing.Point(18, 18);
+            this.bunifuImageButton12.Name = "bunifuImageButton12";
+            this.bunifuImageButton12.Size = new System.Drawing.Size(201, 161);
+            this.bunifuImageButton12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton12.TabIndex = 39;
+            this.bunifuImageButton12.TabStop = false;
+            this.bunifuImageButton12.Zoom = 10;
+            // 
+            // panel46
+            // 
+            this.panel46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel46.Controls.Add(this.label43);
+            this.panel46.Controls.Add(this.bunifuImageButton13);
+            this.panel46.Location = new System.Drawing.Point(625, 366);
+            this.panel46.Name = "panel46";
+            this.panel46.Size = new System.Drawing.Size(234, 222);
+            this.panel46.TabIndex = 46;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.label43.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label43.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label43.Location = new System.Drawing.Point(24, 191);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(198, 25);
+            this.label43.TabIndex = 40;
+            this.label43.Text = "Johanne Sustiguer";
+            // 
+            // bunifuImageButton13
+            // 
+            this.bunifuImageButton13.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton13.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton13.Image")));
+            this.bunifuImageButton13.ImageActive = null;
+            this.bunifuImageButton13.Location = new System.Drawing.Point(18, 18);
+            this.bunifuImageButton13.Name = "bunifuImageButton13";
+            this.bunifuImageButton13.Size = new System.Drawing.Size(201, 161);
+            this.bunifuImageButton13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton13.TabIndex = 39;
+            this.bunifuImageButton13.TabStop = false;
+            this.bunifuImageButton13.Zoom = 10;
+            // 
+            // panel47
+            // 
+            this.panel47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel47.Controls.Add(this.label44);
+            this.panel47.Controls.Add(this.bunifuImageButton14);
+            this.panel47.Location = new System.Drawing.Point(361, 368);
+            this.panel47.Name = "panel47";
+            this.panel47.Size = new System.Drawing.Size(234, 222);
+            this.panel47.TabIndex = 45;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label44.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label44.Location = new System.Drawing.Point(24, 191);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(198, 25);
+            this.label44.TabIndex = 40;
+            this.label44.Text = "Johanne Sustiguer";
+            // 
+            // bunifuImageButton14
+            // 
+            this.bunifuImageButton14.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton14.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton14.Image")));
+            this.bunifuImageButton14.ImageActive = null;
+            this.bunifuImageButton14.Location = new System.Drawing.Point(18, 18);
+            this.bunifuImageButton14.Name = "bunifuImageButton14";
+            this.bunifuImageButton14.Size = new System.Drawing.Size(201, 161);
+            this.bunifuImageButton14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton14.TabIndex = 39;
+            this.bunifuImageButton14.TabStop = false;
+            this.bunifuImageButton14.Zoom = 10;
+            // 
+            // panel48
+            // 
+            this.panel48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.panel48.Controls.Add(this.label45);
+            this.panel48.Controls.Add(this.bunifuImageButton15);
+            this.panel48.Location = new System.Drawing.Point(98, 368);
+            this.panel48.Name = "panel48";
+            this.panel48.Size = new System.Drawing.Size(234, 222);
+            this.panel48.TabIndex = 44;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.label45.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label45.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label45.Location = new System.Drawing.Point(24, 191);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(198, 25);
+            this.label45.TabIndex = 40;
+            this.label45.Text = "Johanne Sustiguer";
+            // 
+            // bunifuImageButton15
+            // 
+            this.bunifuImageButton15.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton15.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton15.Image")));
+            this.bunifuImageButton15.ImageActive = null;
+            this.bunifuImageButton15.Location = new System.Drawing.Point(18, 18);
+            this.bunifuImageButton15.Name = "bunifuImageButton15";
+            this.bunifuImageButton15.Size = new System.Drawing.Size(201, 161);
+            this.bunifuImageButton15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton15.TabIndex = 39;
+            this.bunifuImageButton15.TabStop = false;
+            this.bunifuImageButton15.Zoom = 10;
+            // 
             // AdminModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1788,17 +3043,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).EndInit();
             this.pnContent.ResumeLayout(false);
-            this.pnSchedules.ResumeLayout(false);
-            this.pnSchedules.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).EndInit();
-            this.pnProf.ResumeLayout(false);
-            this.pnProf.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).EndInit();
-            this.pnStaffs.ResumeLayout(false);
-            this.pnStaffs.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).EndInit();
             this.pnRequests.ResumeLayout(false);
             this.pnRequests.PerformLayout();
+            this.panel26.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).EndInit();
             this.pnStudents.ResumeLayout(false);
             this.pnStudents.PerformLayout();
@@ -1827,10 +3075,94 @@
             this.pnInventory.ResumeLayout(false);
             this.pnInventory.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).EndInit();
+            this.pnSchedules.ResumeLayout(false);
+            this.pnSchedules.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).EndInit();
+            this.pnProf.ResumeLayout(false);
+            this.pnProf.PerformLayout();
+            this.panel24.ResumeLayout(false);
+            this.panel24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).EndInit();
+            this.pnStaffs.ResumeLayout(false);
+            this.pnStaffs.PerformLayout();
+            this.panel25.ResumeLayout(false);
+            this.panel25.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.pnDropDownAccount.ResumeLayout(false);
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton24)).EndInit();
+            this.panel28.ResumeLayout(false);
+            this.panel28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton17)).EndInit();
+            this.panel29.ResumeLayout(false);
+            this.panel29.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton18)).EndInit();
+            this.panel30.ResumeLayout(false);
+            this.panel30.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton19)).EndInit();
+            this.panel31.ResumeLayout(false);
+            this.panel31.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton20)).EndInit();
+            this.panel32.ResumeLayout(false);
+            this.panel32.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton21)).EndInit();
+            this.panel33.ResumeLayout(false);
+            this.panel33.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton22)).EndInit();
+            this.panel34.ResumeLayout(false);
+            this.panel34.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton23)).EndInit();
+            this.panel35.ResumeLayout(false);
+            this.panel35.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
+            this.panel36.ResumeLayout(false);
+            this.panel36.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
+            this.panel37.ResumeLayout(false);
+            this.panel37.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
+            this.panel38.ResumeLayout(false);
+            this.panel38.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).EndInit();
+            this.panel39.ResumeLayout(false);
+            this.panel39.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).EndInit();
+            this.panel40.ResumeLayout(false);
+            this.panel40.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).EndInit();
+            this.panel41.ResumeLayout(false);
+            this.panel41.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton8)).EndInit();
+            this.panel49.ResumeLayout(false);
+            this.panel49.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroGrid2)).EndInit();
+            this.panel42.ResumeLayout(false);
+            this.panel42.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).EndInit();
+            this.panel43.ResumeLayout(false);
+            this.panel43.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).EndInit();
+            this.panel44.ResumeLayout(false);
+            this.panel44.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton11)).EndInit();
+            this.panel45.ResumeLayout(false);
+            this.panel45.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton12)).EndInit();
+            this.panel46.ResumeLayout(false);
+            this.panel46.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton13)).EndInit();
+            this.panel47.ResumeLayout(false);
+            this.panel47.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton14)).EndInit();
+            this.panel48.ResumeLayout(false);
+            this.panel48.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton15)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1885,7 +3217,6 @@
         private System.Windows.Forms.PictureBox pbConInvent;
         private System.Windows.Forms.Panel pnStudents;
         private System.Windows.Forms.Label lblConStud;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Label lblTitleColas;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox8;
@@ -1934,7 +3265,6 @@
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ListView lstInventory;
         private System.Windows.Forms.Panel pnDashSchedList;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
@@ -1980,5 +3310,90 @@
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Panel panel25;
+        private System.Windows.Forms.Label label46;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton16;
+        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.Label label5;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
+        private System.Windows.Forms.Panel panel26;
+        private MetroFramework.Controls.MetroGrid metroGrid1;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton2;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
+        private System.Windows.Forms.Panel panel27;
+        private System.Windows.Forms.Label label54;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton24;
+        private System.Windows.Forms.Panel panel31;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton20;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Panel panel32;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton21;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Panel panel33;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton22;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Panel panel34;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton23;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Panel panel30;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton19;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Panel panel29;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton18;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Panel panel28;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton17;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Panel panel38;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton5;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Panel panel39;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton6;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Panel panel40;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton7;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Panel panel41;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton8;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Panel panel37;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton4;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Panel panel36;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Panel panel35;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel49;
+        private MetroFramework.Controls.MetroGrid metroGrid2;
+        private System.Windows.Forms.Label label56;
+        private MetroFramework.Controls.MetroComboBox metroComboBox6;
+        private System.Windows.Forms.Label label57;
+        private MetroFramework.Controls.MetroComboBox metroComboBox7;
+        private System.Windows.Forms.Label label58;
+        private MetroFramework.Controls.MetroTextBox metroTextBox2;
+        private MetroFramework.Controls.MetroComboBox metroComboBox8;
+        private System.Windows.Forms.Panel panel45;
+        private System.Windows.Forms.Label label42;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton12;
+        private System.Windows.Forms.Panel panel46;
+        private System.Windows.Forms.Label label43;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton13;
+        private System.Windows.Forms.Panel panel47;
+        private System.Windows.Forms.Label label44;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton14;
+        private System.Windows.Forms.Panel panel48;
+        private System.Windows.Forms.Label label45;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton15;
+        private System.Windows.Forms.Panel panel44;
+        private System.Windows.Forms.Label label41;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton11;
+        private System.Windows.Forms.Panel panel43;
+        private System.Windows.Forms.Label label40;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton10;
+        private System.Windows.Forms.Panel panel42;
+        private System.Windows.Forms.Label label39;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton9;
     }
 }

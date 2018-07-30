@@ -407,7 +407,7 @@ namespace COLAS
 
         private void pbProfilePic_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            pnDropDownAccount.Visible = false;
+           
         }
     }
 }

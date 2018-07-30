@@ -218,13 +218,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.pnDropDownAccount.SuspendLayout();
+         
             this.SuspendLayout();
             // 
             // pnSidebar
             // 
             this.pnSidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(4)))), ((int)(((byte)(9)))));
-            this.pnSidebar.Controls.Add(this.panel18);
+            
             this.pnSidebar.Controls.Add(this.indiStudents);
             this.pnSidebar.Controls.Add(this.indiInventory);
             this.pnSidebar.Controls.Add(this.indiSchedules);
@@ -1806,8 +1806,7 @@
             this.school_year});
             this.listView2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.ForeColor = System.Drawing.SystemColors.Info;
-            this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            
             this.listView2.Location = new System.Drawing.Point(100, 165);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(1022, 391);
@@ -1848,7 +1847,7 @@
             this.Controls.Add(this.pnContent);
             this.Controls.Add(this.pnNavbar);
             this.Controls.Add(this.pnSidebar);
-            this.Controls.Add(this.pnDropDownAccount);
+           
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AdminModule";
@@ -1913,7 +1912,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.pnDropDownAccount.ResumeLayout(false);
+           
             this.ResumeLayout(false);
 
         }

@@ -34,6 +34,86 @@ namespace COLAS
         PromptBuilder Pb = new PromptBuilder();
         //COMMAND Instantiate END
 
+        public void startVoice()
+        {
+            Choices command = new Choices();
+            command.Add(new string[] { "dashboard", "schedule", "inventory", "student", "Log out", "Activate Computer Laboratory" });
+            Grammar grammar = new Grammar(new GrammarBuilder(command));
+            try
+            {
+                Sre.RequestRecognizerUpdate();
+                Sre.LoadGrammarAsync(grammar);
+                Sre.SpeechRecognized += Sre_SpeechRecognized;
+                Sre.SetInputToDefaultAudioDevice();
+                Sre.RecognizeAsync(RecognizeMode.Multiple);
+            }
+            catch
+            {
+                return;
+            }
+        }
+
+        void Sre_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
+        {
+            Pb.ClearContent();
+            SpVoice obj = new SpVoice();
+
+            switch (e.Result.Text)
+            {
+                case "dashboard":
+                    Pb.ClearContent();
+                    Dashboard();
+                    Pb.AppendText("dashboard panel opened");
+                    Ss.Speak(Pb);
+                    break;
+                case "schedule":
+                    Pb.ClearContent();
+                    Schedules();
+                    Pb.AppendText("schedule panel opened");
+                    Ss.Speak(Pb);
+                    break;
+                case "inventory":
+                    Pb.ClearContent();
+                    Inventory();
+                    Pb.AppendText("inventory panel opened");
+                    Ss.Speak(Pb);
+                    break;
+                case "student":
+                    Pb.ClearContent();
+                    Students();
+                    Pb.AppendText("student panel opened");
+                    Ss.Speak(Pb);
+                    break;
+                case "Log out":
+                    Pb.ClearContent();
+                    Pb.AppendText("logging out");
+                    Ss.Speak(Pb);
+                    Login login = new Login();
+                    login.Show();
+                    this.Hide();
+                    break;
+                //Computer Module Testing
+                case "Activate Computer Laboratory":
+                    ComputerModule computermodule = new ComputerModule();
+                    Pb.ClearContent();
+                    Pb.AppendText("Computer Laboratory Activated");
+                    Ss.Speak(Pb);
+                    Sre.RecognizeAsyncStop();
+                    computermodule.Show();
+                    this.Hide();
+                    break;
+                    //End of Computer Module
+            }
+
+
+        }
+        //END VOICE COMMAND
+
+
+
+
+
+
 
         private void ProfilePic()
         {
@@ -42,6 +122,7 @@ namespace COLAS
             Region rg = new Region(gp);
             pbProfilePic.Region = rg;
         }
+
 
         public void Dashboard()
         {
@@ -65,12 +146,7 @@ namespace COLAS
             pnDashboard.BringToFront();
 
         }
-
-
-
-
-
-
+        
         public void Schedules()
         {
             //Title
@@ -136,6 +212,7 @@ namespace COLAS
 
         private void ProfessorModule_Load(object sender, EventArgs e)
         {
+            startVoice();
             lblUsers.Text = colas1.name;
             ProfilePic();
             Dashboard();

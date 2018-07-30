@@ -9,6 +9,6 @@ namespace COLAS
     class colas1
     {
         public static string name;
-        public static string stat;
+        public static string pass;
     }
 }

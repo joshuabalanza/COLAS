@@ -133,7 +133,7 @@ namespace COLAS
             {
                 colas1.name = "DENZ TORREZ";
                 Pb.ClearContent();
-                Pb.AppendText("Logging-in, Welcome Totoy Brown");
+                Pb.AppendText("Logging-in, Welcome Denz Torres");
                 Ss.Speak(Pb);
                 Sre.RecognizeAsyncStop();
                 this.Hide();
@@ -197,7 +197,7 @@ namespace COLAS
         public void startVoice()
         {
             Choices command = new Choices();
-            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan", "Activate Computer Laboratory" });
+            command.Add(new string[] { "Admin Log in", "Log in Joemen Barrios", "Log in Genalyn Villafuerte", "Log in Michael Tan"});
             Grammar grammar = new Grammar(new GrammarBuilder(command));
             try
             {
@@ -259,18 +259,6 @@ namespace COLAS
                         professormodule.Show();
                         this.Hide();
                         break;
-
-                        //Computer Module Testing
-                    case "Activate Computer Laboratory":
-                        Pb.ClearContent();
-                        Pb.AppendText("Computer Laboratory Activated");
-                        Ss.Speak(Pb);
-                        Sre.RecognizeAsyncStop();
-                        colas1.name = "Cherry Rose Concha";
-                        computermodule.Show();
-                        this.Hide();
-                        break;
-                        //End of Computer Module
                 }
 
             }

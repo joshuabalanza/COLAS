@@ -142,16 +142,28 @@ namespace COLAS
 
             else if (string.IsNullOrEmpty(txtbxUsername.Text) || string.IsNullOrWhiteSpace(txtbxUsername.Text))
             {
+                Pb.ClearContent();
+                Pb.AppendText("Please input your username");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 MessageBox.Show("Please input your username");
             }
 
             else if (string.IsNullOrEmpty(txtbxPassword.Text) || string.IsNullOrWhiteSpace(txtbxPassword.Text))
             {
+                Pb.ClearContent();
+                Pb.AppendText("Please input your password");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 MessageBox.Show("Please input your password");
             }
 
             else
             {
+                Pb.ClearContent();
+                Pb.AppendText("Invalid Credentials");
+                Ss.Speak(Pb);
+                Sre.RecognizeAsyncStop();
                 MessageBox.Show("Invalid Credentials");
             }
 

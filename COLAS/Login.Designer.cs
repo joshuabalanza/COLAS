@@ -110,7 +110,7 @@
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
             this.lblPassword.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.lblPassword.Location = new System.Drawing.Point(519, 443);
+            this.lblPassword.Location = new System.Drawing.Point(528, 443);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(95, 22);
             this.lblPassword.TabIndex = 6;
@@ -137,7 +137,7 @@
             this.lblUsername.BackColor = System.Drawing.Color.Transparent;
             this.lblUsername.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(118)))));
-            this.lblUsername.Location = new System.Drawing.Point(520, 384);
+            this.lblUsername.Location = new System.Drawing.Point(529, 384);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(101, 22);
             this.lblUsername.TabIndex = 5;

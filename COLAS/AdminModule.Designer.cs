@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminModule));
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Aaron John M. Gabriel",
             "BSCS",
             "4th",
@@ -67,6 +67,23 @@
             this.TitleLine = new System.Windows.Forms.Panel();
             this.lblTitlePage = new System.Windows.Forms.Label();
             this.pnContent = new System.Windows.Forms.Panel();
+            this.pnSchedules = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.lblConSched = new System.Windows.Forms.Label();
+            this.pbConSched = new System.Windows.Forms.PictureBox();
+            this.pnProf = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.lblConProf = new System.Windows.Forms.Label();
+            this.pbConProf = new System.Windows.Forms.PictureBox();
+            this.pnStaffs = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.lblConStaffs = new System.Windows.Forms.Label();
+            this.pbConStaffs = new System.Windows.Forms.PictureBox();
+            this.pnRequests = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.lblConReq = new System.Windows.Forms.Label();
+            this.pbConRequest = new System.Windows.Forms.PictureBox();
             this.pnStudents = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.metroComboBox4 = new MetroFramework.Controls.MetroComboBox();
@@ -130,23 +147,6 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.lblConInvent = new System.Windows.Forms.Label();
             this.pbConInvent = new System.Windows.Forms.PictureBox();
-            this.pnSchedules = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.lblConSched = new System.Windows.Forms.Label();
-            this.pbConSched = new System.Windows.Forms.PictureBox();
-            this.pnProf = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.lblConProf = new System.Windows.Forms.Label();
-            this.pbConProf = new System.Windows.Forms.PictureBox();
-            this.pnStaffs = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.lblConStaffs = new System.Windows.Forms.Label();
-            this.pbConStaffs = new System.Windows.Forms.PictureBox();
-            this.pnRequests = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.lblConReq = new System.Windows.Forms.Label();
-            this.pbConRequest = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -161,21 +161,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.metroComboBox4 = new MetroFramework.Controls.MetroComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.metroComboBox3 = new MetroFramework.Controls.MetroComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.course = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.year = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.section = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.school_year = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInventory)).BeginInit();
@@ -189,6 +174,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).BeginInit();
             this.pnContent.SuspendLayout();
+            this.pnSchedules.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).BeginInit();
+            this.pnProf.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).BeginInit();
+            this.pnStaffs.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).BeginInit();
+            this.pnRequests.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).BeginInit();
             this.pnStudents.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.pnDashboard.SuspendLayout();
@@ -207,24 +200,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbDashReq)).BeginInit();
             this.pnInventory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).BeginInit();
-            this.pnSchedules.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).BeginInit();
-            this.pnProf.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).BeginInit();
-            this.pnStaffs.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).BeginInit();
-            this.pnRequests.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.pnDropDownAccount.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnSidebar
             // 
             this.pnSidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(4)))), ((int)(((byte)(9)))));
-            this.pnSidebar.Controls.Add(this.panel18);
             this.pnSidebar.Controls.Add(this.indiStudents);
             this.pnSidebar.Controls.Add(this.indiInventory);
             this.pnSidebar.Controls.Add(this.indiSchedules);
@@ -589,18 +572,208 @@
             // 
             this.pnContent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnContent.BackgroundImage")));
             this.pnContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnContent.Controls.Add(this.pnDashboard);
+            this.pnContent.Controls.Add(this.pnInventory);
             this.pnContent.Controls.Add(this.pnSchedules);
             this.pnContent.Controls.Add(this.pnProf);
             this.pnContent.Controls.Add(this.pnStaffs);
             this.pnContent.Controls.Add(this.pnRequests);
             this.pnContent.Controls.Add(this.pnStudents);
-            this.pnContent.Controls.Add(this.pnDashboard);
-            this.pnContent.Controls.Add(this.pnInventory);
             this.pnContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnContent.Location = new System.Drawing.Point(123, 73);
             this.pnContent.Name = "pnContent";
             this.pnContent.Size = new System.Drawing.Size(1243, 695);
             this.pnContent.TabIndex = 2;
+            // 
+            // pnSchedules
+            // 
+            this.pnSchedules.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnSchedules.BackgroundImage")));
+            this.pnSchedules.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnSchedules.Controls.Add(this.panel9);
+            this.pnSchedules.Controls.Add(this.lblConSched);
+            this.pnSchedules.Controls.Add(this.pbConSched);
+            this.pnSchedules.Location = new System.Drawing.Point(10, 10);
+            this.pnSchedules.Name = "pnSchedules";
+            this.pnSchedules.Size = new System.Drawing.Size(1221, 672);
+            this.pnSchedules.TabIndex = 15;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel9.Location = new System.Drawing.Point(0, 75);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1221, 5);
+            this.panel9.TabIndex = 21;
+            // 
+            // lblConSched
+            // 
+            this.lblConSched.AutoSize = true;
+            this.lblConSched.BackColor = System.Drawing.Color.Transparent;
+            this.lblConSched.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConSched.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConSched.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConSched.Location = new System.Drawing.Point(526, 19);
+            this.lblConSched.Name = "lblConSched";
+            this.lblConSched.Size = new System.Drawing.Size(188, 38);
+            this.lblConSched.TabIndex = 11;
+            this.lblConSched.Text = "SCHEDULES";
+            // 
+            // pbConSched
+            // 
+            this.pbConSched.BackColor = System.Drawing.Color.Transparent;
+            this.pbConSched.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConSched.Image = ((System.Drawing.Image)(resources.GetObject("pbConSched.Image")));
+            this.pbConSched.Location = new System.Drawing.Point(459, 13);
+            this.pbConSched.Name = "pbConSched";
+            this.pbConSched.Size = new System.Drawing.Size(50, 50);
+            this.pbConSched.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConSched.TabIndex = 10;
+            this.pbConSched.TabStop = false;
+            // 
+            // pnProf
+            // 
+            this.pnProf.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnProf.BackgroundImage")));
+            this.pnProf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnProf.Controls.Add(this.panel10);
+            this.pnProf.Controls.Add(this.lblConProf);
+            this.pnProf.Controls.Add(this.pbConProf);
+            this.pnProf.Location = new System.Drawing.Point(10, 10);
+            this.pnProf.Name = "pnProf";
+            this.pnProf.Size = new System.Drawing.Size(1221, 672);
+            this.pnProf.TabIndex = 14;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel10.Location = new System.Drawing.Point(0, 75);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1221, 5);
+            this.panel10.TabIndex = 22;
+            // 
+            // lblConProf
+            // 
+            this.lblConProf.AutoSize = true;
+            this.lblConProf.BackColor = System.Drawing.Color.Transparent;
+            this.lblConProf.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConProf.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConProf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConProf.Location = new System.Drawing.Point(515, 19);
+            this.lblConProf.Name = "lblConProf";
+            this.lblConProf.Size = new System.Drawing.Size(210, 38);
+            this.lblConProf.TabIndex = 10;
+            this.lblConProf.Text = "PROFESSORS";
+            // 
+            // pbConProf
+            // 
+            this.pbConProf.BackColor = System.Drawing.Color.Transparent;
+            this.pbConProf.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConProf.Image = ((System.Drawing.Image)(resources.GetObject("pbConProf.Image")));
+            this.pbConProf.Location = new System.Drawing.Point(426, 13);
+            this.pbConProf.Name = "pbConProf";
+            this.pbConProf.Size = new System.Drawing.Size(75, 50);
+            this.pbConProf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConProf.TabIndex = 9;
+            this.pbConProf.TabStop = false;
+            // 
+            // pnStaffs
+            // 
+            this.pnStaffs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStaffs.BackgroundImage")));
+            this.pnStaffs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnStaffs.Controls.Add(this.panel11);
+            this.pnStaffs.Controls.Add(this.lblConStaffs);
+            this.pnStaffs.Controls.Add(this.pbConStaffs);
+            this.pnStaffs.Location = new System.Drawing.Point(10, 10);
+            this.pnStaffs.Name = "pnStaffs";
+            this.pnStaffs.Size = new System.Drawing.Size(1221, 672);
+            this.pnStaffs.TabIndex = 13;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel11.Location = new System.Drawing.Point(0, 75);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(1221, 5);
+            this.panel11.TabIndex = 22;
+            // 
+            // lblConStaffs
+            // 
+            this.lblConStaffs.AutoSize = true;
+            this.lblConStaffs.BackColor = System.Drawing.Color.Transparent;
+            this.lblConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConStaffs.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConStaffs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConStaffs.Location = new System.Drawing.Point(561, 19);
+            this.lblConStaffs.Name = "lblConStaffs";
+            this.lblConStaffs.Size = new System.Drawing.Size(118, 38);
+            this.lblConStaffs.TabIndex = 9;
+            this.lblConStaffs.Text = "STAFFS";
+            // 
+            // pbConStaffs
+            // 
+            this.pbConStaffs.BackColor = System.Drawing.Color.Transparent;
+            this.pbConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConStaffs.Image = ((System.Drawing.Image)(resources.GetObject("pbConStaffs.Image")));
+            this.pbConStaffs.Location = new System.Drawing.Point(492, 13);
+            this.pbConStaffs.Name = "pbConStaffs";
+            this.pbConStaffs.Size = new System.Drawing.Size(50, 50);
+            this.pbConStaffs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConStaffs.TabIndex = 8;
+            this.pbConStaffs.TabStop = false;
+            // 
+            // pnRequests
+            // 
+            this.pnRequests.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnRequests.BackgroundImage")));
+            this.pnRequests.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnRequests.Controls.Add(this.panel2);
+            this.pnRequests.Controls.Add(this.listView1);
+            this.pnRequests.Controls.Add(this.lblConReq);
+            this.pnRequests.Controls.Add(this.pbConRequest);
+            this.pnRequests.Location = new System.Drawing.Point(10, 10);
+            this.pnRequests.Name = "pnRequests";
+            this.pnRequests.Size = new System.Drawing.Size(1221, 672);
+            this.pnRequests.TabIndex = 12;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
+            this.panel2.Location = new System.Drawing.Point(0, 75);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1221, 5);
+            this.panel2.TabIndex = 22;
+            // 
+            // listView1
+            // 
+            this.listView1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.listView1.Location = new System.Drawing.Point(42, 145);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1132, 486);
+            this.listView1.TabIndex = 7;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // lblConReq
+            // 
+            this.lblConReq.AutoSize = true;
+            this.lblConReq.BackColor = System.Drawing.Color.Transparent;
+            this.lblConReq.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblConReq.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConReq.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lblConReq.Location = new System.Drawing.Point(538, 19);
+            this.lblConReq.Name = "lblConReq";
+            this.lblConReq.Size = new System.Drawing.Size(164, 38);
+            this.lblConReq.TabIndex = 6;
+            this.lblConReq.Text = "REQUESTS";
+            // 
+            // pbConRequest
+            // 
+            this.pbConRequest.BackColor = System.Drawing.Color.Transparent;
+            this.pbConRequest.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbConRequest.Image = ((System.Drawing.Image)(resources.GetObject("pbConRequest.Image")));
+            this.pbConRequest.Location = new System.Drawing.Point(445, 13);
+            this.pbConRequest.Name = "pbConRequest";
+            this.pbConRequest.Size = new System.Drawing.Size(80, 50);
+            this.pbConRequest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConRequest.TabIndex = 0;
+            this.pbConRequest.TabStop = false;
             // 
             // pnStudents
             // 
@@ -763,7 +936,7 @@
             this.listView2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.ForeColor = System.Drawing.SystemColors.Info;
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3});
+            listViewItem2});
             this.listView2.Location = new System.Drawing.Point(100, 165);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(1022, 391);
@@ -800,7 +973,6 @@
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(419, 13);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(71, 50);
@@ -1311,196 +1483,6 @@
             this.pbConInvent.TabIndex = 11;
             this.pbConInvent.TabStop = false;
             // 
-            // pnSchedules
-            // 
-            this.pnSchedules.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnSchedules.BackgroundImage")));
-            this.pnSchedules.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnSchedules.Controls.Add(this.panel9);
-            this.pnSchedules.Controls.Add(this.lblConSched);
-            this.pnSchedules.Controls.Add(this.pbConSched);
-            this.pnSchedules.Location = new System.Drawing.Point(10, 10);
-            this.pnSchedules.Name = "pnSchedules";
-            this.pnSchedules.Size = new System.Drawing.Size(1221, 672);
-            this.pnSchedules.TabIndex = 15;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel9.Location = new System.Drawing.Point(0, 75);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1221, 5);
-            this.panel9.TabIndex = 21;
-            // 
-            // lblConSched
-            // 
-            this.lblConSched.AutoSize = true;
-            this.lblConSched.BackColor = System.Drawing.Color.Transparent;
-            this.lblConSched.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConSched.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConSched.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConSched.Location = new System.Drawing.Point(526, 19);
-            this.lblConSched.Name = "lblConSched";
-            this.lblConSched.Size = new System.Drawing.Size(188, 38);
-            this.lblConSched.TabIndex = 11;
-            this.lblConSched.Text = "SCHEDULES";
-            // 
-            // pbConSched
-            // 
-            this.pbConSched.BackColor = System.Drawing.Color.Transparent;
-            this.pbConSched.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConSched.Image = ((System.Drawing.Image)(resources.GetObject("pbConSched.Image")));
-            this.pbConSched.Location = new System.Drawing.Point(459, 13);
-            this.pbConSched.Name = "pbConSched";
-            this.pbConSched.Size = new System.Drawing.Size(50, 50);
-            this.pbConSched.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConSched.TabIndex = 10;
-            this.pbConSched.TabStop = false;
-            // 
-            // pnProf
-            // 
-            this.pnProf.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnProf.BackgroundImage")));
-            this.pnProf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnProf.Controls.Add(this.panel10);
-            this.pnProf.Controls.Add(this.lblConProf);
-            this.pnProf.Controls.Add(this.pbConProf);
-            this.pnProf.Location = new System.Drawing.Point(10, 10);
-            this.pnProf.Name = "pnProf";
-            this.pnProf.Size = new System.Drawing.Size(1221, 672);
-            this.pnProf.TabIndex = 14;
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel10.Location = new System.Drawing.Point(0, 75);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1221, 5);
-            this.panel10.TabIndex = 22;
-            // 
-            // lblConProf
-            // 
-            this.lblConProf.AutoSize = true;
-            this.lblConProf.BackColor = System.Drawing.Color.Transparent;
-            this.lblConProf.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConProf.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConProf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConProf.Location = new System.Drawing.Point(515, 19);
-            this.lblConProf.Name = "lblConProf";
-            this.lblConProf.Size = new System.Drawing.Size(210, 38);
-            this.lblConProf.TabIndex = 10;
-            this.lblConProf.Text = "PROFESSORS";
-            // 
-            // pbConProf
-            // 
-            this.pbConProf.BackColor = System.Drawing.Color.Transparent;
-            this.pbConProf.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConProf.Image = ((System.Drawing.Image)(resources.GetObject("pbConProf.Image")));
-            this.pbConProf.Location = new System.Drawing.Point(426, 13);
-            this.pbConProf.Name = "pbConProf";
-            this.pbConProf.Size = new System.Drawing.Size(75, 50);
-            this.pbConProf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConProf.TabIndex = 9;
-            this.pbConProf.TabStop = false;
-            // 
-            // pnStaffs
-            // 
-            this.pnStaffs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnStaffs.BackgroundImage")));
-            this.pnStaffs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnStaffs.Controls.Add(this.panel11);
-            this.pnStaffs.Controls.Add(this.lblConStaffs);
-            this.pnStaffs.Controls.Add(this.pbConStaffs);
-            this.pnStaffs.Location = new System.Drawing.Point(10, 10);
-            this.pnStaffs.Name = "pnStaffs";
-            this.pnStaffs.Size = new System.Drawing.Size(1221, 672);
-            this.pnStaffs.TabIndex = 13;
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel11.Location = new System.Drawing.Point(0, 75);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1221, 5);
-            this.panel11.TabIndex = 22;
-            // 
-            // lblConStaffs
-            // 
-            this.lblConStaffs.AutoSize = true;
-            this.lblConStaffs.BackColor = System.Drawing.Color.Transparent;
-            this.lblConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConStaffs.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConStaffs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConStaffs.Location = new System.Drawing.Point(561, 19);
-            this.lblConStaffs.Name = "lblConStaffs";
-            this.lblConStaffs.Size = new System.Drawing.Size(118, 38);
-            this.lblConStaffs.TabIndex = 9;
-            this.lblConStaffs.Text = "STAFFS";
-            // 
-            // pbConStaffs
-            // 
-            this.pbConStaffs.BackColor = System.Drawing.Color.Transparent;
-            this.pbConStaffs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConStaffs.Image = ((System.Drawing.Image)(resources.GetObject("pbConStaffs.Image")));
-            this.pbConStaffs.Location = new System.Drawing.Point(492, 13);
-            this.pbConStaffs.Name = "pbConStaffs";
-            this.pbConStaffs.Size = new System.Drawing.Size(50, 50);
-            this.pbConStaffs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConStaffs.TabIndex = 8;
-            this.pbConStaffs.TabStop = false;
-            // 
-            // pnRequests
-            // 
-            this.pnRequests.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnRequests.BackgroundImage")));
-            this.pnRequests.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnRequests.Controls.Add(this.panel2);
-            this.pnRequests.Controls.Add(this.listView1);
-            this.pnRequests.Controls.Add(this.lblConReq);
-            this.pnRequests.Controls.Add(this.pbConRequest);
-            this.pnRequests.Location = new System.Drawing.Point(10, 10);
-            this.pnRequests.Name = "pnRequests";
-            this.pnRequests.Size = new System.Drawing.Size(1221, 672);
-            this.pnRequests.TabIndex = 12;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.panel2.Location = new System.Drawing.Point(0, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1221, 5);
-            this.panel2.TabIndex = 22;
-            // 
-            // listView1
-            // 
-            this.listView1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.listView1.Location = new System.Drawing.Point(42, 145);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1132, 486);
-            this.listView1.TabIndex = 7;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // lblConReq
-            // 
-            this.lblConReq.AutoSize = true;
-            this.lblConReq.BackColor = System.Drawing.Color.Transparent;
-            this.lblConReq.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConReq.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConReq.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblConReq.Location = new System.Drawing.Point(538, 19);
-            this.lblConReq.Name = "lblConReq";
-            this.lblConReq.Size = new System.Drawing.Size(164, 38);
-            this.lblConReq.TabIndex = 6;
-            this.lblConReq.Text = "REQUESTS";
-            // 
-            // pbConRequest
-            // 
-            this.pbConRequest.BackColor = System.Drawing.Color.Transparent;
-            this.pbConRequest.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbConRequest.Image = ((System.Drawing.Image)(resources.GetObject("pbConRequest.Image")));
-            this.pbConRequest.Location = new System.Drawing.Point(445, 13);
-            this.pbConRequest.Name = "pbConRequest";
-            this.pbConRequest.Size = new System.Drawing.Size(80, 50);
-            this.pbConRequest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbConRequest.TabIndex = 0;
-            this.pbConRequest.TabStop = false;
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -1668,178 +1650,6 @@
             this.label6.TabIndex = 18;
             this.label6.Text = "New Requests";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(955, 122);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 17);
-            this.label4.TabIndex = 46;
-            this.label4.Text = "School Year";
-            // 
-            // metroComboBox4
-            // 
-            this.metroComboBox4.FormattingEnabled = true;
-            this.metroComboBox4.ItemHeight = 23;
-            this.metroComboBox4.Location = new System.Drawing.Point(948, 116);
-            this.metroComboBox4.Name = "metroComboBox4";
-            this.metroComboBox4.Size = new System.Drawing.Size(172, 29);
-            this.metroComboBox4.TabIndex = 45;
-            this.metroComboBox4.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox4.UseSelectable = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(746, 122);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 17);
-            this.label3.TabIndex = 44;
-            this.label3.Text = "Section";
-            // 
-            // metroComboBox3
-            // 
-            this.metroComboBox3.FormattingEnabled = true;
-            this.metroComboBox3.ItemHeight = 23;
-            this.metroComboBox3.Location = new System.Drawing.Point(739, 116);
-            this.metroComboBox3.Name = "metroComboBox3";
-            this.metroComboBox3.Size = new System.Drawing.Size(172, 29);
-            this.metroComboBox3.TabIndex = 43;
-            this.metroComboBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox3.UseSelectable = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(539, 122);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 17);
-            this.label2.TabIndex = 42;
-            this.label2.Text = "Year";
-            // 
-            // metroComboBox2
-            // 
-            this.metroComboBox2.FormattingEnabled = true;
-            this.metroComboBox2.ItemHeight = 23;
-            this.metroComboBox2.Location = new System.Drawing.Point(532, 116);
-            this.metroComboBox2.Name = "metroComboBox2";
-            this.metroComboBox2.Size = new System.Drawing.Size(172, 29);
-            this.metroComboBox2.TabIndex = 41;
-            this.metroComboBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox2.UseSelectable = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(331, 122);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 17);
-            this.label1.TabIndex = 40;
-            this.label1.Text = "Course";
-            // 
-            // metroTextBox1
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox1.CustomButton.Image = null;
-            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(157, 1);
-            this.metroTextBox1.CustomButton.Name = "";
-            this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(27, 27);
-            this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox1.CustomButton.TabIndex = 1;
-            this.metroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox1.CustomButton.UseSelectable = true;
-            this.metroTextBox1.CustomButton.Visible = false;
-            this.metroTextBox1.FontSize = MetroFramework.MetroTextBoxSize.Medium;
-            this.metroTextBox1.Lines = new string[] {
-        "Search"};
-            this.metroTextBox1.Location = new System.Drawing.Point(98, 116);
-            this.metroTextBox1.MaxLength = 32767;
-            this.metroTextBox1.Multiline = true;
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.PasswordChar = '\0';
-            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox1.SelectedText = "";
-            this.metroTextBox1.SelectionLength = 0;
-            this.metroTextBox1.SelectionStart = 0;
-            this.metroTextBox1.ShortcutsEnabled = true;
-            this.metroTextBox1.Size = new System.Drawing.Size(185, 29);
-            this.metroTextBox1.TabIndex = 39;
-            this.metroTextBox1.Text = "Search";
-            this.metroTextBox1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTextBox1.UseSelectable = true;
-            this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroComboBox1
-            // 
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ItemHeight = 23;
-            this.metroComboBox1.Location = new System.Drawing.Point(324, 116);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Size = new System.Drawing.Size(172, 29);
-            this.metroComboBox1.TabIndex = 38;
-            this.metroComboBox1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroComboBox1.UseSelectable = true;
-            // 
-            // listView2
-            // 
-            this.listView2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(42)))), ((int)(((byte)(55)))));
-            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.name,
-            this.course,
-            this.year,
-            this.section,
-            this.school_year});
-            this.listView2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView2.ForeColor = System.Drawing.SystemColors.Info;
-            this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
-            this.listView2.Location = new System.Drawing.Point(100, 165);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(1022, 391);
-            this.listView2.TabIndex = 37;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
-            // 
-            // name
-            // 
-            this.name.Text = "Name";
-            this.name.Width = 245;
-            // 
-            // course
-            // 
-            this.course.Text = "Course";
-            this.course.Width = 164;
-            // 
-            // year
-            // 
-            this.year.Text = "Year";
-            this.year.Width = 131;
-            // 
-            // section
-            // 
-            this.section.Text = "Section";
-            this.section.Width = 173;
-            // 
-            // school_year
-            // 
-            this.school_year.Text = "School Year";
-            this.school_year.Width = 195;
-            // 
             // AdminModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1848,7 +1658,6 @@
             this.Controls.Add(this.pnContent);
             this.Controls.Add(this.pnNavbar);
             this.Controls.Add(this.pnSidebar);
-            this.Controls.Add(this.pnDropDownAccount);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AdminModule";
@@ -1871,6 +1680,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfilePic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotif)).EndInit();
             this.pnContent.ResumeLayout(false);
+            this.pnSchedules.ResumeLayout(false);
+            this.pnSchedules.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).EndInit();
+            this.pnProf.ResumeLayout(false);
+            this.pnProf.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).EndInit();
+            this.pnStaffs.ResumeLayout(false);
+            this.pnStaffs.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).EndInit();
+            this.pnRequests.ResumeLayout(false);
+            this.pnRequests.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).EndInit();
             this.pnStudents.ResumeLayout(false);
             this.pnStudents.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -1898,22 +1719,9 @@
             this.pnInventory.ResumeLayout(false);
             this.pnInventory.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbConInvent)).EndInit();
-            this.pnSchedules.ResumeLayout(false);
-            this.pnSchedules.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConSched)).EndInit();
-            this.pnProf.ResumeLayout(false);
-            this.pnProf.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConProf)).EndInit();
-            this.pnStaffs.ResumeLayout(false);
-            this.pnStaffs.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConStaffs)).EndInit();
-            this.pnRequests.ResumeLayout(false);
-            this.pnRequests.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbConRequest)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.pnDropDownAccount.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

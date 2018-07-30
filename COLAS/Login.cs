@@ -166,6 +166,8 @@ namespace COLAS
                 Ss.Speak(Pb);
                 Sre.RecognizeAsyncStop();
                 MessageBox.Show("Invalid Credentials");
+                txtbxUsername.Clear();
+                txtbxPassword.Clear();
             }
 
         }

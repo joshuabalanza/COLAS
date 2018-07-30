@@ -194,8 +194,8 @@ namespace COLAS
 
         public void LogoutPanel()
         {
-            pnDropDownAccount.BringToFront();
-            pnDropDownAccount.Visible = true;
+            //pnDropDownAccount.BringToFront();
+            //pnDropDownAccount.Visible = true;
         }
 
 
@@ -407,7 +407,7 @@ namespace COLAS
 
         private void pbProfilePic_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-           
+            pnDropDownAccount.Visible = false;
         }
     }
 }

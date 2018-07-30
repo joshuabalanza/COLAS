@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffModule));
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
             "Aaron John M. Gabriel",
             "BSCS",
             "4th",
@@ -53,7 +53,6 @@
             this.pbSched = new System.Windows.Forms.PictureBox();
             this.pbDashboard = new System.Windows.Forms.PictureBox();
             this.pnNavbar = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.lblTitleColas = new System.Windows.Forms.Label();
             this.pbProfilePic = new System.Windows.Forms.PictureBox();
             this.pbNotif = new System.Windows.Forms.PictureBox();
@@ -152,6 +151,8 @@
             this.label18 = new System.Windows.Forms.Label();
             this.lblNotifReq = new System.Windows.Forms.Label();
             this.pbDashReq = new System.Windows.Forms.PictureBox();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pbCOLAS)).BeginInit();
             this.pnSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbProf)).BeginInit();
@@ -201,7 +202,8 @@
             // 
             // pnSidebar
             // 
-            this.pnSidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(4)))), ((int)(((byte)(9)))));
+            this.pnSidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(8)))), ((int)(((byte)(16)))));
+            this.pnSidebar.Controls.Add(this.panel19);
             this.pnSidebar.Controls.Add(this.indiProfessors);
             this.pnSidebar.Controls.Add(this.lblProf);
             this.pnSidebar.Controls.Add(this.pbProf);
@@ -227,7 +229,7 @@
             // indiProfessors
             // 
             this.indiProfessors.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.indiProfessors.Location = new System.Drawing.Point(1, 477);
+            this.indiProfessors.Location = new System.Drawing.Point(-2, 477);
             this.indiProfessors.Name = "indiProfessors";
             this.indiProfessors.Size = new System.Drawing.Size(5, 71);
             this.indiProfessors.TabIndex = 24;
@@ -260,7 +262,7 @@
             // indiStudents
             // 
             this.indiStudents.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.indiStudents.Location = new System.Drawing.Point(0, 388);
+            this.indiStudents.Location = new System.Drawing.Point(-2, 388);
             this.indiStudents.Name = "indiStudents";
             this.indiStudents.Size = new System.Drawing.Size(5, 71);
             this.indiStudents.TabIndex = 21;
@@ -268,7 +270,7 @@
             // indiInventory
             // 
             this.indiInventory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.indiInventory.Location = new System.Drawing.Point(0, 300);
+            this.indiInventory.Location = new System.Drawing.Point(-2, 300);
             this.indiInventory.Name = "indiInventory";
             this.indiInventory.Size = new System.Drawing.Size(5, 71);
             this.indiInventory.TabIndex = 20;
@@ -276,7 +278,7 @@
             // indiSchedules
             // 
             this.indiSchedules.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.indiSchedules.Location = new System.Drawing.Point(0, 212);
+            this.indiSchedules.Location = new System.Drawing.Point(-2, 212);
             this.indiSchedules.Name = "indiSchedules";
             this.indiSchedules.Size = new System.Drawing.Size(5, 71);
             this.indiSchedules.TabIndex = 19;
@@ -284,7 +286,7 @@
             // indiDashboard
             // 
             this.indiDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(183)))), ((int)(((byte)(181)))));
-            this.indiDashboard.Location = new System.Drawing.Point(0, 128);
+            this.indiDashboard.Location = new System.Drawing.Point(-2, 128);
             this.indiDashboard.Name = "indiDashboard";
             this.indiDashboard.Size = new System.Drawing.Size(5, 71);
             this.indiDashboard.TabIndex = 15;
@@ -399,22 +401,13 @@
             this.pnNavbar.Size = new System.Drawing.Size(1243, 73);
             this.pnNavbar.TabIndex = 2;
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 68);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1243, 5);
-            this.panel3.TabIndex = 29;
-            // 
             // lblTitleColas
             // 
             this.lblTitleColas.AutoSize = true;
             this.lblTitleColas.BackColor = System.Drawing.Color.Transparent;
             this.lblTitleColas.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitleColas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lblTitleColas.Location = new System.Drawing.Point(11, 25);
+            this.lblTitleColas.Location = new System.Drawing.Point(6, 24);
             this.lblTitleColas.Name = "lblTitleColas";
             this.lblTitleColas.Size = new System.Drawing.Size(322, 25);
             this.lblTitleColas.TabIndex = 20;
@@ -457,11 +450,11 @@
             // 
             this.pnContent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnContent.BackgroundImage")));
             this.pnContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnContent.Controls.Add(this.pnStudents);
-            this.pnContent.Controls.Add(this.pnInventory);
             this.pnContent.Controls.Add(this.pnSchedules);
             this.pnContent.Controls.Add(this.pnProf);
             this.pnContent.Controls.Add(this.pnDashboard);
+            this.pnContent.Controls.Add(this.pnStudents);
+            this.pnContent.Controls.Add(this.pnInventory);
             this.pnContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnContent.Location = new System.Drawing.Point(123, 73);
             this.pnContent.Name = "pnContent";
@@ -649,7 +642,7 @@
             this.listView2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.ForeColor = System.Drawing.SystemColors.Info;
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem11});
             this.listView2.Location = new System.Drawing.Point(135, 189);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(1022, 391);
@@ -1676,6 +1669,24 @@
             this.pbDashReq.TabIndex = 23;
             this.pbDashReq.TabStop = false;
             // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.panel19.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel19.Location = new System.Drawing.Point(121, 0);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(2, 768);
+            this.panel19.TabIndex = 22;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 71);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1243, 2);
+            this.panel3.TabIndex = 29;
+            // 
             // StaffModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1760,7 +1771,6 @@
         private System.Windows.Forms.PictureBox pbSched;
         private System.Windows.Forms.PictureBox pbDashboard;
         private System.Windows.Forms.Panel pnNavbar;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lblTitleColas;
         private System.Windows.Forms.PictureBox pbProfilePic;
         private System.Windows.Forms.PictureBox pbNotif;
@@ -1862,5 +1872,7 @@
         private System.Windows.Forms.ColumnHeader year;
         private System.Windows.Forms.ColumnHeader section;
         private System.Windows.Forms.ColumnHeader school_year;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.Panel panel3;
     }
 }

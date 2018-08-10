@@ -48,7 +48,7 @@ namespace COLAS
             //Title
             lblTitlePage.Visible = true;
             TitleLine.Visible = true;
-            lblTitlePage.Text = "DASHBOARD";
+            lblTitlePage.Text = "DASHBOARD HOME";
 
 
             //Active Panel
@@ -83,6 +83,7 @@ namespace COLAS
             indiStudents.Visible = false;
             //End of active panel
 
+            
             //Content Panel
             pnRequests.BringToFront();
         }
